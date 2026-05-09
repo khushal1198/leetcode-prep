@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+problems_detailed.json
+problems_db.json
+learning_graph.json

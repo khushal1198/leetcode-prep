@@ -1,29 +1,42 @@
 # Leetcode Interview Prep
 
-Structured pattern-based preparation for coding interviews.
+Catching back up on DSA patterns after a few years. Solving problems on LeetCode, logging and discussing them here.
 
 ## Progress
 
-| # | Topic | Status | Problems Done |
-|---|-------|--------|--------------|
-| 1 | Arrays & Hashing | Not started | 0 |
-| 2 | Two Pointers | Not started | 0 |
-| 3 | Sliding Window | Not started | 0 |
-| 4 | Stack | Not started | 0 |
-| 5 | Binary Search | Not started | 0 |
-| 6 | Linked Lists | Not started | 0 |
-| 7 | Trees | Not started | 0 |
-| 8 | Graphs | Not started | 0 |
-| 9 | Dynamic Programming | Not started | 0 |
-| 10 | Backtracking & Heaps | Not started | 0 |
+| Category | Done | Total | Patterns Touched |
+|----------|------|-------|-----------------|
+| Hashing | 7 | 107 | set_lookup, two_sum_pair, frequency_counting, grouping_by_key |
+| TwoPointers | 6 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition |
+| Stack | 1 | 100 | bracket_matching |
+| BinarySearch | 1 | 162 | classic_binary_search |
+| LinkedList | 3 | 53 | reversal, fast_slow_pointers |
+| Arrays | 0 | 224 | |
+| SlidingWindow | 0 | 98 | |
+| Trees | 0 | 227 | |
+| Graphs | 0 | 187 | |
+| DynamicProgramming | 0 | 392 | |
+| Greedy | 0 | 331 | |
+| Backtracking | 0 | 69 | |
+| Heap | 0 | 66 | |
+| String | 0 | 124 | |
+| Math | 0 | 129 | |
+| BitManipulation | 0 | 131 | |
+| Design | 0 | 83 | |
+| Trie | 0 | 43 | |
+| UnionFind | 0 | 51 | |
+| DivideAndConquer | 0 | 24 | |
+| SegmentTree | 0 | 25 | |
 
-## Structure
+**Total: 18 / 2733**
 
-Each topic folder contains:
-- `README.md` — pattern notes and key concepts
-- Solution files named `{number}_{problem_name}.py`
+## Key Files
 
-## Timeline
+- `progress_log.md` — daily journal with learnings and bugs
+- `review_queue.md` — problems to redo (spaced repetition)
+- `patterns/` — 21 study guides with problem tables and checkboxes
+- `learning_graph.json` — source of truth for all problem data
 
-Started: 2026-05-06
-Target: 3+ months of consistent practice
+## Started
+
+2026-05-06
