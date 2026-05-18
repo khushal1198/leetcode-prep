@@ -23,9 +23,9 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | 1/10 | 68.2% | [ ] |
+| 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | Easy | 1/10 | 68.2% | [x] |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | Medium | 3/10 | 74.0% | [ ] |
-| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | 3/10 | 64.3% | [ ] |
+| 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | 3/10 | 64.3% | [x] |
 | 1992 | [Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) | Medium | 4/10 | 75.5% | [ ] |
 | 1020 | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/) | Medium | 4/10 | 71.7% | [ ] |
 | 529 | [Minesweeper](https://leetcode.com/problems/minesweeper/) | Medium | 4/10 | 68.7% | [ ] |

@@ -130,10 +130,10 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | 2/10 | 76.1% | [ ] |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | 2/10 | 76.1% | [x] |
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | 3/10 | 84.1% | [ ] |
 | 1762 | [Buildings With an Ocean View](https://leetcode.com/problems/buildings-with-an-ocean-view/) :lock: | Medium | 4/10 | 80.9% | [ ] |
-| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | 4/10 | 68.6% | [ ] |
+| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | 4/10 | 68.6% | [x] |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | Medium | 4/10 | 68.3% | [ ] |
 | 1019 | [Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/) | Medium | 5/10 | 64.3% | [ ] |
 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/) | Medium | 6/10 | 74.9% | [ ] |

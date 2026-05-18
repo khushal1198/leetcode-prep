@@ -285,5 +285,60 @@ Daily journal of problems solved, learnings, and next steps.
 - The split point catches all cases: one left one right, or one equals root
 - Python chained comparisons: `a <= b <= c` works
 
+---
+
+## 2026-05-15 — Day 10
+
+**Problems solved: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Same Tree (#100) | Trees | dfs_traversal | — | review done, retry 05-19 |
+| 36 | Binary Tree Level Order Traversal (#102) | Trees | bfs_level_order | 3/10 | |
+| 37 | Next Greater Element I (#496) | Stack | monotonic_stack | 2/10 | |
+| 38 | Daily Temperatures (#739) | Stack | monotonic_stack | 4/10 | YES — redo later |
+
+**Patterns learned:**
+- Level order traversal: same BFS template, collect each level into a sublist
+- `p is None or q is None` not `and` — a node can't be both None and not None
+- Monotonic stack: stack holds elements waiting for their next greater element
+- When a bigger number arrives, pop and resolve everything smaller on the stack
+- Store results in a dict, look up at the end — missing keys default to -1
+- Daily Temperatures variant: push `(value, index)` tuples, answer is `current_index - popped_index`
+- Put the pop condition in the `while` or use `else: break` — don't pop unconditionally
+
+---
+
+## 2026-05-16 — Day 11
+
+**Problems solved: 0**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Path Sum (#112) | Trees | path_sum | — | review done, retry 05-21 |
+
+**Patterns learned:**
+- Path Sum review: remember to check leaf node (`left == None and right == None`) not just value match
+
+---
+
+## 2026-05-17 — Day 12
+
+**Problems solved: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Symmetric Tree (#101) | Trees | dfs_traversal | — | review done |
+| 39 | Flood Fill (#733) | Graphs | grid_traversal | 1/10 | |
+| 40 | Number of Islands (#200) | Graphs | grid_traversal | 3/10 | |
+
+**Patterns learned:**
+- Grid DFS: check bounds (`< 0` and `> len - 1`) before processing, recurse in 4 directions
+- Color change acts as "visited" — no separate set needed when modifying the grid
+- Handle `originalColor == newColor` early to avoid infinite recursion
+- Four directions: `(row±1, col)` and `(row, col±1)` — direct calls or use a directions list
+- Number of Islands: iterate grid, DFS to sink each island, count DFS triggers
+- Grid values can be strings (`"1"`) not ints (`1`) — check the problem
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
