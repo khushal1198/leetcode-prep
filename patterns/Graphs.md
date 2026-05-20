@@ -64,7 +64,7 @@
 |---|---------|------------|-------|------------|--------|
 | 1791 | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | 1/10 | 86.6% | [ ] |
 | 339 | [Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/) :lock: | Medium | 2/10 | 86.0% | [ ] |
-| 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | 2/10 | 55.1% | [ ] |
+| 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Easy | 2/10 | 55.1% | [x] |
 | 997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Easy | 2/10 | 50.7% | [ ] |
 | 841 | [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | Medium | 3/10 | 75.7% | [ ] |
 | 2658 | [Maximum Number of Fish in a Grid](https://leetcode.com/problems/maximum-number-of-fish-in-a-grid/) | Medium | 3/10 | 70.6% | [ ] |

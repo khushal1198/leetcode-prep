@@ -340,5 +340,25 @@ Daily journal of problems solved, learnings, and next steps.
 - Number of Islands: iterate grid, DFS to sink each island, count DFS triggers
 - Grid values can be strings (`"1"`) not ints (`1`) — check the problem
 
+---
+
+## 2026-05-18 — Day 13
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Daily Temperatures (#739) | Stack | monotonic_stack | — | review done, retry 05-24 |
+| 41 | Find if Path Exists in Graph (#1971) | Graphs | dfs_connected_components | 2/10 | |
+
+**Python learned:**
+- `defaultdict(list)` from `collections` — auto-creates empty list for new keys
+- Tuple unpacking in for loop: `for u, v in edges`
+
+**Patterns learned:**
+- Adjacency list: dict mapping each node to list of neighbors, add both directions for undirected graphs
+- Graph DFS: same as tree DFS but need a visited set to avoid cycles
+- Short-circuit: `if self.dfs(...): return True` instead of `found = found or self.dfs(...)` — stops early
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

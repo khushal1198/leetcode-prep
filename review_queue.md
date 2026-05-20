@@ -11,4 +11,5 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Path Sum (#112) | Trees | path_sum | 2026-05-13 | 2026-05-16 | done |
 | Path Sum (#112) | Trees | path_sum | 2026-05-16 | 2026-05-21 | pending |
 | Symmetric Tree (#101) | Trees | dfs_traversal | 2026-05-14 | 2026-05-17 | done |
-| Daily Temperatures (#739) | Stack | monotonic_stack | 2026-05-15 | 2026-05-18 | pending |
+| Daily Temperatures (#739) | Stack | monotonic_stack | 2026-05-15 | 2026-05-18 | done |
+| Daily Temperatures (#739) | Stack | monotonic_stack | 2026-05-18 | 2026-05-24 | pending |
