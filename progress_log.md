@@ -387,7 +387,7 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-05-22 — Day 15
 
-**Problems solved: 4**
+**Problems solved: 5**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
@@ -395,6 +395,7 @@ Daily journal of problems solved, learnings, and next steps.
 | 46 | Course Schedule II (#210) | Graphs | topological_sort | 5/10 | YES — redo later |
 | 47 | Subsets (#78) | Backtracking | subset_enumeration | 4/10 | YES — redo later |
 | 48 | Permutations (#46) | Backtracking | permutation_generation | 4/10 | YES — redo later |
+| 49 | Combinations (#77) | Backtracking | combination_generation | 4/10 | YES — redo later |
 
 **Patterns learned:**
 - Cycle detection in directed graph: DFS with two sets — `visiting` (current path) and `visited` (fully processed)
@@ -421,12 +422,14 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-05-23 — Day 16
 
-**Problems solved: 2**
+**Problems solved: 4**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
-| 49 | Combinations (#77) | Backtracking | combination_generation | 4/10 | YES — redo later |
 | 50 | Letter Combinations of a Phone Number (#17) | Backtracking | combination_generation | 4/10 | |
+| 51 | Validate Binary Search Tree (#98) | Trees | bst_operations | 4/10 | YES — redo later |
+| 52 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 1/10 | YES — redo later |
+| 53 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 1/10 | YES — redo later |
 
 **Patterns learned:**
 - Combinations: forward loop from `start` to `n`, recurse with `i + 1`, base case `len(current) == k`
@@ -435,6 +438,17 @@ Daily journal of problems solved, learnings, and next steps.
 - `"".join(list)` to convert list of chars to string
 - `.append(x)` not `.append[x]` — parentheses not brackets
 - Check empty input early to avoid appending empty results
+- Validate BST: pass (min, max) bounds down the recursion — each node must be within its allowed range
+- Go left → update max to current val. Go right → update min to current val
+- Checking only immediate children is NOT enough — must validate against the entire ancestor chain
+- Use strict inequality (`<=`, `>=`) — BST doesn't allow duplicates
+- DP framework: define subproblem (`dp[i]` = what?), base cases, recurrence relation
+- Bottom-up DP: set base cases first, then loop fills the rest
+- Climbing Stairs: `dp[i] = dp[i-1] + dp[i-2]` — Fibonacci pattern
+- Base cases cover everything the recurrence can't compute
+- Can use dict or list for DP table — list when keys are sequential integers
+- Min cost DP: `dp[i] = cost[i] + min(dp[i-1], dp[i-2])` — add current cost to cheapest way to get here
+- When you can reach the top from multiple steps, return `min()` of those options
 
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

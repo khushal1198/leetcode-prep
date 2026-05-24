@@ -19,3 +19,6 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-22 | 2026-05-24 | pending |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-22 | 2026-05-24 | pending |
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-23 | 2026-05-25 | pending |
+| Validate BST (#98) | Trees | bst_operations | 2026-05-23 | 2026-05-26 | pending |
+| Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | pending |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | pending |
