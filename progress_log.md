@@ -469,5 +469,47 @@ Daily journal of problems solved, learnings, and next steps.
 - Subsets forward loop: append `current.copy()` at every level, not just base case
 - Use `i` from the loop, not `index` from the parameter — common backtracking bug
 
+## 2026-05-25 — Day 18
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Combinations (#77) | Backtracking | combination_generation | — | review done, retry 05-30 |
+| 55 | Coin Change (#322) | DynamicProgramming | knapsack | 4/10 | YES — redo soon |
+
+**Python learned:**
+- `float('inf')` as default for minimization DP — any valid answer beats it, and `inf + 1` is still `inf`
+- Can use dict or list for DP table — list is simpler when indices are 0..n
+
+**Patterns learned:**
+- Coin Change DP: `dp[i] = min(dp[i], dp[i - coin] + 1)` — for each amount, try every coin
+- The `+ 1` counts the coin you're using right now; `dp[i - coin]` is the best for the remainder
+- Initialize to `float('inf')` = "impossible"; if still inf at end, return -1
+- Build table bottom-up from `dp[0] = 0` so smaller subproblems are solved first
+- Unbounded knapsack: same coin can be reused (unlike 0/1 knapsack)
+
+---
+
+## 2026-05-26 — Day 19
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Course Schedule (#207) | Graphs | topological_sort | — | review done, retry 05-30 |
+| R | Course Schedule II (#210) | Graphs | topological_sort | — | review done, retry 05-30 |
+| R | Validate BST (#98) | Trees | bst_operations | — | review done |
+| R | Climbing Stairs (#70) | DynamicProgramming | linear_dp | — | review done, retry 05-30 |
+| R | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | — | review done, retry 05-30 |
+| 56 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 3/10 | YES — redo later |
+
+**Patterns learned:**
+- Kadane's algorithm: `dp[i] = max(nums[i], dp[i-1] + nums[i])` — extend or start fresh
+- A negative running sum always hurts — start fresh when dp[i-1] < 0
+- Answer is `max(dp)`, not `dp[-1]` — best subarray can end anywhere
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

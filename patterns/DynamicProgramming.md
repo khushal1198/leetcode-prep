@@ -25,13 +25,13 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Easy | 1/10 | 74.1% | [ ] |
-| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | 1/10 | 68.2% | [ ] |
+| 746 | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Easy | 1/10 | 68.2% | [x] |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | Easy | 1/10 | 63.2% | [ ] |
-| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1/10 | 54.1% | [ ] |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | 1/10 | 54.1% | [x] |
 | 2393 | [Count Strictly Increasing Subarrays](https://leetcode.com/problems/count-strictly-increasing-subarrays/) :lock: | Medium | 3/10 | 71.0% | [ ] |
 | 413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | Medium | 3/10 | 64.8% | [ ] |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | 3/10 | 53.3% | [ ] |
-| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | 3/10 | 53.2% | [ ] |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | 3/10 | 53.3% | [x] |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | 3/10 | 53.2% | [x] |
 | 276 | [Paint Fence](https://leetcode.com/problems/paint-fence/) :lock: | Medium | 3/10 | 48.4% | [ ] |
 | 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | Medium | 4/10 | 71.7% | [ ] |
 | 1653 | [Minimum Deletions to Make String Balanced](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) | Medium | 4/10 | 68.2% | [ ] |
@@ -284,7 +284,7 @@
 |---|---------|------------|-------|------------|--------|
 | 518 | [Coin Change II](https://leetcode.com/problems/coin-change-ii/) | Medium | 4/10 | 60.1% | [ ] |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) | Medium | 4/10 | 56.5% | [ ] |
-| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | 4/10 | 48.3% | [ ] |
+| 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | 4/10 | 48.3% | [x] |
 | 2291 | [Maximum Profit From Trading Stocks](https://leetcode.com/problems/maximum-profit-from-trading-stocks/) :lock: | Medium | 4/10 | 48.2% | [ ] |
 | 2431 | [Maximize Total Tastiness of Purchased Fruits](https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits/) :lock: | Medium | 5/10 | 64.6% | [ ] |
 | 1155 | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) | Medium | 5/10 | 62.3% | [ ] |
