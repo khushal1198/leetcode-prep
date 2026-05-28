@@ -32,3 +32,5 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-24 | 2026-05-28 | pending |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | pending |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-29 | pending |
+| House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | pending |
+| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | pending |

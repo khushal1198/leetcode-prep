@@ -511,5 +511,32 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-05-27 — Day 20
+
+**Problems solved: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 57 | House Robber II (#213) | DynamicProgramming | linear_dp | 4/10 | YES — redo later |
+| 58 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 4/10 | YES — redo later |
+| 59 | Kth Largest Element in an Array (#215) | Heap | top_k_elements | 4/10 | no |
+| 60 | Top K Frequent Elements (#347) | Heap | top_k_frequent | 4/10 | no |
+
+**Python learned:**
+- `heapq` module operates on a regular list — `heapq.heappush(heap, val)`, `heapq.heappop(heap)`
+- Python heap is min heap by default — smallest at `heap[0]`
+- Push tuples `(priority, value)` — heap sorts by first element
+- Negate values for max heap behavior: push `-val`, negate result back
+- `freqMap.items()` for key-value pairs, not `.values()`
+- Don't reuse parameter names (`k`) as loop variables — overwrites the parameter
+
+**Patterns learned:**
+- House Robber II (circular): run House Robber twice — `nums[0:n-1]` and `nums[1:n]`, take max
+- Delete and Earn: build `earn[i] = i * count[i]`, then House Robber on that array
+- Top-K with min heap: keep heap size k, pop smallest when too big — `heap[0]` is the answer
+- Frequency + heap combo: `Counter` for freq map, push `(freq, val)` tuples
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

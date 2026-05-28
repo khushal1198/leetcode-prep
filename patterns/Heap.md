@@ -23,7 +23,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 1086 | [High Five](https://leetcode.com/problems/high-five/) :lock: | Easy | 2/10 | 74.2% | [ ] |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | 4/10 | 66.3% | [ ] |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | 4/10 | 66.3% | [x] |
 | 692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | Medium | 4/10 | 60.1% | [ ] |
 | 2512 | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/) | Medium | 4/10 | 47.0% | [ ] |
 
@@ -50,7 +50,7 @@
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Easy | 2/10 | 61.0% | [ ] |
 | 2099 | [Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/) | Easy | 2/10 | 57.4% | [ ] |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | Medium | 4/10 | 69.0% | [ ] |
-| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | 4/10 | 68.9% | [ ] |
+| 215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | Medium | 4/10 | 68.9% | [x] |
 | 3275 | [K-th Nearest Obstacle Queries](https://leetcode.com/problems/k-th-nearest-obstacle-queries/) | Medium | 4/10 | 49.0% | [ ] |
 | 1985 | [Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) | Medium | 4/10 | 47.9% | [ ] |
 | 1878 | [Get Biggest Three Rhombus Sums in a Grid](https://leetcode.com/problems/get-biggest-three-rhombus-sums-in-a-grid/) | Medium | 7/10 | 71.4% | [ ] |

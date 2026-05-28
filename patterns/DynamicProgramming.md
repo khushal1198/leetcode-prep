@@ -41,9 +41,9 @@
 | 1014 | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/) | Medium | 4/10 | 62.7% | [ ] |
 | 926 | [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | Medium | 4/10 | 61.9% | [ ] |
 | 2606 | [Find the Substring With Maximum Cost](https://leetcode.com/problems/find-the-substring-with-maximum-cost/) | Medium | 4/10 | 57.9% | [ ] |
-| 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | 4/10 | 57.2% | [ ] |
+| 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | Medium | 4/10 | 57.2% | [x] |
 | 2501 | [Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array/) | Medium | 4/10 | 53.1% | [ ] |
-| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | 4/10 | 44.9% | [ ] |
+| 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | 4/10 | 44.9% | [x] |
 | 2036 | [Maximum Alternating Subarray Sum](https://leetcode.com/problems/maximum-alternating-subarray-sum/) :lock: | Medium | 4/10 | 40.0% | [ ] |
 | 2770 | [Maximum Number of Jumps to Reach the Last Index](https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/) | Medium | 4/10 | 32.8% | [ ] |
 | 1749 | [Maximum Absolute Sum of Any Subarray](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray/) | Medium | 5/10 | 71.0% | [ ] |
