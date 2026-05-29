@@ -10,7 +10,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Same Tree (#100) | Trees | dfs_traversal | 2026-05-15 | 2026-05-19 | done |
 | Path Sum (#112) | Trees | path_sum | 2026-05-13 | 2026-05-16 | done |
 | Path Sum (#112) | Trees | path_sum | 2026-05-16 | 2026-05-21 | done |
-| Path Sum (#112) | Trees | path_sum | 2026-05-21 | 2026-05-28 | pending |
+| Path Sum (#112) | Trees | path_sum | 2026-05-21 | 2026-05-28 | done |
 | Symmetric Tree (#101) | Trees | dfs_traversal | 2026-05-14 | 2026-05-17 | done |
 | Daily Temperatures (#739) | Stack | monotonic_stack | 2026-05-15 | 2026-05-18 | done |
 | Daily Temperatures (#739) | Stack | monotonic_stack | 2026-05-18 | 2026-05-24 | done |
@@ -19,9 +19,9 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-22 | 2026-05-26 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-26 | 2026-05-30 | pending |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-22 | 2026-05-24 | done |
-| Subsets (#78) | Backtracking | subset_enumeration | 2026-05-24 | 2026-05-28 | pending |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-05-24 | 2026-05-28 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-22 | 2026-05-24 | done |
-| Permutations (#46) | Backtracking | permutation_generation | 2026-05-24 | 2026-05-28 | pending |
+| Permutations (#46) | Backtracking | permutation_generation | 2026-05-24 | 2026-05-28 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-23 | 2026-05-25 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-25 | 2026-05-30 | pending |
 | Validate BST (#98) | Trees | bst_operations | 2026-05-23 | 2026-05-26 | done |
@@ -29,8 +29,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | pending |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | pending |
-| House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-24 | 2026-05-28 | pending |
-| Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | pending |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-24 | 2026-05-28 | done |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | done |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-05-28 | 2026-06-07 | pending |
+| Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | pending |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-28 | 2026-06-07 | pending |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-28 | 2026-06-07 | pending |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-29 | pending |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | pending |

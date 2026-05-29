@@ -538,5 +538,25 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-05-28 — Day 21
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Path Sum (#112) | Trees | path_sum | — | review done, retired |
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | review done, retry 06-07 |
+| R | Permutations (#46) | Backtracking | permutation_generation | — | review done, retry 06-07 |
+| R | House Robber (#198) | DynamicProgramming | linear_dp | — | review done, retry 06-07 |
+| R | Coin Change (#322) | DynamicProgramming | knapsack | — | review done, retry 06-07 |
+| 61 | K Closest Points to Origin (#973) | Heap | top_k_elements | 4/10 | no |
+
+**Patterns learned:**
+- K closest = max heap of size k (negate distances) — pop farthest, keep closest
+- No need for sqrt when comparing distances — squared distances preserve ordering
+- Min heap + negate = max heap: pop removes largest actual value
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
