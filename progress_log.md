@@ -540,7 +540,7 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-05-28 — Day 21
 
-**Problems solved: 1**
+**Problems solved: 2**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
@@ -550,11 +550,42 @@ Daily journal of problems solved, learnings, and next steps.
 | R | House Robber (#198) | DynamicProgramming | linear_dp | — | review done, retry 06-07 |
 | R | Coin Change (#322) | DynamicProgramming | knapsack | — | review done, retry 06-07 |
 | 61 | K Closest Points to Origin (#973) | Heap | top_k_elements | 4/10 | no |
+| 62 | Last Stone Weight (#1046) | Heap | simulation_heap | 1/10 | no |
+
+**Python learned:**
+- `heapq.heapify(list)` — converts a list to a heap in-place, faster than pushing one by one
+- List comprehension `[-s for s in stones]` — transform all elements in one line
+- `abs(x)` — built-in absolute value, no import needed
+- `%` — modulo operator
 
 **Patterns learned:**
 - K closest = max heap of size k (negate distances) — pop farthest, keep closest
 - No need for sqrt when comparing distances — squared distances preserve ordering
 - Min heap + negate = max heap: pop removes largest actual value
+- Simulation heap: repeatedly pop two largest, push difference back if unequal
+
+---
+
+## 2026-05-29 — Day 22
+
+**Problems solved: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Maximum Subarray (#53) | DynamicProgramming | linear_dp | — | review done, retry 06-05 |
+| 63 | Sort an Array (#912) | DivideAndConquer | merge_sort | 4/10 | YES — redo 06-01 |
+| 64 | Kth Largest Element in a Stream (#703) | Heap | design_priority_queue | 2/10 | no |
+| 65 | Merge Intervals (#56) | Greedy | interval_merge | 4/10 | YES — redo 06-05 |
+
+**Python learned:**
+- `.sort()` on list of lists sorts by first element automatically
+- Tuple unpacking in for loops: `for start, end in intervals`
+
+**Patterns learned:**
+- Merge sort: split in half recursively, merge two sorted halves with two pointers
+- Both functions return a new sorted list; base case is `len <= 1`
+- Merge intervals: sort first, then check if current start <= previous end → extend
+- Seed result with first interval to avoid empty checks
 
 ---
 

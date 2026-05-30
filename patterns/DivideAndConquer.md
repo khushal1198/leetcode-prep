@@ -19,7 +19,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | 4/10 | 55.9% | [ ] |
+| 912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | Medium | 4/10 | 55.9% | [x] |
 
 ## recursive_simulation
 

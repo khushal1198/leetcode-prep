@@ -568,7 +568,7 @@
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | 4/10 | 81.9% | [ ] |
 | 2294 | [Partition Array Such That Maximum Difference Is K](https://leetcode.com/problems/partition-array-such-that-maximum-difference-is-k/) | Medium | 4/10 | 81.8% | [ ] |
 | 3111 | [Minimum Rectangles to Cover Points](https://leetcode.com/problems/minimum-rectangles-to-cover-points/) | Medium | 4/10 | 63.8% | [ ] |
-| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | 4/10 | 51.7% | [ ] |
+| 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | 4/10 | 51.7% | [x] |
 | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) :lock: | Medium | 5/10 | 52.7% | [ ] |
 | 2086 | [Minimum Number of Food Buckets to Feed the Hamsters](https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/) | Medium | 5/10 | 48.3% | [ ] |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | 5/10 | 45.1% | [ ] |
