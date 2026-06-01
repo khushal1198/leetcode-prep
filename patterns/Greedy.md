@@ -491,7 +491,7 @@
 |---|---------|------------|-------|------------|--------|
 | 646 | [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/) | Medium | 4/10 | 61.7% | [ ] |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | 4/10 | 61.4% | [ ] |
-| 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | 4/10 | 57.1% | [ ] |
+| 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | 4/10 | 57.1% | [x] |
 | 1921 | [Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/) | Medium | 5/10 | 51.1% | [ ] |
 | 1353 | [Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) | Medium | 6/10 | 39.0% | [ ] |
 | 2136 | [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/) | Hard | 7/10 | 71.2% | [ ] |
@@ -571,7 +571,7 @@
 | 56 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Medium | 4/10 | 51.7% | [x] |
 | 253 | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/) :lock: | Medium | 5/10 | 52.7% | [ ] |
 | 2086 | [Minimum Number of Food Buckets to Feed the Hamsters](https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/) | Medium | 5/10 | 48.3% | [ ] |
-| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | 5/10 | 45.1% | [ ] |
+| 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/) | Medium | 5/10 | 45.1% | [x] |
 | 759 | [Employee Free Time](https://leetcode.com/problems/employee-free-time/) :lock: | Hard | 6/10 | 72.9% | [ ] |
 | 2406 | [Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/) | Medium | 6/10 | 63.6% | [ ] |
 | 3440 | [Reschedule Meetings for Maximum Free Time II](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-ii/) | Medium | 6/10 | 60.4% | [ ] |

@@ -589,5 +589,51 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-05-30 — Day 23
+
+**Reviews: 7**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Combinations (#77) | Backtracking | combination_generation | — | review done, retry 06-04 |
+| R | Course Schedule (#207) | Graphs | topological_sort | — | review done, retry 06-05 |
+| R | Course Schedule II (#210) | Graphs | topological_sort | — | review done, retry 06-05 |
+| R | Climbing Stairs (#70) | DynamicProgramming | linear_dp | — | review done, retry 06-08 |
+| R | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | — | review done, retry 06-08 |
+| R | House Robber II (#213) | DynamicProgramming | linear_dp | — | review done, retry 06-09 |
+| R | Delete and Earn (#740) | DynamicProgramming | linear_dp | — | review done, retry 06-06 |
+
+**Bugs during reviews:**
+- Combinations: still using `index` instead of `i` in loop body
+- Course Schedule: confused visited (safe) vs visiting (in progress), forgot to propagate DFS result
+- Course Schedule II: iterated over range instead of prereq map in DFS
+- Climbing Stairs: used `max` instead of addition — it's counting ways, not optimizing
+- Min Cost Climbing Stairs: added arbitrary +2/+1 instead of just `min(dp[i-1], dp[i-2]) + cost[i]`
+- House Robber II: `dp[1] = nums[1]` instead of `max(nums[0], nums[1])`
+
+---
+
+## 2026-05-31 — Day 24
+
+**Problems solved: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 66 | Insert Interval (#57) | Greedy | interval_merge | 5/10 | YES — redo 06-04 |
+| 67 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 4/10 | YES — redo 06-05 |
+
+**Python learned:**
+- `intervals.sort(key=lambda x: x[1])` — sort by second element
+- Lambda is standard Python way; can also use a named function with `key=`
+
+**Patterns learned:**
+- Insert interval: three cases per interval — before (add as-is), after (swap trick), overlap (expand with min/max)
+- The swap trick (`result.append(newInterval); newInterval = i`) avoids needing a flag or break
+- Final `result.append(newInterval)` always needed — catches merged or last swapped interval
+- Non-overlapping intervals: sort by end time (greedy — finish earliest), track lastEnd, count overlaps
+- Check current start vs lastEnd, not current end
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
