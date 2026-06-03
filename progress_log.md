@@ -676,5 +676,22 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-02 — Day 27
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 70 | Implement Trie (#208) | Trie | prefix_tree | 3/10 | no |
+
+**Patterns learned:**
+- Trie: tree where each node has `children` dict (char → TrieNode) and `is_end` boolean
+- Insert: walk letters, create nodes if missing, mark last as `is_end = True`
+- Search: walk letters, return False if char missing, check `is_end` at the end
+- startsWith: same as search but just return True after walking (don't check `is_end`)
+- Root node is an empty TrieNode — all words start from root's children
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
