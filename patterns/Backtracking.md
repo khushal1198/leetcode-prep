@@ -209,7 +209,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 1219 | [Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold/) | Medium | 5/10 | 68.4% | [ ] |
-| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | 6/10 | 47.3% | [ ] |
+| 79 | [Word Search](https://leetcode.com/problems/word-search/) | Medium | 6/10 | 47.3% | [x] |
 | 2664 | [The Knight's Tour](https://leetcode.com/problems/the-knights-tour/) :lock: | Medium | 7/10 | 72.7% | [ ] |
 | 3565 | [Sequential Grid Path Cover](https://leetcode.com/problems/sequential-grid-path-cover/) :lock: | Medium | 7/10 | 60.5% | [ ] |
 | 980 | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/) | Hard | 8/10 | 82.8% | [ ] |

@@ -9,7 +9,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Hashing | 7 | 107 | set_lookup, two_sum_pair, frequency_counting, grouping_by_key |
 | TwoPointers | 6 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition |
 | Stack | 4 | 100 | bracket_matching, stack_as_queue, monotonic_stack |
-| BinarySearch | 2 | 162 | classic_binary_search |
+| BinarySearch | 5 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer |
 | LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
 | Arrays | 0 | 224 | |
 | SlidingWindow | 4 | 98 | fixed_window, variable_window, variable_window_unique_elements |
@@ -17,7 +17,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Graphs | 8 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort |
 | DynamicProgramming | 7 | 392 | linear_dp, knapsack |
 | Greedy | 5 | 331 | stock_trading, interval_merge, interval_scheduling, cooldown_scheduling |
-| Backtracking | 4 | 69 | subset_enumeration, permutation_generation, combination_generation |
+| Backtracking | 5 | 69 | subset_enumeration, permutation_generation, combination_generation, grid_backtracking |
 | Heap | 6 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue, two_heaps_median |
 | String | 0 | 124 | |
 | Math | 0 | 129 | |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 70 / 2733**
+**Total: 74 / 2733**
 
 ## Key Files
 

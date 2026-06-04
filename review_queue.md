@@ -48,6 +48,9 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | pending |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | pending |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-06 | pending |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-07 | pending |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-07 | pending |
+| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-06 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-06 | pending |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |

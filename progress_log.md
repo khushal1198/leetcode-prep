@@ -693,5 +693,29 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-03 — Day 28
+
+**Problems solved: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 71 | Word Search (#79) | Backtracking | grid_backtracking | 6/10 | YES — redo 06-07 |
+| 72 | Search in Rotated Sorted Array (#33) | BinarySearch | rotated_sorted_search | 5/10 | no |
+| 73 | Find Min in Rotated Sorted Array (#153) | BinarySearch | rotated_sorted_search | 4/10 | YES — redo 06-07 |
+| 74 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 4/10 | YES — redo 06-06 |
+
+**Patterns learned:**
+- Word Search: DFS + backtracking on grid — visit, try 4 directions, unvisit. Check `index == len(word)` before bounds check
+- Rotated sorted array: at each mid, one half is always sorted. Check if target is in sorted half, else go other side
+- Find min in rotated: binary search with `result` variable. If window is sorted, min is `nums[left]` — save and break
+- Binary search on answer: "find min/max value satisfying condition" → define range, write checker, binary search
+- Koko: range is 1 to max(piles), checker sums `ceil(pile/speed)`, compare with `h`
+- When loop ends, `left` is the minimum valid answer — no need to track separately
+
+**Python learned:**
+- `math.ceil(x)` — rounds up, needs `import math`
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
