@@ -741,5 +741,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-06 — Day 30
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Course Schedule (#207) | Graphs | topological_sort | — | review done, retry 06-20 |
+| R | Course Schedule II (#210) | Graphs | topological_sort | — | review done, retry 06-22 |
+| R | Maximum Subarray (#53) | DynamicProgramming | linear_dp | — | review done, retry 06-20 |
+| R | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | — | review done, retry 06-16 |
+| R | Merge Intervals (#56) | Greedy | interval_merge | — | review done, retry 06-20 |
+
+**Bugs during reviews:**
+- Course Schedule: forgot `visited.add(course)` after processing — caused TLE from re-processing safe nodes
+- Non-overlapping Intervals: `float(-inf)` missing quotes, `>` instead of `>=` for non-overlap check
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
