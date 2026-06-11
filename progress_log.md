@@ -815,13 +815,15 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-06-10 — Day 34
 
-**Problems solved: 2, Reviews: 1**
+**Problems solved: 4, Reviews: 1**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | R | 3Sum (#15) | TwoPointers | three_sum | — | review done, retry 06-26 |
 | 77 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 5/10 | YES — redo 06-15 |
 | 78 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 5/10 | YES — redo 06-15 |
+| 79 | Valid Anagram (#242) | Hashing | frequency_counting | 2/10 | no |
+| 80 | Group Anagrams (#49) | Hashing | grouping_by_key | 4/10 | YES — redo 06-28 |
 
 **Patterns learned:**
 - Product except self: prefix pass fills `result[i]` with left product, suffix pass multiplies in right product
@@ -831,6 +833,10 @@ Daily journal of problems solved, learnings, and next steps.
 - Longest consecutive: put all in set, only start counting from sequence-starts (`num - 1` not in set) → O(n)
 - Iterate over the SET, not the list — duplicates in the list re-run the full scan and cause TLE
 - You can iterate a set directly: `for x in mySet` (no guaranteed order)
+- Valid Anagram: compare two `Counter`s directly with `==`
+- Group Anagrams: key = `"".join(sorted(word))` — anagrams share the same sorted key
+- `.sort()` is a list method; strings are immutable — use `sorted(word)` which returns a new list
+- `defaultdict(list)` auto-creates an empty list per key → `myMap[key].append(x)` with no get/assign dance
 
 ---
 

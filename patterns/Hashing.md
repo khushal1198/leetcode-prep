@@ -34,7 +34,7 @@
 | 2283 | [Check if Number Has Equal Digit Count and Digit Value](https://leetcode.com/problems/check-if-number-has-equal-digit-count-and-digit-value/) | Easy | 2/10 | 73.2% | [ ] |
 | 1160 | [Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Easy | 2/10 | 71.6% | [ ] |
 | 266 | [Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) :lock: | Easy | 2/10 | 68.7% | [ ] |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | 2/10 | 68.1% | [ ] |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | 2/10 | 68.1% | [x] |
 | 1897 | [Redistribute Characters to Make All Strings Equal](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal/) | Easy | 2/10 | 66.9% | [ ] |
 | 387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Easy | 2/10 | 65.4% | [ ] |
 | 2347 | [Best Poker Hand](https://leetcode.com/problems/best-poker-hand/) | Easy | 2/10 | 61.7% | [ ] |
@@ -274,7 +274,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 811 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | Medium | 3/10 | 77.2% | [ ] |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | 4/10 | 72.5% | [ ] |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | 4/10 | 72.5% | [x] |
 | 609 | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | Medium | 4/10 | 67.5% | [ ] |
 | 2342 | [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | Medium | 4/10 | 65.9% | [ ] |
 | 447 | [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/) | Medium | 4/10 | 57.5% | [ ] |
