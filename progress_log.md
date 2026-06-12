@@ -840,5 +840,26 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-11 — Day 35
+
+**Problems solved: 1, Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Insert Interval (#57) | Greedy | interval_merge | — | review done, retry 06-25 |
+| 81 | Longest Palindromic Substring (#5) | String | expand_around_center | 6/10 | YES — redo 06-16 |
+
+**Patterns learned:**
+- Longest palindrome: expand around center — O(n²), the expected answer (not O(n))
+- Every palindrome has a center; check both odd (i, i) and even (i, i+1) centers
+- Brute force is O(n³); expand-around-center IS the optimization
+- `max(a, b, c, key=len)` — compare by length instead of value; works on min/sorted too
+- Each expansion step's substring is guaranteed a palindrome (inner already matched)
+
+**Bug during review:**
+- Insert Interval: second condition backwards (`newInterval[1] > interval[0]` should be `<`); overlap-case used both starts for max instead of ends
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

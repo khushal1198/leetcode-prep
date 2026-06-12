@@ -19,7 +19,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Greedy | 5 | 331 | stock_trading, interval_merge, interval_scheduling, cooldown_scheduling |
 | Backtracking | 5 | 69 | subset_enumeration, permutation_generation, combination_generation, grid_backtracking |
 | Heap | 6 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue, two_heaps_median |
-| String | 0 | 124 | |
+| String | 1 | 124 | expand_around_center |
 | Math | 0 | 129 | |
 | BitManipulation | 0 | 131 | |
 | Design | 1 | 83 | stack_as_queue |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 80 / 2733**
+**Total: 81 / 2733**
 
 ## Key Files
 

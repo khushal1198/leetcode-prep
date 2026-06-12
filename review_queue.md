@@ -56,7 +56,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-06-10 | 2026-06-24 | pending |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-05-31 | 2026-06-04 | done |
-| Insert Interval (#57) | Greedy | interval_merge | 2026-06-04 | 2026-06-11 | pending |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-06-04 | 2026-06-11 | done |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-06-11 | 2026-06-25 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | pending |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
@@ -75,6 +76,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-10 | 2026-06-15 | pending |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | pending |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
