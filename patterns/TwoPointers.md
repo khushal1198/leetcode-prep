@@ -255,7 +255,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 2697 | [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) | Easy | 2/10 | 81.4% | [ ] |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 2/10 | 53.2% | [ ] |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | 2/10 | 53.2% | [x] |
 | 246 | [Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/) :lock: | Easy | 2/10 | 47.5% | [ ] |
 | 2330 | [Valid Palindrome IV](https://leetcode.com/problems/valid-palindrome-iv/) :lock: | Medium | 3/10 | 75.6% | [ ] |
 | 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | 3/10 | 44.2% | [ ] |

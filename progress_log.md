@@ -890,5 +890,24 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-13 — Day 37
+
+**Problems solved: 1, Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Median from Data Stream (#295) | Heap | two_heaps_median | — | review done (cleaner this time), retry 06-28 |
+| 86 | Valid Palindrome (#125) | TwoPointers | palindrome_check | 2/10 | no |
+
+**Python learned:**
+- `.isalnum()` — True for letters and digits; `.isalpha()` letters only; `.isdigit()` digits only
+- `.lower()` — lowercase for case-insensitive comparison
+
+**Patterns learned:**
+- Valid Palindrome: filter to alphanumeric + lowercase, then two pointers from both ends
+- Find Median (cleaner): push to max, always move max-top to min (keeps order), then rebalance sizes
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
