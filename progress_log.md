@@ -930,13 +930,14 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-06-15 — Day 39
 
-**Problems solved: 1, Reviews: 2**
+**Problems solved: 2, Reviews: 2**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | R | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | — | review done, retry 06-29 |
 | R | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | — | review done, retry 06-29 |
 | 90 | Number of Provinces (#547) | UnionFind | connected_components | 3/10 | YES — redo 06-19 |
+| 91 | Redundant Connection (#684) | UnionFind | cycle_detection | 4/10 | YES — redo 06-20 |
 
 **Patterns learned (Union-Find — new data structure):**
 - `parent` array: each node points to a parent; the root points to itself (`parent[x] == x`)
@@ -948,6 +949,12 @@ Daily journal of problems solved, learnings, and next steps.
 
 **Recurring bug:**
 - Longest Consecutive Sequence (2nd time): iterate over the SET, not the list — duplicates re-run the scan → TLE
+
+**Union-Find cycle detection (Redundant Connection):**
+- When processing an edge, if `find(a) == find(b)` BEFORE union → that edge closes a cycle → it's redundant
+- Tree with n nodes has n-1 edges; +1 extra = n edges → `n = len(edges)`
+- Processing edges in order, the first cycle-closing edge is automatically the last-in-input answer
+- 1-based node labels: subtract 1 to index, or size parent array as n+1
 
 ---
 

@@ -103,7 +103,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | 4/10 | 67.6% | [ ] |
+| 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | Medium | 4/10 | 67.6% | [x] |
 | 1579 | [Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | Hard | 7/10 | 70.2% | [ ] |
 | 685 | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/) | Hard | 8/10 | 36.1% | [ ] |
 
