@@ -72,6 +72,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | pending |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | pending |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | pending |
+| Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-16 | 2026-06-21 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-08 | done |

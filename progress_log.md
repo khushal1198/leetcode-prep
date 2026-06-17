@@ -974,6 +974,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Realized the old length-tracking version seeded `result = s[index]`; the substring version is cleaner with the standalone expand
 - Odd center `expand(s, i, i)` (or equivalently `(i-1, i+1)`), even center `expand(s, i, i+1)`
 
+**New problem (not in the 2733 dataset, so not in README total):**
+- Pow(x, n) (#50) | Math | fast_exponentiation — review 06-21
+- Fast exponentiation: `x^n = (x^(n/2))²`, square the half going up — O(log n)
+- Odd n: `half*half*x` (extra x for the dropped factor); even n: `half*half`
+- Compute `half` ONCE per call — calling `power(x, n//2)` twice collapses to O(n) → TLE
+- Negative n: `x = 1/x; n = -n` in the wrapper, then recurse on positive n
+
 ---
 
 ## Problems to redo
