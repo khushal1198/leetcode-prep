@@ -67,18 +67,22 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | pending |
-| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | pending |
-| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | pending |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | done |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | pending |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | pending |
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | pending |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | pending |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | pending |
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-16 | 2026-06-21 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
-| Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | pending |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | done |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-06-18 | 2026-07-01 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-08 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-08 | 2026-06-12 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | pending |
-| Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | pending |
+| Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
+| Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | pending |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | pending |
@@ -91,7 +95,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | pending |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | pending |
-| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | pending |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | done |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-18 | 2026-07-08 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | pending |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |

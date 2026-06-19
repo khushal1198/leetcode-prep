@@ -983,5 +983,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-18 — Day 41
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | — | review done, retry 07-08 |
+| R | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | — | review done, retry 06-23 |
+| R | Word Search (#79) | Backtracking | grid_backtracking | — | review done, retry 07-01 |
+| R | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | — | review done (needed approach re-explained), retry 06-22 |
+| R | Single Number (#136) | BitManipulation | xor_cancellation | — | review done, retry 07-02 |
+
+**Notes:**
+- Maximum Product Subarray: forgot `return` on the final `max(...)` line
+- Find the Duplicate: code recalled fine but the "why a cycle exists" intuition needed re-explaining — duplicate value means two indices point to the same node → forces a cycle whose entrance is the duplicate
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
