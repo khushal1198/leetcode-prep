@@ -72,7 +72,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | pending |
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | pending |
-| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | pending |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | pending |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | pending |
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-16 | 2026-06-21 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
@@ -83,7 +84,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | pending |
-| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | pending |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | pending |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |

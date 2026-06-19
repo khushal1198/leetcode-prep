@@ -1001,5 +1001,20 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-19 — Day 42
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Number of Provinces (#547) | UnionFind | connected_components | — | review done, retry 06-29 |
+| R | Number of 1 Bits (#191) | BitManipulation | bit_counting | — | review done, retry 07-07 |
+
+**Bug during review (Number of Provinces):**
+- union linked nodes not roots: `parent[i] = j` should be `parent[parent_i] = parent_j` — this corrupts connectivity (showed a 3-node example where a node ends up split off)
+- counting: must count distinct `find(i)`, not `set(parent)` (stored parents can be intermediate nodes)
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
