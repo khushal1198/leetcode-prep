@@ -115,4 +115,4 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | pending |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | done |
-| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-07-10 | pending |
+| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-06-30 | pending |
