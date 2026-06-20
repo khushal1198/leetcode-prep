@@ -1048,6 +1048,7 @@ Daily journal of problems solved, learnings, and next steps.
 | R | Redundant Connection (#684) | UnionFind | cycle_detection | — | review done, retry 06-25 |
 | R | Merge Intervals (#56) | Greedy | interval_merge | — | review done, retry 06-30 |
 | 94 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 6/10 | YES — redo 06-23 |
+| 95 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 4/10 | YES — redo 06-25 |
 
 **Notes (all clean — discussing optimization/intuition rather than fixing bugs):**
 - Course Schedule: move `visited`/`visiting` OUTSIDE the loop so `visited` persists across courses → O(V+E) not O(V·E); discussed post-order "safety bubbles up from leaves" intuition
@@ -1059,6 +1060,14 @@ Daily journal of problems solved, learnings, and next steps.
 - After recursing: `if left and right: return root` (targets split here → LCA), else `return left or right` (bubble up)
 - Return value does double duty: "found p/q here" going up, then "here's the LCA" once both merge
 - Overcomplication trap: checking `left == p and right == q` is wrong — sides may return a subtree LCA or be swapped; just check both non-None
+
+**Patterns learned (Diameter of Binary Tree — #543, "return X up, track Y globally"):**
+- Helper returns HEIGHT; the diameter is tracked as a side effect on `self.diameter`
+- Return value uses MAX of sides: `max(left, right) + 1` (can only climb one side up)
+- Tracked value uses SUM of sides: `left + right` (path through node uses both)
+- With null→0/leaf→1 height, `left + right` already equals edge count — NO `-1` (root is the junction, not double-counted)
+- Answer is the global max, NOT the root's return value
+- `self.var` beats a passed int (ints are immutable, reassignment doesn't propagate); tuple-return works but is more bookkeeping
 
 ---
 
