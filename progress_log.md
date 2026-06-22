@@ -1089,6 +1089,11 @@ Daily journal of problems solved, learnings, and next steps.
 - `while left < right` ↔ `right = mid` (NOT mid-1) / `left = mid + 1`, return `left` (Template B)
 - Mixing them breaks: `<` + `mid-1` steps over the answer; `<=` + `mid` infinite-loops
 
+**Worked ahead on June 22's reviews (all clean):**
+- Course Schedule II (#210) → retry 07-11 (kept visited/visiting outside loop)
+- Combinations (#77) → retry 07-05 (no index/i bug — that recurring mistake is gone)
+- Find the Duplicate (#287) → retry 06-27 (re-explained Floyd's: duplicate → two indices point to same node → cycle → entrance is the dup)
+
 ---
 
 ## Problems to redo

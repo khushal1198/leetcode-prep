@@ -22,7 +22,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-22 | 2026-05-26 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-26 | 2026-05-30 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-30 | 2026-06-05 | done |
-| Course Schedule II (#210) | Graphs | topological_sort | 2026-06-06 | 2026-06-22 | pending |
+| Course Schedule II (#210) | Graphs | topological_sort | 2026-06-06 | 2026-06-22 | done |
+| Course Schedule II (#210) | Graphs | topological_sort | 2026-06-21 | 2026-07-11 | pending |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-22 | 2026-05-24 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-24 | 2026-05-28 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-22 | 2026-05-24 | done |
@@ -31,7 +32,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-25 | 2026-05-30 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-05-30 | 2026-06-04 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-06-04 | 2026-06-08 | done |
-| Combinations (#77) | Backtracking | combination_generation | 2026-06-08 | 2026-06-22 | pending |
+| Combinations (#77) | Backtracking | combination_generation | 2026-06-08 | 2026-06-22 | done |
+| Combinations (#77) | Backtracking | combination_generation | 2026-06-21 | 2026-07-05 | pending |
 | Validate BST (#98) | Trees | bst_operations | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | done |
@@ -70,7 +72,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | pending |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | done |
-| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | pending |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | done |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-27 | pending |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | pending |
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | done |
