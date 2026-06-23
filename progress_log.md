@@ -1096,5 +1096,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-22 — Day 45
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 96 | Combination Sum (#39) | Backtracking | combination_sum | 5/10 | YES — redo 07-10 |
+
+**Patterns learned:**
+- Combination Sum: like Combinations but elements can be REUSED → recurse with `i` (not `i + 1`)
+- Still start the loop at `index` (not 0) so you don't generate the same combo in different orders
+- Two base cases: `amount == 0` → append & return (success); `amount < 0` → return (prune)
+- Solved clean on the first try — backtracking foundation is solid now
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

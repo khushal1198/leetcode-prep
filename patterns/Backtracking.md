@@ -75,7 +75,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | 5/10 | 76.5% | [ ] |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | 5/10 | 76.5% | [x] |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | 5/10 | 73.2% | [ ] |
 | 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | 6/10 | 59.4% | [ ] |
 
