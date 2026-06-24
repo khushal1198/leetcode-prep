@@ -41,7 +41,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | done |
-| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-09 | 2026-06-23 | pending |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-09 | 2026-06-23 | done |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-23 | 2026-07-13 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-24 | 2026-05-28 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-28 | 2026-06-07 | done |
@@ -67,7 +68,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | pending |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-09 | done |
-| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | pending |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | done |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-23 | 2026-06-27 | pending |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | pending |
@@ -75,7 +77,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-27 | pending |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
-| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | pending |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | done |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-23 | 2026-07-03 | pending |
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | done |
 | Min Stack (#155) | Stack | min_stack | 2026-06-20 | 2026-07-10 | pending |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
@@ -95,8 +98,9 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | pending |
-| Design Linked List (#707) | Design | doubly_linked_list | 2026-06-19 | 2026-06-23 | pending |
-| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-23 | pending |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-06-19 | 2026-06-23 | done |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-06-23 | 2026-06-25 | pending |
+| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-24 | pending |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-20 | 2026-06-25 | pending |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-10 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | pending |

@@ -1117,5 +1117,25 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-23 — Day 46
+
+**Reviews: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | — | review done, retry 07-13 |
+| R | Task Scheduler (#621) | Greedy | cooldown_scheduling | — | review done, retry 06-27 |
+| R | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | — | review done, retry 07-03 |
+| R | Design Linked List (#707) | Design | doubly_linked_list | — | review done (several iterations), retry 06-25 |
+
+**Bugs during reviews:**
+- Task Scheduler: when cooldown expires, push back to the HEAP (not re-append to queue); and always re-add even when remaining freq == 1 (the `>1` guard belongs only in the heap-pop block). Where work flows: execute→queue, cooldown done→heap
+- Design Linked List: forgot to link the two dummies in `__init__`; missing `i += 1` in loops; `i+1` typo; dropped `self.size` updates; `addAtIndex` guard must be `index > size` (== size is a valid append). Structure (dummy linking, splice helper) is automatic now; bookkeeping is where slips happen → worth repeating
+- Max Product Subarray: remembered the `return` this time (was last review's bug)
+
+**Note:** LCA of a Binary Tree (#236) was also due — pushed to 06-24.
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
