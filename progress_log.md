@@ -1194,5 +1194,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-06-27 — Day 50
+
+**Reviews: 2** (June 26 was missed; cleared 2, deferred 4 to 06-28)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | clean this time (canonical template), retry 07-14 |
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | needed fixes, retry 07-02 |
+
+**Bug during review (Find Min in Rotated Array):**
+- Mixed templates again: `while left < right` with `right = mid - 1` — `[2,1]` returned 2 instead of 1
+- Reinforced the rule: `<=` ↔ `mid - 1`; `<` ↔ `mid` (NOT mid-1, because `<` stops at left==right so mid must stay a candidate)
+- Also the left-sorted check needs `<=` (`nums[left] <= nums[mid]`) so the `mid == left` case routes to "left sorted → go right"
+
+**Deferred to 06-28:** Longest Repeating Char Replacement, 3Sum, Task Scheduler, Find the Duplicate
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

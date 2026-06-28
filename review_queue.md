@@ -47,7 +47,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-28 | 2026-06-07 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-07 | 2026-06-25 | done |
-| Subsets (#78) | Backtracking | subset_enumeration | 2026-06-25 | 2026-06-26 | pending |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-06-25 | 2026-06-26 | done |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-06-27 | 2026-07-14 | pending |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-25 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-05 | pending |
@@ -75,13 +76,13 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-09 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | done |
-| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-23 | 2026-06-27 | pending |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-23 | 2026-06-28 | pending |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | pending |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | done |
-| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-27 | pending |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-28 | pending |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-23 | 2026-07-03 | pending |
@@ -99,7 +100,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-18 | 2026-07-01 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-08 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-08 | 2026-06-12 | done |
-| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | pending |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | done |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-27 | 2026-07-02 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | pending |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
@@ -115,12 +117,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-26 | 2026-07-06 | pending |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-10 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
-| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-26 | pending |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | pending |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |
-| 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-26 | pending |
+| 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-28 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-10 | 2026-06-15 | done |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-15 | 2026-06-29 | pending |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | done |
