@@ -38,7 +38,7 @@
 | 1602 | [Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree/) :lock: | Medium | 4/10 | 75.1% | [ ] |
 | 513 | [Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium | 4/10 | 72.3% | [ ] |
 | 582 | [Kill Process](https://leetcode.com/problems/kill-process/) :lock: | Medium | 4/10 | 70.7% | [ ] |
-| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | 4/10 | 70.1% | [ ] |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | 4/10 | 70.1% | [x] |
 | 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | Medium | 4/10 | 70.0% | [ ] |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | 4/10 | 63.6% | [ ] |
 | 2641 | [Cousins in Binary Tree II](https://leetcode.com/problems/cousins-in-binary-tree-ii/) | Medium | 5/10 | 75.8% | [ ] |

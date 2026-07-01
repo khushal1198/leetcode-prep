@@ -1280,5 +1280,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-01 — Day 54 🎉 100 PROBLEMS
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 100 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 4/10 | YES — redo 08-15 |
+
+**Patterns learned:**
+- Right Side View: level-order BFS, grab the last node of each level (`i == size - 1`)
+- Always guard the empty tree: `if root is None: return []` before seeding the queue
+
+**Milestone:** 100/2733 solved across 18 categories in ~2 months. Review pipeline healthy; the historically-buggy problems (Task Scheduler, Find Median, Design Linked List, Rotting Oranges) are now clean on review.
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
