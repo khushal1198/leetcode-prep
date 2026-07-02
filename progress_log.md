@@ -1292,6 +1292,10 @@ Daily journal of problems solved, learnings, and next steps.
 - Right Side View: level-order BFS, grab the last node of each level (`i == size - 1`)
 - Always guard the empty tree: `if root is None: return []` before seeding the queue
 
+**Reviews: 2**
+- Word Search (#79) — SUBTLE BUG: `index == len(word)` completion check must be FIRST (before the visiting check). If the final cell is surrounded by visited cells, every neighbor recursion fails the visiting check before reaching the completion check → false negative. Base-case ordering in grid DFS matters. Retry 08-01
+- Sort an Array (#912) — clean merge sort, retry 07-22
+
 **Milestone:** 100/2733 solved across 18 categories in ~2 months. Review pipeline healthy; the historically-buggy problems (Task Scheduler, Find Median, Design Linked List, Rotting Oranges) are now clean on review.
 
 ---

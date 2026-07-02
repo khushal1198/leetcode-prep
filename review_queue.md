@@ -103,7 +103,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-28 | 2026-08-28 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | done |
-| Word Search (#79) | Backtracking | grid_backtracking | 2026-06-18 | 2026-07-01 | pending |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-06-18 | 2026-07-01 | done |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-07-01 | 2026-08-01 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-08 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-08 | 2026-06-12 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | done |
@@ -159,7 +160,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-06 | pending |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | done |
-| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | pending |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | done |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-07-01 | 2026-07-22 | pending |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-06-30 | done |
