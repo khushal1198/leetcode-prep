@@ -1296,6 +1296,12 @@ Daily journal of problems solved, learnings, and next steps.
 - Word Search (#79) — SUBTLE BUG: `index == len(word)` completion check must be FIRST (before the visiting check). If the final cell is surrounded by visited cells, every neighbor recursion fails the visiting check before reaching the completion check → false negative. Base-case ordering in grid DFS matters. Retry 08-01
 - Sort an Array (#912) — clean merge sort, retry 07-22
 
+**New problem:**
+| 101 | Balanced Binary Tree (#110) | Trees | balanced_tree | 4/10 | YES — redo 10-01 |
+- Reused the Diameter pattern: `height` helper + `self.balanced` flag set as side effect when `abs(left-right) > 1`; `not self.balanced` early-out
+- Bug: `rightHeight = self.height(node.left)` typo (should be node.right)
+- Skipped Word Break (#139) — DP framing ("dp[i] = can build s[:i]") didn't land today; revisit when fresh
+
 **Milestone:** 100/2733 solved across 18 categories in ~2 months. Review pipeline healthy; the historically-buggy problems (Task Scheduler, Find Median, Design Linked List, Rotting Oranges) are now clean on review.
 
 ---
