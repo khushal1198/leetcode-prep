@@ -1388,5 +1388,23 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-08 — Day 59
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 104 | Combination Sum II (#40) | Backtracking | combination_sum | 6/10 | YES — redo 07-15 |
+
+**Patterns learned (dedup in backtracking — why `not in current` fails):**
+- Combination Sum II = Combination Sum I but no reuse (`i+1`) + sorted input with duplicates
+- `candidates[i] not in current` is WRONG two ways:
+  1. Blocks valid combos that legitimately use duplicate values, e.g. `[1,1]` for target 2
+  2. Doesn't stop duplicate combos — two equal values at the same level both pass (empty `current`)
+- Correct dedup = skip duplicate SIBLINGS: `if i > index and candidates[i] == candidates[i-1]: continue`
+- Duplicate values DOWN the recursion are fine (`[1,1]`); only duplicate CHOICES at the same level are the problem
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
