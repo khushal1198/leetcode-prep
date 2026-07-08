@@ -1379,6 +1379,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Fix: init earn to ALL ZEROS + set `earn[key] = key * count` (key directly, not the old `num[key]*count` trick)
 - Lesson: when building a value-indexed lookup array, the "not present" DEFAULT matters — here it must be 0
 
+**New problem:**
+| 103 | Subsets II (#90) | Backtracking | dedup_backtracking | 5/10 | YES — redo 07-11 |
+- Like Subsets but with duplicates → sort first, then skip duplicate SIBLINGS: `if i > index and nums[i] == nums[i-1]: continue`
+- The skip uses `index` (first choice at THIS level) but recursion still uses `i + 1`
+- Bug: recursed with `index + 1` instead of `i + 1` (the old index-vs-i mistake resurfacing)
+- Alt approach discussed: set of tuples (sort + `tuple(current)`) — works but generates dupes then discards them (less efficient)
+
 ---
 
 ## Problems to redo

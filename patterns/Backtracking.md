@@ -51,7 +51,7 @@
 | 2044 | [Count Number of Maximum Bitwise-OR Subsets](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) | Medium | 4/10 | 89.5% | [ ] |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | 4/10 | 82.3% | [x] |
 | 491 | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/) | Medium | 5/10 | 62.7% | [ ] |
-| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | 5/10 | 61.2% | [ ] |
+| 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | 5/10 | 61.2% | [x] |
 | 1774 | [Closest Dessert Cost](https://leetcode.com/problems/closest-dessert-cost/) | Medium | 5/10 | 48.7% | [ ] |
 | 2597 | [The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/) | Medium | 6/10 | 51.0% | [ ] |
 | 2014 | [Longest Subsequence Repeated k Times](https://leetcode.com/problems/longest-subsequence-repeated-k-times/) | Hard | 8/10 | 71.2% | [ ] |
