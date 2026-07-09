@@ -1390,11 +1390,12 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-07-08 — Day 59
 
-**Problems solved: 1**
+**Problems solved: 1, Reviews: 1**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | 104 | Combination Sum II (#40) | Backtracking | combination_sum | 6/10 | YES — redo 07-15 |
+| R | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | — | clean, retry 07-29 |
 
 **Patterns learned (dedup in backtracking — why `not in current` fails):**
 - Combination Sum II = Combination Sum I but no reuse (`i+1`) + sorted input with duplicates

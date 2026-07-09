@@ -168,7 +168,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | done |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-30 | 2026-07-30 | pending |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | done |
-| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-18 | 2026-07-08 | pending |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-18 | 2026-07-08 | done |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-08 | 2026-07-29 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-24 | 2026-07-04 | done |
