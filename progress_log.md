@@ -1396,6 +1396,7 @@ Daily journal of problems solved, learnings, and next steps.
 |---|---------|----------|---------|-------|---------|
 | 104 | Combination Sum II (#40) | Backtracking | combination_sum | 6/10 | YES — redo 07-15 |
 | R | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | — | clean, retry 07-29 |
+| 105 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 6/10 | YES — redo 07-22 |
 
 **Patterns learned (dedup in backtracking — why `not in current` fails):**
 - Combination Sum II = Combination Sum I but no reuse (`i+1`) + sorted input with duplicates
@@ -1404,6 +1405,12 @@ Daily journal of problems solved, learnings, and next steps.
   2. Doesn't stop duplicate combos — two equal values at the same level both pass (empty `current`)
 - Correct dedup = skip duplicate SIBLINGS: `if i > index and candidates[i] == candidates[i-1]: continue`
 - Duplicate values DOWN the recursion are fine (`[1,1]`); only duplicate CHOICES at the same level are the problem
+
+**Patterns learned (Pacific Atlantic — reverse flood):**
+- KEY INSIGHT: instead of "can each cell reach the ocean?" (expensive per-cell), flip it — flood FROM the ocean borders INWARD, going uphill (neighbor height >= current)
+- Two floods: one from Pacific borders (top row + left col), one from Atlantic borders (bottom row + right col); answer = intersection of the two reachable sets
+- Bug: Atlantic bottom-row seed used `len(heights[0]) - 1` (cols) instead of `len(heights) - 1` (rows) — works on square grids, fails otherwise
+- General principle: when checking "can everything reach a target" is costly, reverse it and flood from the target
 
 ---
 
