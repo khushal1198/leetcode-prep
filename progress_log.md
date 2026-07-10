@@ -1414,5 +1414,25 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-09 — Day 60
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 106 | LRU Cache (#146) | Design | cache_design | 6/10 | YES — redo 07-12 (repeat until automatic) |
+
+**Patterns learned (LRU Cache = hash map + doubly linked list):**
+- Map stores `key → NODE` (not value) — need the node to unlink/move it in O(1)
+- DLL tracks usage order: most-recent at head end, LRU at tail end (dummy head+tail)
+- Node MUST store its `key` — on eviction you need it to `del map[node.key]` (else map leaks stale entries)
+- `get`: reorder (delete + put_ahead) BEFORE returning, or accessed item won't become most-recent
+- `put` size accounting: on existing key, delete old + `size -= 1` so the final `+= 1` balances
+- Eviction cleans BOTH structures: unlink tail.prev AND `del map[key]`
+- This was the payoff of repeating Design Linked List — the list mechanics were automatic; only the LRU-specific glue (key storage, reorder-before-return, size accounting) needed fixing
+- User wants to repeat until perfect → short review interval
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

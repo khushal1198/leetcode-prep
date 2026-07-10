@@ -356,7 +356,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | 6/10 | 47.3% | [ ] |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | 6/10 | 47.3% | [x] |
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | 8/10 | 49.1% | [ ] |
 
 ## graph_shortest_path_design
