@@ -1432,6 +1432,15 @@ Daily journal of problems solved, learnings, and next steps.
 - This was the payoff of repeating Design Linked List — the list mechanics were automatic; only the LRU-specific glue (key storage, reorder-before-return, size accounting) needed fixing
 - User wants to repeat until perfect → short review interval
 
+**New problem (bonus):**
+| 107 | Permutations II (#47) | Backtracking | permutation_generation | 6/10 | YES — redo 07-11 |
+- Permutations use ALL elements → track a `used` array/set (by INDEX), NOT a `start` index (that's for subsets/combos)
+- Dedup skip: `if i > 0 and nums[i] == nums[i-1] and (i-1) not in used: continue`
+- Why `not used[i-1]`: enforce equal elements placed in index order (1a before 1b); if the earlier twin isn't placed yet, placing this one first would duplicate → skip
+- Backtracking rhythm clarified: `used[i]=T` is temporary — set on the way down, RESET on the way back up, so a sibling `i+1` sees it as F again
+- Bugs: forgot the "skip already-used index" check; compared value `nums[i-1]` against the index set instead of `(i-1)`
+- COMPLETES the dedup-backtracking trio: Subsets II, Combination Sum II, Permutations II
+
 ---
 
 ## Problems to redo

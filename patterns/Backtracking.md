@@ -102,7 +102,7 @@
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | 4/10 | 81.9% | [x] |
 | 949 | [Largest Time for Given Digits](https://leetcode.com/problems/largest-time-for-given-digits/) | Medium | 4/10 | 35.9% | [ ] |
 | 1079 | [Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/) | Medium | 5/10 | 83.5% | [ ] |
-| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | Medium | 6/10 | 63.4% | [ ] |
+| 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | Medium | 6/10 | 63.4% | [x] |
 | 267 | [Palindrome Permutation II](https://leetcode.com/problems/palindrome-permutation-ii/) :lock: | Medium | 6/10 | 42.3% | [ ] |
 | 996 | [Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/) | Hard | 8/10 | 51.4% | [ ] |
 
