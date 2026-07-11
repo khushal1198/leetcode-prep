@@ -1443,5 +1443,20 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-10 — Day 61
+
+**Reviews: 4** (all clean; 4 more deferred to 07-12)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Course Schedule (#207) | Graphs | topological_sort | — | clean, retry 08-25 |
+| R | Maximum Subarray (#53) | DynamicProgramming | linear_dp | — | clean, retry 08-31 |
+| R | Min Stack (#155) | Stack | min_stack | — | clean, retry 08-11 |
+| R | Design Linked List (#707) | Design | doubly_linked_list | — | fully automatic now, retry 08-11 |
+
+**Note:** All four clean. Design Linked List is now effortless — the payoff of the repeats (and it made LRU Cache easy). Deferred Combination Sum, Course Schedule II, Subsets II, Permutations II to 07-12.
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
