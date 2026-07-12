@@ -1506,7 +1506,16 @@ Daily journal of problems solved, learnings, and next steps.
 - Here: `mid_ts <= query` → valid → chase larger (`left = mid+1`); else `right = mid-1`. Answer = `myList[right]` after loop; guard `right < 0 → ""`
 - Key realization: `left = mid+1` doesn't lose mid — if nothing bigger is valid, `right` settles back onto it. Answer is where `right` ends up, not the last valid mid seen
 
-**User request:** wants MORE binary-search problems — direction ("which way is better") is the weak spot. Queue up: Find First/Last Position (#34), Search in Rotated II (#81), Split Array Largest Sum (#410), Median of Two Sorted Arrays (#4).
+**User request:** wants MORE binary-search problems — direction ("which way is better") is the weak spot. Queue up: Search in Rotated II (#81), Split Array Largest Sum (#410), Median of Two Sorted Arrays (#4).
+
+**Bonus problem (binary-search drill):**
+| 109 | Find First and Last Position (#34) | BinarySearch | boundary_search | 4/10 | YES — redo 07-16 |
+- Two binary searches, SAME skeleton, only the on-match direction differs
+- Find first: on `nums[mid]==target` → record + go LEFT (`right=mid-1`) for an earlier one
+- Find last: on match → record + go RIGHT (`left=mid+1`) for a later one
+- `result` var catches the best (record-and-keep-going); no boundary special-cases needed
+- First attempt over-engineered it (`left != 0` neighbor check + `nums[right]` post-check) → broke at index 0; the record-and-continue pattern is cleaner and edge-case-free
+- Bug: typo `rigth = mid - 1` → new var, right never changed → infinite loop
 
 ---
 

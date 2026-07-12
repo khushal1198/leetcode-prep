@@ -59,7 +59,7 @@
 | 2936 | [Number of Equal Numbers Blocks](https://leetcode.com/problems/number-of-equal-numbers-blocks/) :lock: | Medium | 4/10 | 62.5% | [ ] |
 | 1060 | [Missing Element in Sorted Array](https://leetcode.com/problems/missing-element-in-sorted-array/) :lock: | Medium | 4/10 | 59.7% | [ ] |
 | 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | Medium | 4/10 | 59.3% | [ ] |
-| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | 4/10 | 48.8% | [ ] |
+| 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | 4/10 | 48.8% | [x] |
 | 3350 | [Adjacent Increasing Subarrays Detection II](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) | Medium | 5/10 | 58.9% | [ ] |
 | 658 | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/) | Medium | 5/10 | 49.6% | [ ] |
 | 275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | Medium | 5/10 | 39.6% | [ ] |
