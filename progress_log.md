@@ -1491,5 +1491,24 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-12 — Day 63
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 108 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 5/10 | YES — redo 07-19 |
+
+**Patterns learned:**
+- Design = `map: key → list of (timestamp, value)`. Timestamps are strictly increasing → the list is auto-sorted by append, no sorted structure needed
+- `get` = binary search for the LARGEST timestamp ≤ query (the "floor")
+- Binary-search framework reinforced: (1) is `mid` a VALID candidate? (2) if valid → move toward the BETTER side; if invalid → discard it and go the other way
+- Here: `mid_ts <= query` → valid → chase larger (`left = mid+1`); else `right = mid-1`. Answer = `myList[right]` after loop; guard `right < 0 → ""`
+- Key realization: `left = mid+1` doesn't lose mid — if nothing bigger is valid, `right` settles back onto it. Answer is where `right` ends up, not the last valid mid seen
+
+**User request:** wants MORE binary-search problems — direction ("which way is better") is the weak spot. Queue up: Find First/Last Position (#34), Search in Rotated II (#81), Split Array Largest Sum (#410), Median of Two Sorted Arrays (#4).
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

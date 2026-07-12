@@ -215,7 +215,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 2080 | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | Medium | 4/10 | 42.9% | [ ] |
-| 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | 5/10 | 49.9% | [ ] |
+| 981 | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/) | Medium | 5/10 | 49.9% | [x] |
 | 1348 | [Tweet Counts Per Frequency](https://leetcode.com/problems/tweet-counts-per-frequency/) | Medium | 5/10 | 46.1% | [ ] |
 | 3709 | [Design Exam Scores Tracker](https://leetcode.com/problems/design-exam-scores-tracker/) | Medium | 6/10 | 44.1% | [ ] |
 | 3508 | [Implement Router](https://leetcode.com/problems/implement-router/) | Medium | 6/10 | 39.1% | [ ] |
