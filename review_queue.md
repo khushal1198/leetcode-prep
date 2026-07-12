@@ -171,6 +171,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | pending |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | pending |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | pending |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | pending |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |

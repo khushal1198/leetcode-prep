@@ -134,7 +134,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | Medium | 3/10 | 66.9% | [ ] |
-| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | 5/10 | 46.9% | [ ] |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | 5/10 | 46.9% | [x] |
 | 1901 | [Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii/) | Medium | 7/10 | 54.7% | [ ] |
 | 1095 | [Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/) | Hard | 7/10 | 41.6% | [ ] |
 

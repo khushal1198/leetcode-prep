@@ -51,7 +51,41 @@ else: right = mid                            # answer in left half (incl. mid)
 ## How to pick the flavor — ask "what am I asking at `mid`?"
 - "Is this *the* element?" → **Flavor 1** (exact)
 - "Is this a valid candidate, and could a better one exist?" → **Flavor 2** (boundary/predicate)
-- "Which side is sorted / which side holds the answer?" → **Flavor 3** (rotated)
+- "Which side is sorted / which side holds the answer?" → **Flavor 3** (rotated/peak/converge)
+
+---
+
+## The 2 mechanical templates (family → template)
+
+**Template A** — `while left <= right`, move `mid ± 1`, use a `result` var, `return result`.
+```python
+while left <= right:
+    mid = (left + right) // 2
+    if valid(mid):
+        result = mid
+        # move toward better: right = mid-1  OR  left = mid+1
+    elif too_small: left = mid + 1
+    else: right = mid - 1
+return result
+```
+
+**Template B** — `while left < right`, move `left = mid+1` / `right = mid` (NOT mid-1), `return left`.
+```python
+while left < right:
+    mid = (left + right) // 2
+    if go_right(mid): left = mid + 1
+    else: right = mid      # keep mid — it might BE the answer
+return left                # left == right = the answer
+```
+Template B's `left < right` guarantees `mid+1` is in bounds → no boundary guards needed.
+
+| Family | Template | Decision at `mid` |
+|---|---|---|
+| 1. Exact | A | `mid == target` → return |
+| 2. Boundary/predicate | A | valid? → record + move toward better |
+| 3. Rotated / peak / converge | **B** | which side holds the answer → move there |
+
+**The don't-think procedure:** (1) name the family by the question at `mid`, (2) grab its template, (3) fill in the one decision rule.
 
 ---
 
@@ -66,3 +100,4 @@ else: right = mid                            # answer in left half (incl. mid)
 | 875 | Koko Eating Bananas | 2 boundary (on answer) | speed finishes in ≤ h hours | smaller (min that works) |
 | 981 | Time Based Key-Value Store | 2 boundary | `timestamp[mid] <= query` | larger (largest ≤ query) |
 | 34 | Find First and Last Position | 2 boundary | `nums[mid] == target` | first→left, last→right |
+| 162 | Find Peak Element | 3 converge (Template B) | `nums[mid] < nums[mid+1]`? uphill→right, else `right=mid` | toward higher neighbor |

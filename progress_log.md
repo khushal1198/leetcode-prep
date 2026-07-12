@@ -1517,6 +1517,19 @@ Daily journal of problems solved, learnings, and next steps.
 - First attempt over-engineered it (`left != 0` neighbor check + `nums[right]` post-check) → broke at index 0; the record-and-continue pattern is cleaner and edge-case-free
 - Bug: typo `rigth = mid - 1` → new var, right never changed → infinite loop
 
+**Binary search FRAMEWORK formalized (user request — no-think procedure):**
+- Created `binary_search_framework.md`: 3 families + 2 templates + per-problem log. Will tag EVERY binary-search problem going forward.
+- 3 families: (1) Exact, (2) Boundary/predicate, (3) Rotated/peak/converge
+- 2 templates: A = `while <=`, `mid±1`, `result` var (families 1&2); B = `while <`, `right=mid`, `return left` (family 3, no boundary guards)
+- Litmus test for template: at `mid`, do I get a VERDICT (judge mid itself → A) or only a DIRECTION (which way is better, mid might be the answer → B)?
+- User's sharp point: for Find Peak you CAN get a verdict by checking BOTH neighbors → then it's Template A (with boundary guards). So it's a CHOICE — B is just cleaner (guard-free). Both valid.
+
+**Bonus problem:**
+| 110 | Find Peak Element (#162) | BinarySearch | peak_finding | 5/10 | YES — redo 07-19 |
+- Family 3; solved via verdict/Template A (both-neighbor peak check with `at_boundary or comparison` guards), moving toward the higher neighbor on non-peak
+- Returns from INSIDE the loop (peak guaranteed) — no meaningful after-loop return
+- Clean alt is Template B: `while left < right`, `if nums[mid]<nums[mid+1]: left=mid+1 else: right=mid`, `return left` — no guards
+
 ---
 
 ## Problems to redo
