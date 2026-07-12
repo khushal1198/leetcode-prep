@@ -1530,6 +1530,14 @@ Daily journal of problems solved, learnings, and next steps.
 - Returns from INSIDE the loop (peak guaranteed) — no meaningful after-loop return
 - Clean alt is Template B: `while left < right`, `if nums[mid]<nums[mid+1]: left=mid+1 else: right=mid`, `return left` — no guards
 
+**Bonus problem (binary search on the answer):**
+| 111 | Capacity to Ship Packages in D Days (#1011) | BinarySearch | minimize_max | 4/10 | YES — redo 07-26 |
+- Family 2, Template A. Search space `[max(weights), sum(weights)]` (lower = heaviest package MUST fit; ceil(sum/days) is NOT a safe lower bound)
+- Feasibility = GREEDY simulation (not knapsack/DP): pack in order, new day when it won't fit, count days; `mid` valid if `daysNeeded(mid) <= D`
+- "better" = smaller capacity → on valid, record + `right = mid - 1`
+- Passed but via TWO canceling off-by-ones: `calculateDays` started `days=0` (undercount by 1) AND used `< D` instead of `<= D` → `(actual-1) < D` ⟺ `actual <= D`. Fixed both for clarity (days=1 start, `<=`)
+- User confirmed: structure/direction followed Template A correctly — only arithmetic was off. That's the goal: get family/template/direction right, rest is local cleanup
+
 ---
 
 ## Problems to redo
