@@ -1480,6 +1480,15 @@ Daily journal of problems solved, learnings, and next steps.
 - KEY realization: the loop treats equal values as SIBLING alternatives at a level; siblings are undone between tries, so when 1b is a sibling of 1a, 1a is NOT in used → skip. But 1b DEEPER (below a placed 1a) has 1a in used → allow
 - Intuition: the skip prevents launching a duplicate BRANCH from an equal sibling
 
+**LRU Cache review #1 (took 5 passes — classic LRU traps):**
+- Named a variable `Node` → shadowed the `Node` class → `Node(...)` crashed
+- `delete` decrementing size broke `get` (reorder shouldn't change size) — keep list ops (delete/put_first) PURE, do size in put/delete_lru
+- Eviction condition direction: evict only when `size == capacity AND key NOT in map` (new key), never on update
+- Size accounting: update = `-1` then `+1` (net 0); new-at-capacity = evict `-1` then `+1`; new = `+1`
+- `delete_lru` must `del map[node.key]` AND call `delete(node)` with ONE arg
+- On update, must actually apply the new value — reused old node kept old val; fix = create a fresh `Node(key, value)`
+- Retry 07-19 (repeat until fluent)
+
 ---
 
 ## Problems to redo

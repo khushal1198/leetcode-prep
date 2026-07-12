@@ -167,7 +167,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | pending |
-| LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | pending |
+| LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
+| LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | pending |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
