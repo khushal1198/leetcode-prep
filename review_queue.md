@@ -24,7 +24,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-26 | 2026-05-30 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-30 | 2026-06-05 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-06-06 | 2026-06-22 | done |
-| Course Schedule II (#210) | Graphs | topological_sort | 2026-06-21 | 2026-07-12 | pending |
+| Course Schedule II (#210) | Graphs | topological_sort | 2026-06-21 | 2026-07-12 | done |
+| Course Schedule II (#210) | Graphs | topological_sort | 2026-07-11 | 2026-09-11 | pending |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-22 | 2026-05-24 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-24 | 2026-05-28 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-22 | 2026-05-24 | done |
@@ -138,7 +139,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-20 | 2026-06-26 | done |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-26 | 2026-07-06 | done |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-07-06 | 2026-07-26 | pending |
-| Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-12 | pending |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-12 | done |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-07-11 | 2026-07-25 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | done |
@@ -161,11 +163,13 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | pending |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | pending |
-| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | pending |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | done |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | pending |
-| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | pending |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | done |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |

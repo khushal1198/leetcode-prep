@@ -1458,5 +1458,29 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-11 — Day 62
+
+**Reviews: 4** (Combination Sum, Course Schedule II, Subsets II, Permutations II)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Combination Sum (#39) | Backtracking | combination_sum | — | clean, retry 07-25 |
+| R | Course Schedule II (#210) | Graphs | topological_sort | — | clean, retry 09-11 |
+| R | Subsets II (#90) | Backtracking | dedup_backtracking | — | applied wrong pattern, retry 07-15 |
+| R | Permutations II (#47) | Backtracking | permutation_generation | — | deep dive on dedup, retry 07-15 |
+
+**Big learning — start-index vs used-array (which pattern?):**
+- Subsets II: initially used the PERMUTATION approach (used-set, full range) — wrong. Subsets need a START index (forward-only) because ORDER DOESN'T MATTER
+- Rule: does order matter? No → subset/combo → `start` index. Yes → permutation → `used` array
+- Also forgot `nums.sort()` (dedup needs adjacent duplicates)
+
+**Permutations II — understood the dedup deeply (via full recursion trace + ASCII tree):**
+- Two skip conditions: (1) `if i in used: continue` (no reuse), (2) `if i > 0 and nums[i]==nums[i-1] and (i-1) not in used: continue` (dedup)
+- The dedup enforces: equal elements always placed in index order (1a before 1b)
+- KEY realization: the loop treats equal values as SIBLING alternatives at a level; siblings are undone between tries, so when 1b is a sibling of 1a, 1a is NOT in used → skip. But 1b DEEPER (below a placed 1a) has 1a in used → allow
+- Intuition: the skip prevents launching a duplicate BRANCH from an equal sibling
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11
