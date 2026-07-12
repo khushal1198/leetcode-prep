@@ -36,6 +36,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 - `review_queue.md` — problems to redo (spaced repetition)
 - `patterns/` — 21 study guides with problem tables and checkboxes
 - `learning_graph.json` — source of truth for all problem data
+- `binary_search_framework.md` — the 3 binary-search families + per-problem log
 
 ## Started
 
