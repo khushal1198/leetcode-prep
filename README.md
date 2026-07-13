@@ -18,7 +18,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DynamicProgramming | 8 | 392 | linear_dp, knapsack, expand_around_center, multi_state_dp |
 | Greedy | 5 | 331 | stock_trading, interval_merge, interval_scheduling, cooldown_scheduling |
 | Backtracking | 9 | 69 | subset_enumeration, permutation_generation, combination_generation, grid_backtracking, combination_sum, dedup_backtracking |
-| Heap | 6 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue, two_heaps_median |
+| Heap | 7 | 66 | top_k_elements, top_k_frequent, simulation_heap, design_priority_queue, two_heaps_median, merge_k_sorted |
 | String | 1 | 124 | expand_around_center |
 | Math | 0 | 129 | |
 | BitManipulation | 2 | 131 | xor_cancellation, bit_counting |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 112 / 2733**
+**Total: 113 / 2733**
 
 ## Key Files
 

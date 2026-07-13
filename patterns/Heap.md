@@ -262,7 +262,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | 7/10 | 59.5% | [ ] |
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | 7/10 | 59.5% | [x] |
 | 632 | [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/) | Hard | 8/10 | 70.1% | [ ] |
 
 ## k_way_merge

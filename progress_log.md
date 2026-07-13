@@ -1545,6 +1545,15 @@ Daily journal of problems solved, learnings, and next steps.
 - Analogy: packing k-per-box → `// k` = which box, `% k` = slot; box size (ncols) is all you need
 - Bug: inverted directions (`right = mid + 1` on `val < target`) — Family 1 is standard: `val < target → left = mid+1`, else `right = mid-1`
 
+**Bonus problem (heap + linked list — switched off binary search):**
+| 113 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 7/10 | YES — redo 08-01 |
+- Min-heap of one node per list; pop smallest → attach to result → push its `.next`. Heap always yields the global min
+- PYTHON WRINKLE: `ListNode` isn't comparable, so on equal `.val` heapq would compare nodes → TypeError. Push a TUPLE `(val, tiebreaker, node)` so it never reaches the node
+- Learned: tuples compare LEXICOGRAPHICALLY (element by element, stop at first difference) — like alphabetizing
+- Tiebreaker must be UNIQUE + comparable. Counter = unique by construction (best); `random.random()` = unique in practice (passes, tiny collision risk) but not guaranteed
+- Re-stitches existing nodes (no new nodes); dummy head for clean building
+- Bugs: `head = resultList.next` (None → crash; use dummy itself), forgot to unpack tuple (`[2]` or `val,_,node =`), missing `heap` arg in heappush, null guards on empty lists + `node.next`
+
 ---
 
 ## Problems to redo
