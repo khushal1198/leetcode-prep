@@ -1538,6 +1538,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Passed but via TWO canceling off-by-ones: `calculateDays` started `days=0` (undercount by 1) AND used `< D` instead of `<= D` → `(actual-1) < D` ⟺ `actual <= D`. Fixed both for clarity (days=1 start, `<=`)
 - User confirmed: structure/direction followed Template A correctly — only arithmetic was off. That's the goal: get family/template/direction right, rest is local cleanup
 
+**Bonus problem (2D → 1D flatten):**
+| 112 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 4/10 | YES — redo 08-02 |
+- Family 1 exact, Template A. Treat matrix as ONE sorted 1D array of length m*n
+- Convert flat `mid` → `row = mid // ncols`, `col = mid % ncols`. Only NCOLS needed for the mapping (row width); NROWS only sets the boundary `right = m*n - 1`
+- Analogy: packing k-per-box → `// k` = which box, `% k` = slot; box size (ncols) is all you need
+- Bug: inverted directions (`right = mid + 1` on `val < target`) — Family 1 is standard: `val < target → left = mid+1`, else `right = mid-1`
+
 ---
 
 ## Problems to redo
