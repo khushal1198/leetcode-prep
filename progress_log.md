@@ -1554,6 +1554,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Re-stitches existing nodes (no new nodes); dummy head for clean building
 - Bugs: `head = resultList.next` (None → crash; use dummy itself), forgot to unpack tuple (`[2]` or `val,_,node =`), missing `heap` arg in heappush, null guards on empty lists + `node.next`
 
+**Bonus problem (stack):**
+| 114 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 4/10 | YES — redo 08-12 |
+- Postfix eval with a stack: number → push; operator → pop 2, apply, push result
+- Pop ORDER: first popped = RIGHT operand, second = LEFT (matters for `-` and `/`)
+- Check `token in {"+","-","*","/"}` (is-operator) rather than "is-number" — `.isdigit()` fails on negatives like "-5"
+- Division must truncate TOWARD ZERO → `int(left / right)`, NOT `//` (`//` floors toward -inf; wrong for negatives, e.g. `6 // -132 == -1` but answer is 0)
+
 ---
 
 ## Problems to redo

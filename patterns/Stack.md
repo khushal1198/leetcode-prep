@@ -300,7 +300,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | 4/10 | 57.7% | [ ] |
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | 4/10 | 57.7% | [x] |
 | 439 | [Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/) :lock: | Medium | 5/10 | 62.6% | [ ] |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | Medium | 5/10 | 46.9% | [ ] |
 | 1106 | [Parsing A Boolean Expression](https://leetcode.com/problems/parsing-a-boolean-expression/) | Hard | 7/10 | 69.8% | [ ] |
