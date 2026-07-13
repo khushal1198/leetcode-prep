@@ -1563,5 +1563,21 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
+## 2026-07-13 — Day 64 (done early, evening of 07-12)
+
+**Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | — | had a bug, retry 08-12 |
+
+**Bug + concept (Min Cost Climbing Stairs):**
+- `dp[1] = min(cost[0], cost[1])` is WRONG → should be `dp[1] = cost[1]`
+- `dp[i]` = min cost to STAND ON step i (paying cost[i] to be there). To be on step 1 you always pay cost[1]; you can start directly on step 1, so cost[1] is the cheapest
+- User's misconception: "pay cost[0] and be on index 1" — no, cost[0] puts you ON step 0. Reaching step 1 via step 0 = cost[0]+cost[1] (more than starting at 1)
+- Fails on cost=[10,15,20]: buggy → 10, correct → 15
+
+---
+
 ## Problems to redo
 - Move Zeroes (#283) — review done 2026-05-11

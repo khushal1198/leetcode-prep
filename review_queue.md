@@ -45,7 +45,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-09 | 2026-06-23 | done |
-| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-23 | 2026-07-13 | pending |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-23 | 2026-07-13 | done |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-07-12 | 2026-08-12 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-24 | 2026-05-28 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-28 | 2026-06-07 | done |
