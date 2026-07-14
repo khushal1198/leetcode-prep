@@ -387,5 +387,5 @@
 |---|---------|------------|-------|------------|--------|
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Medium | 5/10 | 60.0% | [x] |
 | 3584 | [Maximum Product of First and Last Elements of a Subsequence](https://leetcode.com/problems/maximum-product-of-first-and-last-elements-of-a-subsequence/) | Medium | 6/10 | 31.5% | [ ] |
-| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | 8/10 | 67.3% | [ ] |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | 8/10 | 67.3% | [x] |
 | 1793 | [Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/) | Hard | 8/10 | 64.2% | [ ] |

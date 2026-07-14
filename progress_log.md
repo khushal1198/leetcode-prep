@@ -1594,6 +1594,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Find Min in Rotated: user's version is a HYBRID (`while <=` + record/break [A-style] mixed with `right = mid` [B-style]). Works but mixes templates. Framework's clean Family-3 form is pure Template B: `while left < right`, `if nums[mid] > nums[right]: left=mid+1 else: right=mid`, `return nums[left]`
 - `Counter.most_common(k)` → list of `(element, count)` tuples sorted by count desc; `[0][0]` = top element. No-arg sorts all; ties keep insertion order
 
+**Fresh problem (Trapping Rain Water #42):**
+| 115 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 8/10 | YES — redo 07-20 |
+- Per-position water: `min(maxLeft[i], maxRight[i]) - height[i]` (water rises to the SHORTER of the two tallest walls)
+- Approach 2 (done): precompute `maxLeft` (L→R running max) + `maxRight` (R→L running max), then sum. O(n) time, O(n) space
+- Bug: `maxRight = height[...]` reassigned the LIST to an int → should index `maxRight[n-1] = height[n-1]`
+- TODO next review: the O(1)-space TWO-POINTER version (advance the pointer on the shorter side, track runningMaxLeft/Right) — NOT yet covered
+
 ---
 
 ## Problems to redo
