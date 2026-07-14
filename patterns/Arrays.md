@@ -166,7 +166,7 @@
 | 531 | [Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i/) :lock: | Medium | 4/10 | 62.7% | [ ] |
 | 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | Medium | 4/10 | 61.1% | [ ] |
 | 885 | [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/) | Medium | 5/10 | 84.5% | [ ] |
-| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | 5/10 | 80.0% | [ ] |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | 5/10 | 80.0% | [x] |
 | 2257 | [Count Unguarded Cells in the Grid](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/) | Medium | 5/10 | 69.0% | [ ] |
 | 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | Medium | 5/10 | 67.1% | [ ] |
 | 3078 | [Match Alphanumerical Pattern in Matrix I](https://leetcode.com/problems/match-alphanumerical-pattern-in-matrix-i/) :lock: | Medium | 5/10 | 64.7% | [ ] |

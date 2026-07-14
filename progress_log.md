@@ -1601,6 +1601,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Bug: `maxRight = height[...]` reassigned the LIST to an int → should index `maxRight[n-1] = height[n-1]`
 - TODO next review: the O(1)-space TWO-POINTER version (advance the pointer on the shorter side, track runningMaxLeft/Right) — NOT yet covered
 
+**Fresh problem (Rotate Image #48):**
+| 116 | Rotate Image (#48) | Arrays | matrix_simulation | 5/10 | YES — redo 08-28 |
+- 90° clockwise = TRANSPOSE then REVERSE each row. (counterclockwise = transpose then reverse each COLUMN)
+- Transpose = swap `[i][j] ↔ [j][i]` over ONE triangle only (upper `j in range(i+1,n)` OR lower `j in range(i)`) — both loops = double-swap = undo
+- User's direct mapping `(r,c)→(c,n-1-r)` is CORRECT, but rotation moves elements in 4-CYCLES, so a 2-element swap loses data; direct in-place needs a 4-way rotate over a quadrant (harder). Transpose+reverse is the easy route
+- Gotcha: in-place methods (`.reverse()`, `.sort()`) return None → never `x = x.reverse()`. Worked here only because the mutation already happened
+
 ---
 
 ## Problems to redo
