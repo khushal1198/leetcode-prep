@@ -1577,6 +1577,23 @@ Daily journal of problems solved, learnings, and next steps.
 - User's misconception: "pay cost[0] and be on index 1" — no, cost[0] puts you ON step 0. Reaching step 1 via step 0 = cost[0]+cost[1] (more than starting at 1)
 - Fails on cost=[10,15,20]: buggy → 10, correct → 15
 
+## 2026-07-13 — Day 64 cont. (pulled July-14 batch forward)
+
+**Reviews: 6** (all clean/correct)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | valid hybrid (mixed A/B), retry 08-06 |
+| R | House Robber II (#213) | DynamicProgramming | linear_dp | — | clean, retry 08-28 |
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | clean, retry 08-23 |
+| R | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | — | clean, retry 08-25 |
+| R | Longest Repeating Char Replacement (#424) | SlidingWindow | replacement_budget | — | passes (still over-engineered), retry 07-20 |
+| R | Majority Element (#169) | Arrays | frequency_counting | — | clean, retry 07-27 |
+
+**Notes:**
+- Find Min in Rotated: user's version is a HYBRID (`while <=` + record/break [A-style] mixed with `right = mid` [B-style]). Works but mixes templates. Framework's clean Family-3 form is pure Template B: `while left < right`, `if nums[mid] > nums[right]: left=mid+1 else: right=mid`, `return nums[left]`
+- `Counter.most_common(k)` → list of `(element, count)` tuples sorted by count desc; `[0][0]` = top element. No-arg sorts all; ties keep insertion order
+
 ---
 
 ## Problems to redo

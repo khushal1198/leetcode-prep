@@ -52,7 +52,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-28 | 2026-06-07 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-07 | 2026-06-25 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-25 | 2026-06-26 | done |
-| Subsets (#78) | Backtracking | subset_enumeration | 2026-06-27 | 2026-07-14 | pending |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-06-27 | 2026-07-14 | done |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-07-13 | 2026-08-23 | pending |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-25 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-06 | done |
@@ -71,7 +72,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-06-10 | 2026-06-24 | done |
-| House Robber II (#213) | DynamicProgramming | linear_dp | 2026-06-24 | 2026-07-14 | pending |
+| House Robber II (#213) | DynamicProgramming | linear_dp | 2026-06-24 | 2026-07-14 | done |
+| House Robber II (#213) | DynamicProgramming | linear_dp | 2026-07-13 | 2026-08-28 | pending |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-05-31 | 2026-06-04 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-04 | 2026-06-11 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-11 | 2026-06-25 | done |
@@ -120,7 +122,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-08 | 2026-06-12 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-27 | 2026-07-02 | done |
-| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-04 | 2026-07-14 | pending |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-04 | 2026-07-14 | done |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-12 | 2026-08-06 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | pending |
@@ -136,7 +139,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-07-10 | 2026-08-11 | pending |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-24 | done |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-24 | 2026-06-30 | done |
-| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-30 | 2026-07-14 | pending |
+| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-30 | 2026-07-14 | done |
+| LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-07-13 | 2026-08-25 | pending |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-20 | 2026-06-26 | done |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-26 | 2026-07-06 | done |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-07-06 | 2026-07-26 | pending |
@@ -145,7 +149,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | done |
-| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-07 | 2026-07-14 | pending |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-07 | 2026-07-14 | done |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-13 | 2026-07-20 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
@@ -160,7 +165,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-29 | 2026-07-20 | pending |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | done |
-| Majority Element (#169) | Arrays | frequency_counting | 2026-07-07 | 2026-07-14 | pending |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-07-07 | 2026-07-14 | done |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-07-13 | 2026-07-27 | pending |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | pending |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | pending |
