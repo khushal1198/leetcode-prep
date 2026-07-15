@@ -1610,5 +1610,18 @@ Daily journal of problems solved, learnings, and next steps.
 
 ---
 
-## Problems to redo
-- Move Zeroes (#283) — review done 2026-05-11
+## 2026-07-14 — Day 65
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 117 | Reorder List (#143) | LinkedList | list_restructuring | 6/10 | YES — redo 07-17 (low confidence) |
+
+**Patterns learned (Reorder List = composition of 3 LL techniques):**
+- Step 1: find middle with fast/slow (`while fast.next and fast.next.next`)
+- Step 2: split (`second = slow.next; slow.next = None`) then REVERSE second half
+- Step 3: weave alternately — save both `.next`s before relinking (LL golden rule)
+- Weave condition: `while second:` (2nd half is ≤ 1st half, runs out first); no counter needed
+- Bugs: `fast = fast.next` should be `fast.next.next` (fast must move 2x); wove over `second` (now the reversed TAIL) instead of the reversed HEAD — fix by reassigning `second = reverseList(second)`
+- Reverse LL rhythm: save next → reverse link → move prev → move head; return prev. Bug was forgetting `prev = head` (prev stayed None)

@@ -200,7 +200,7 @@
 | 725 | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/) | Medium | 5/10 | 70.5% | [ ] |
 | 2046 | [Sort Linked List Already Sorted Using Absolute Values](https://leetcode.com/problems/sort-linked-list-already-sorted-using-absolute-values/) :lock: | Medium | 5/10 | 67.1% | [ ] |
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | 5/10 | 42.5% | [ ] |
-| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | 6/10 | 65.2% | [ ] |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | 6/10 | 65.2% | [x] |
 
 ## arithmetic_on_list
 

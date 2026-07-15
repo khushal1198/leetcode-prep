@@ -10,7 +10,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | TwoPointers | 12 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition, three_sum, container, floyd_cycle, trapping_water |
 | Stack | 6 | 100 | bracket_matching, stack_as_queue, monotonic_stack, min_stack, expression_evaluation |
 | BinarySearch | 9 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer, boundary_search, peak_finding, minimize_max, matrix_search |
-| LinkedList | 4 | 53 | reversal, fast_slow_pointers, merge_lists |
+| LinkedList | 5 | 53 | reversal, fast_slow_pointers, merge_lists, list_restructuring |
 | Arrays | 3 | 224 | prefix_suffix_products, frequency_counting, matrix_simulation |
 | SlidingWindow | 5 | 98 | fixed_window, variable_window, variable_window_unique_elements, replacement_budget |
 | Trees | 16 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor, binary_tree_dp, inorder_traversal, pass_down_state |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 116 / 2733**
+**Total: 117 / 2733**
 
 ## Key Files
 
