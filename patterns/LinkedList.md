@@ -52,7 +52,7 @@
 |---|---------|------------|-------|------------|--------|
 | 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | 3/10 | 63.7% | [ ] |
 | 1721 | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | Medium | 4/10 | 69.4% | [ ] |
-| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | 4/10 | 51.5% | [ ] |
+| 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | 4/10 | 51.5% | [x] |
 
 ## merge_lists
 

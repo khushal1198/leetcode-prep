@@ -1625,3 +1625,10 @@ Daily journal of problems solved, learnings, and next steps.
 - Weave condition: `while second:` (2nd half is ≤ 1st half, runs out first); no counter needed
 - Bugs: `fast = fast.next` should be `fast.next.next` (fast must move 2x); wove over `second` (now the reversed TAIL) instead of the reversed HEAD — fix by reassigning `second = reverseList(second)`
 - Reverse LL rhythm: save next → reverse link → move prev → move head; return prev. Bug was forgetting `prev = head` (prev stayed None)
+
+**Bonus problem (Remove Nth Node From End #19):**
+| 118 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 4/10 | YES — redo 07-22 |
+- Two-pointer GAP: open an n-gap between fast & slow, then advance both till fast hits the end → slow lands on the target's PREDECESSOR (one pass, no length count)
+- User's formulation: fast moves n steps, then `while fast.next: advance both` (stops fast at last node) — equivalent to n+1 steps + `while fast`
+- DUMMY head handles the remove-first-node edge case (n == length) with no special case → `slow` stays at dummy, `dummy.next = dummy.next.next`
+- Clean first try — the two-pass (count length, walk length-n) also valid; one-pass is the "impressive" answer
