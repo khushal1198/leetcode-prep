@@ -169,7 +169,7 @@
 | 3063 | [Linked List Frequency](https://leetcode.com/problems/linked-list-frequency/) :lock: | Easy | 1/10 | 85.4% | [ ] |
 | 1836 | [Remove Duplicates From an Unsorted Linked List](https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/) :lock: | Medium | 4/10 | 75.7% | [ ] |
 | 817 | [Linked List Components](https://leetcode.com/problems/linked-list-components/) | Medium | 4/10 | 57.9% | [ ] |
-| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium | 6/10 | 62.8% | [ ] |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium | 6/10 | 62.8% | [x] |
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | Medium | 7/10 | 53.2% | [ ] |
 
 ## list_restructuring

@@ -1632,3 +1632,11 @@ Daily journal of problems solved, learnings, and next steps.
 - User's formulation: fast moves n steps, then `while fast.next: advance both` (stops fast at last node) — equivalent to n+1 steps + `while fast`
 - DUMMY head handles the remove-first-node edge case (n == length) with no special case → `slow` stays at dummy, `dummy.next = dummy.next.next`
 - Clean first try — the two-pass (count length, walk length-n) also valid; one-pass is the "impressive" answer
+
+**Bonus problem (Copy List with Random Pointer #138):**
+| 119 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 6/10 | YES — redo 09-14 |
+- Deep copy via `{original node → copy}` map (same idea as Clone Graph)
+- Pass 1: create ALL copy nodes + map them (pointers not set). Pass 2: wire `copy.next` and `copy.random` via map lookups
+- Why 2 passes: `random` can point to a node not yet created; after Pass 1 every copy exists, so any lookup succeeds
+- Use `map.get(x)` (not `map[x]`) for pointer lookups — `.get(None)` returns None cleanly (next/random can be None); also `map.get(head)` handles empty list
+- Bug: `origHead = origHead.next` was indented INSIDE the `if random` block → nodes without a random never advanced → infinite loop
