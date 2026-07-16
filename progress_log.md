@@ -1640,3 +1640,11 @@ Daily journal of problems solved, learnings, and next steps.
 - Why 2 passes: `random` can point to a node not yet created; after Pass 1 every copy exists, so any lookup succeeds
 - Use `map.get(x)` (not `map[x]`) for pointer lookups — `.get(None)` returns None cleanly (next/random can be None); also `map.get(head)` handles empty list
 - Bug: `origHead = origHead.next` was indented INSIDE the `if random` block → nodes without a random never advanced → infinite loop
+
+**Bonus problem (Valid Sudoku #36):**
+| 120 | Valid Sudoku (#36) | Hashing | matrix_set_validation | 5/10 | YES — redo 07-29 |
+- One `seen` set with COMPOSITE keys tagging location: `row-{r}-{d}`, `col-{c}-{d}`, `box-{r//3}-{c//3}-{d}`
+- Box index trick: `(r//3, c//3)` maps a cell to its 3×3 box (0-2, 0-2)
+- Keys can be tuples OR f-strings (both hashable); f-strings need separators to stay unambiguous (fine here, single digits)
+- f-string syntax taught: `f"row-{r}-{d}"` → `{}` embeds the variable/expression value
+- Passed despite a typo (box key prefixed `"column-"`) — only worked because box key has an extra segment so it can't string-collide with column keys; renamed to `"box-"` for clarity

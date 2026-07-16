@@ -306,7 +306,7 @@
 |---|---------|------------|-------|------------|--------|
 | 2352 | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/) | Medium | 5/10 | 70.9% | [ ] |
 | 311 | [Sparse Matrix Multiplication](https://leetcode.com/problems/sparse-matrix-multiplication/) :lock: | Medium | 5/10 | 69.3% | [ ] |
-| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | 5/10 | 64.5% | [ ] |
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | 5/10 | 64.5% | [x] |
 | 356 | [Line Reflection](https://leetcode.com/problems/line-reflection/) :lock: | Medium | 5/10 | 36.3% | [ ] |
 
 ## modular_arithmetic_hash
