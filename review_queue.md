@@ -60,7 +60,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutations (#46) | Backtracking | permutation_generation | 2026-07-06 | 2026-08-11 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-28 | 2026-06-07 | done |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
-| House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-15 | pending |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-15 | done |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-07-15 | 2026-08-15 | pending |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-28 | 2026-06-08 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-08 | 2026-06-25 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-25 | 2026-07-25 | pending |
@@ -171,8 +172,10 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | pending |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | pending |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | done |
-| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | pending |
-| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | pending |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | done |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | pending |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | pending |
@@ -190,7 +193,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
 | Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-14 | 2026-07-29 | pending |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | done |
-| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | pending |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | done |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-15 | 2026-07-22 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |

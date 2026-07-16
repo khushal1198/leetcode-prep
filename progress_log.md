@@ -1648,3 +1648,22 @@ Daily journal of problems solved, learnings, and next steps.
 - Keys can be tuples OR f-strings (both hashable); f-strings need separators to stay unambiguous (fine here, single digits)
 - f-string syntax taught: `f"row-{r}-{d}"` → `{}` embeds the variable/expression value
 - Passed despite a typo (box key prefixed `"column-"`) — only worked because box key has an extra segment so it can't string-collide with column keys; renamed to `"box-"` for clarity
+
+---
+
+## 2026-07-15 — Day 66
+
+**Reviews: 4** (dedup-backtracking deep understanding)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | House Robber (#198) | DynamicProgramming | linear_dp | — | clean, retry 08-15 |
+| R | Subsets II (#90) | Backtracking | dedup_backtracking | — | clean (usedIndex-style), retry 07-29 |
+| R | Combination Sum II (#40) | Backtracking | combination_sum | — | clean, retry 07-25 |
+| R | Permutations II (#47) | Backtracking | permutation_generation | — | clean, retry 07-22 |
+
+**Big conceptual consolidation — dedup backtracking (subsets/combos vs permutations):**
+- Subsets/combinations are FORWARD-ONLY (start `index`, recurse `i+1`). Invariant: the path only holds indices `< index`, so `i > index` ⟺ `(i-1) not in used`. So `i > index` alone is the dedup — no `used` set needed.
+- Permutations have NO start index (loop `0..n`), so you MUST track `used` for two things: (1) `if i in used: continue` (no reuse), (2) dedup `i>0 and nums[i]==nums[i-1] and (i-1) not in used`.
+- Unifying rule: skip a duplicate ONLY when its equal twin is a SIBLING (already tried at this level, not in path), never when it's an ANCESTOR/continuation. First occurrence at a level (`i == index`) = allowed; later equal sibling (`i > index`) = skip.
+- User reasoned out the same-level(skip) vs deeper(allow) distinction themselves — `[1,1]` still builds because after picking the first 1, `index` advances so the second 1 is `i == index`
