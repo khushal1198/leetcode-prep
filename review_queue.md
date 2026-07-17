@@ -170,7 +170,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-13 | 2026-07-27 | pending |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | pending |
-| Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | pending |
+| Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | done |
+| Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-16 | 2026-10-16 | pending |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | pending |
@@ -180,7 +181,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | pending |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | pending |
-| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | pending |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | pending |

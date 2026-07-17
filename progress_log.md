@@ -1667,3 +1667,19 @@ Daily journal of problems solved, learnings, and next steps.
 - Permutations have NO start index (loop `0..n`), so you MUST track `used` for two things: (1) `if i in used: continue` (no reuse), (2) dedup `i>0 and nums[i]==nums[i-1] and (i-1) not in used`.
 - Unifying rule: skip a duplicate ONLY when its equal twin is a SIBLING (already tried at this level, not in path), never when it's an ANCESTOR/continuation. First occurrence at a level (`i == index`) = allowed; later equal sibling (`i > index`) = skip.
 - User reasoned out the same-level(skip) vs deeper(allow) distinction themselves — `[1,1]` still builds because after picking the first 1, `index` advances so the second 1 is `i == index`
+
+---
+
+## 2026-07-16 — Day 67
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Count Good Nodes (#1448) | Trees | pass_down_state | — | clean, retry 10-16 |
+| R | Find First and Last Position (#34) | BinarySearch | boundary_search | — | mixed templates first, retry 07-23 |
+
+**Notes:**
+- Count Good Nodes: clean; putting `maxSoFar = max(maxSoFar, node.val)` inside the `if node.val >= maxSoFar` block still works (only matters when node.val is the new max anyway)
+- Find First/Last: first attempt MIXED templates (`while <=` with `right = mid`, and `while <` with `left = mid`) → infinite-loop risk + syntax slips. Corrected to record-based Template A: `result` var, `mid ± 1`, on match record + bias direction (left→`right=mid-1`, right→`left=mid+1`). The two searches are identical except that ONE line
+- Reinforced: for first/last boundaries, record-based Template A is safer than the record-less Template B (easy to mismatch loop condition)
