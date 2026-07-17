@@ -1683,3 +1683,15 @@ Daily journal of problems solved, learnings, and next steps.
 - Count Good Nodes: clean; putting `maxSoFar = max(maxSoFar, node.val)` inside the `if node.val >= maxSoFar` block still works (only matters when node.val is the new max anyway)
 - Find First/Last: first attempt MIXED templates (`while <=` with `right = mid`, and `while <` with `left = mid`) → infinite-loop risk + syntax slips. Corrected to record-based Template A: `result` var, `mid ± 1`, on match record + bias direction (left→`right=mid-1`, right→`left=mid+1`). The two searches are identical except that ONE line
 - Reinforced: for first/last boundaries, record-based Template A is safer than the record-less Template B (easy to mismatch loop condition)
+
+**Bonus problem (Single Element in a Sorted Array #540):**
+| 121 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 4/10 | YES — redo 07-20 |
+- Family 3 / Template B. XOR would be O(n) — problem wants O(log n) → binary search
+- PARITY-PAIRING insight: before the single element, pairs align at even indices (`nums[even]==nums[even+1]`); after, they shift to odd. Force `mid` even, check `nums[mid]==nums[mid+1]`: intact → single is RIGHT (`left=mid+2`); broken → single at mid or LEFT (`right=mid`)
+- The decision is POSITIONAL (index parity + neighbor), NOT value-based — user first tried `nums[mid] > mid//2` which fails since values are arbitrary (only sorted+paired)
+
+**KEY meta-lesson locked in — how to pick `<` vs `<=`:** it's decided by the MOVES, not chosen in isolation:
+- Keep `mid` (`right = mid`) → MUST use `while left < right`, `return nums[left]` (Template B)
+- Always step past `mid` (`mid ± 1`) → `while left <= right` + `result` var (Template A)
+- Mixing breaks: `<=` + `right=mid` → infinite loop; `<` + `mid-1` → skips answer
+- Decide the MOVE first ("could mid be the answer?" keep it / "judged mid" discard it), loop condition follows automatically

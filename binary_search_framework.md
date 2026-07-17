@@ -103,3 +103,4 @@ Template B's `left < right` guarantees `mid+1` is in bounds → no boundary guar
 | 162 | Find Peak Element | 3 converge (Template B) | `nums[mid] < nums[mid+1]`? uphill→right, else `right=mid` | toward higher neighbor |
 | 1011 | Capacity to Ship Packages in D Days | 2 boundary/predicate (A) | `daysNeeded(mid) <= D` (greedy sim); search `[max(w), sum(w)]` | smaller (min capacity that works) |
 | 74 | Search a 2D Matrix | 1 exact (A) | flatten to 1D: search `0..m*n-1`, `row=mid//n`, `col=mid%n` | — |
+| 540 | Single Element in a Sorted Array | 3 converge (Template B) | force `mid` even; `nums[mid]==nums[mid+1]`? intact→`left=mid+2`, broken→`right=mid` | toward the broken-pairing side |

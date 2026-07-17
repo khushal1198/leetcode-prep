@@ -183,6 +183,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | pending |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | pending |
+| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | pending |
