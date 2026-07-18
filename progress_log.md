@@ -1715,3 +1715,20 @@ Daily journal of problems solved, learnings, and next steps.
 - Execute-then-release order + `time += 1` at top → queue with `time + n`, release when `time == queued_time`; nets exactly n idle slots. Full dry run of `[A,A,A,B,B,B], n=2 → 8` (A B _ A B _ A B; A runs at 1,4,7)
 - Offset is a convention: queuing `t+n+1` would require releasing at `queued_time - 1` (the +1/-1 cancel) — cleaner to keep `t+n`. VERIFY offset against the canonical example
 - Reorder List clean this time (was flagged shaky) — the composite find-middle+reverse+weave landed
+
+---
+
+## 2026-07-18 — Day 69
+
+**Problems solved: 1, Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | — | clean, retry 08-07 |
+| 122 | Jump Game (#55) | Greedy | jump_reachability | 4/10 | YES — redo 07-26 |
+
+**Patterns learned (Jump Game — greedy reachability):**
+- Track `farthest` = max reachable index in one L→R scan. At each `i`: if `i > farthest` → gap → return False; else `farthest = max(farthest, i + nums[i])`
+- CAN be backtracking (try all jumps) → O(2^n) TLE; DP → O(n²); greedy → O(n) optimal
+- Key: greedy doesn't commit to a jump path — `farthest` is a running max over ALL reachable stones, so a great INTERMEDIATE stone is automatically counted (user's worry about "better in-between choice" resolved). You never simulate paths, only track how far you could get
+- Bug: `max(canReach, nums[i])` should be `max(canReach, i + nums[i])` — nums[i] is jump LENGTH, reach is position + length

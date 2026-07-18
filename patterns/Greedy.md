@@ -462,7 +462,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | Easy | 2/10 | 57.9% | [ ] |
-| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | 4/10 | 40.8% | [ ] |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | 4/10 | 40.8% | [x] |
 | 1024 | [Video Stitching](https://leetcode.com/problems/video-stitching/) | Medium | 5/10 | 52.7% | [ ] |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | 5/10 | 42.8% | [ ] |
 | 3282 | [Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/) | Medium | 6/10 | 33.6% | [ ] |
