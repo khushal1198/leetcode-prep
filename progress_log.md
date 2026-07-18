@@ -1695,3 +1695,23 @@ Daily journal of problems solved, learnings, and next steps.
 - Always step past `mid` (`mid ± 1`) → `while left <= right` + `result` var (Template A)
 - Mixing breaks: `<=` + `right=mid` → infinite loop; `<` + `mid-1` → skips answer
 - Decide the MOVE first ("could mid be the answer?" keep it / "judged mid" discard it), loop condition follows automatically
+
+---
+
+## 2026-07-17 — Day 68
+
+**Reviews: 3** (Find the Duplicate deferred to 07-18)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Number of 1 Bits (#191) | BitManipulation | bit_counting | — | clean, retry 08-07 |
+| R | Reorder List (#143) | LinkedList | list_restructuring | — | CLEAN this time (was shaky), retry 07-25 |
+| R | Task Scheduler (#621) | Greedy | cooldown_scheduling | — | fixed, retry 07-24 |
+
+**Task Scheduler — deep timing understanding:**
+- Bug: re-push to heap was OUTSIDE the `if time == timeToSchedule` block → ran every iteration → corruption. Pop-from-queue and push-to-heap must be ONE unit inside the cooldown-done check
+- Also: drop the `freq > 1` guard on the re-push — queue stores REMAINING count (≥1), always re-add
+- Model clarified: queue = "waiting room" (who's cooling down + until when); heap = "ready pool" (available now, most-frequent-first). Coming off queue = AVAILABLE again (→heap), NOT executed. Execution happens on a later heap-pop
+- Execute-then-release order + `time += 1` at top → queue with `time + n`, release when `time == queued_time`; nets exactly n idle slots. Full dry run of `[A,A,A,B,B,B], n=2 → 8` (A B _ A B _ A B; A runs at 1,4,7)
+- Offset is a convention: queuing `t+n+1` would require releasing at `queued_time - 1` (the +1/-1 cancel) — cleaner to keep `t+n`. VERIFY offset against the canonical example
+- Reorder List clean this time (was flagged shaky) — the composite find-middle+reverse+weave landed

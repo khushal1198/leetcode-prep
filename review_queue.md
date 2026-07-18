@@ -89,7 +89,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-09 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-23 | 2026-06-28 | done |
-| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-28 | 2026-07-18 | pending |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-28 | 2026-07-18 | done |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-07-17 | 2026-07-24 | pending |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | done |
@@ -130,7 +131,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | pending |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | done |
-| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-07 | 2026-07-17 | pending |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-07 | 2026-07-17 | done |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-17 | 2026-08-07 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-30 | 2026-08-14 | pending |
@@ -191,7 +193,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
-| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | pending |
+| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
+| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
 | Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-14 | 2026-07-29 | pending |
