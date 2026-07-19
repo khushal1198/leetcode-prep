@@ -464,7 +464,7 @@
 | 2027 | [Minimum Moves to Convert String](https://leetcode.com/problems/minimum-moves-to-convert-string/) | Easy | 2/10 | 57.9% | [ ] |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | Medium | 4/10 | 40.8% | [x] |
 | 1024 | [Video Stitching](https://leetcode.com/problems/video-stitching/) | Medium | 5/10 | 52.7% | [ ] |
-| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | 5/10 | 42.8% | [ ] |
+| 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Medium | 5/10 | 42.8% | [x] |
 | 3282 | [Reach End of Array With Max Score](https://leetcode.com/problems/reach-end-of-array-with-max-score/) | Medium | 6/10 | 33.6% | [ ] |
 | 1326 | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/) | Hard | 7/10 | 51.0% | [ ] |
 | 871 | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | Hard | 8/10 | 41.4% | [ ] |

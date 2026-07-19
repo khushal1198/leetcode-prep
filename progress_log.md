@@ -1732,3 +1732,20 @@ Daily journal of problems solved, learnings, and next steps.
 - CAN be backtracking (try all jumps) → O(2^n) TLE; DP → O(n²); greedy → O(n) optimal
 - Key: greedy doesn't commit to a jump path — `farthest` is a running max over ALL reachable stones, so a great INTERMEDIATE stone is automatically counted (user's worry about "better in-between choice" resolved). You never simulate paths, only track how far you could get
 - Bug: `max(canReach, nums[i])` should be `max(canReach, i + nums[i])` — nums[i] is jump LENGTH, reach is position + length
+
+---
+
+## 2026-07-19 — Day 70
+
+**Problems solved: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 123 | Jump Game II (#45) | Greedy | jump_levels | 5/10 | YES — redo 07-22 |
+
+**Patterns learned (Jump Game II — min jumps via BFS-like levels):**
+- Think in CHUNKS/levels: "indices reachable with 0 jumps" → "with 1 jump" → etc. Each chunk boundary costs +1 jump
+- Track 3 things: `jumps`, `currentEnd` (far edge of current chunk), `farthest` (best reach seen while scanning this chunk)
+- At each `i`: `farthest = max(farthest, i + nums[i])`; when `i == currentEnd` → `jumps += 1`, `currentEnd = farthest`
+- KEY INSIGHT (user figured out): `currentEnd` is a COUNTING marker, not where the jump physically happens — the real best launch is some earlier index already captured in `farthest`. Separates "where the jump helps" from "when we tally it"
+- Loop stops at `len(nums)-1`: you jump FROM positions, never from the destination. Including the last index over-counts (traced `[2,3,1,1,4]` → would give 3 instead of 2)
