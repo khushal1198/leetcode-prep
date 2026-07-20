@@ -1749,3 +1749,19 @@ Daily journal of problems solved, learnings, and next steps.
 - At each `i`: `farthest = max(farthest, i + nums[i])`; when `i == currentEnd` → `jumps += 1`, `currentEnd = farthest`
 - KEY INSIGHT (user figured out): `currentEnd` is a COUNTING marker, not where the jump physically happens — the real best launch is some earlier index already captured in `farthest`. Separates "where the jump helps" from "when we tally it"
 - Loop stops at `len(nums)-1`: you jump FROM positions, never from the destination. Including the last index over-counts (traced `[2,3,1,1,4]` → would give 3 instead of 2)
+
+**Reviews: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | — | result-init bug, retry 07-29 |
+| R | LRU Cache (#146) | Design | cache_design | — | 2 bugs, retry 08-02 |
+| R | Time Based Key-Value Store (#981) | Design | binary_search_versioned | — | set() bug, retry 07-29 |
+| R | Find Peak Element (#162) | BinarySearch | peak_finding | — | return bug, retry 08-02 |
+
+**Bugs + lessons:**
+- Koko: `result` var initialized to the MINIMUM (1) then `min()`'d → always returned 1. A minimize-search's result var must start HIGH (or use plain assignment — the template guarantees each recorded mid is smaller)
+- LRU: stray `and self.size != 1` broke capacity-1 caches (no eviction → size grew past capacity); missing `size -= 1` on update. ALSO: inlined the unlink/insert logic 3× — extract `remove(node)`/`addFirst(node)` helpers next rep
+- Time Map: `set` had the append INSIDE the `if key not in map` block → only the first value per key was ever stored. Also return `""` not -1/-inf
+- Find Peak: returned `nums[mid]` — should be `return left` (index, and `left` is where pointers converge; `mid` is stale/undefined for 1-element input)
+- TEMPLATE RULE restated & used well: discard mid → `mid±1` → `<=` → `result` var. Keep mid → `right = mid` → `<` → `return left`

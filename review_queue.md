@@ -158,7 +158,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
-| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-28 | 2026-07-19 | pending |
+| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-28 | 2026-07-19 | done |
+| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-07-19 | 2026-07-29 | pending |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-28 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-28 | 2026-08-28 | pending |
@@ -182,14 +183,17 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
-| LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | pending |
-| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | pending |
+| LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | done |
+| LRU Cache (#146) | Design | cache_design | 2026-07-19 | 2026-08-02 | pending |
+| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | done |
+| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-19 | 2026-07-29 | pending |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | pending |
-| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | pending |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | pending |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | pending |
