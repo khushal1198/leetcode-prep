@@ -335,7 +335,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | 5/10 | 47.9% | [ ] |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | 5/10 | 47.9% | [x] |
 
 ## two_pointer_greedy
 

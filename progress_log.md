@@ -1785,3 +1785,12 @@ Daily journal of problems solved, learnings, and next steps.
 - Single Element: nudged `mid` UP (`mid+1`) which can overflow the end → nudge DOWN (`mid-1`); and `left = mid+1` on intact pair should be `left = mid+2` (skip BOTH paired elements to preserve parity)
 - Trapping Rain Water: updated running max AFTER storing → `leftPass[i]` excluded `i` → negative water at tall boundary walls (e.g. `[2,0,1]` gave -1). Fix: update max BEFORE storing so `leftPass[i]`/`rightPass[i]` include `i` → never negative
 - Longest Consecutive: iterated the SET (not list) — the recurring bug that appeared 3× is now gone
+
+**Fresh problem (Gas Station #134 — greedy):**
+| 124 | Gas Station (#134) | Greedy | gas_station | 5/10 | YES — redo 07-24 |
+- Fact 1 (feasibility): a solution exists IFF `sum(gas) >= sum(cost)`; if so it's unique
+- Fact 2 (find start): sweep once tracking `tank` (gas since current candidate). When `tank < 0` at station i → current candidate AND everything up to i are doomed → `start = i+1`, `tank = 0`
+- Why skip the in-between: if start `s` reached station i before failing, any start between s and i had LESS gas there (no head start) → also fails
+- No wrap-around simulation needed: when total >= 0, the back-portion surplus mathematically covers the front-portion deficit, so the last surviving `start` completes the full circle
+- Two accumulators: `total` (never resets, for Fact 1) + `tank` (resets, for finding start). Return `start if total >= 0 else -1`
+- Bug: top guard was inverted (`sum(cost) < sum(gas) → -1`) — should be `sum(gas) < sum(cost)`; also that guard is redundant with the bottom `total >= 0` check

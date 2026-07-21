@@ -204,6 +204,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | pending |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | pending |
