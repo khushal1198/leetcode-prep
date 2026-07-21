@@ -1765,3 +1765,23 @@ Daily journal of problems solved, learnings, and next steps.
 - Time Map: `set` had the append INSIDE the `if key not in map` block → only the first value per key was ever stored. Also return `""` not -1/-inf
 - Find Peak: returned `nums[mid]` — should be `return left` (index, and `left` is where pointers converge; `mid` is stale/undefined for 1-element input)
 - TEMPLATE RULE restated & used well: discard mid → `mid±1` → `<=` → `result` var. Keep mid → `right = mid` → `<` → `return left`
+
+---
+
+## 2026-07-20 — Day 71
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Longest Repeating Char Replacement (#424) | SlidingWindow | replacement_budget | — | clean (still over-eng), retry 07-27 |
+| R | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | — | clean, retry 09-03 |
+| R | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | — | clean (set-not-list bug finally GONE), retry 08-25 |
+| R | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | — | 2 bugs, retry 07-27 |
+| R | Trapping Rain Water (#42) | TwoPointers | trapping_water | — | 1 bug, retry 07-30 |
+
+**Bugs + lessons:**
+- LRCR: nailed the core idea — `windowLen - maxFreq` = chars to replace; valid when `<= k`. Still carries the redundant `min(maxFreq+k, windowLen)` — clean form just records `right-left+1` after shrink
+- Single Element: nudged `mid` UP (`mid+1`) which can overflow the end → nudge DOWN (`mid-1`); and `left = mid+1` on intact pair should be `left = mid+2` (skip BOTH paired elements to preserve parity)
+- Trapping Rain Water: updated running max AFTER storing → `leftPass[i]` excluded `i` → negative water at tall boundary walls (e.g. `[2,0,1]` gave -1). Fix: update max BEFORE storing so `leftPass[i]`/`rightPass[i]` include `i` → never negative
+- Longest Consecutive: iterated the SET (not list) — the recurring bug that appeared 3× is now gone
