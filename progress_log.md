@@ -1794,3 +1794,18 @@ Daily journal of problems solved, learnings, and next steps.
 - No wrap-around simulation needed: when total >= 0, the back-portion surplus mathematically covers the front-portion deficit, so the last surviving `start` completes the full circle
 - Two accumulators: `total` (never resets, for Fact 1) + `tank` (resets, for finding start). Return `start if total >= 0 else -1`
 - Bug: top guard was inverted (`sum(cost) < sum(gas) → -1`) — should be `sum(gas) < sum(cost)`; also that guard is redundant with the bottom `total >= 0` check
+
+---
+
+## 2026-07-21 — Day 72
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Delete and Earn (#740) | DynamicProgramming | linear_dp | — | 1 bug, retry 08-31 |
+| R | Merge Intervals (#56) | Greedy | interval_merge | — | clean, retry 09-21 |
+
+**Bug (Delete and Earn):**
+- Recurrence skip-branch used `earn[i-1]` (raw earnings of one value) instead of `dp[i-1]` (best total through i-1) → discards accumulated DP history on the skip side. House Robber: take = `earn[i] + dp[i-2]`, skip = `dp[i-1]`
+- Phantom-earnings bug AVOIDED this time — `earn` built by iterating 0..maxNum with `.get(i,0)` so absent values = 0 correctly

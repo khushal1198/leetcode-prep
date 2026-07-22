@@ -233,7 +233,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-07 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-06 | done |
-| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-07-07 | 2026-07-21 | pending |
+| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-07-07 | 2026-07-21 | done |
+| Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-07-21 | 2026-08-31 | pending |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | done |
@@ -241,4 +242,5 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-06-30 | done |
-| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-30 | 2026-07-21 | pending |
+| Merge Intervals (#56) | Greedy | interval_merge | 2026-06-30 | 2026-07-21 | done |
+| Merge Intervals (#56) | Greedy | interval_merge | 2026-07-21 | 2026-09-21 | pending |
