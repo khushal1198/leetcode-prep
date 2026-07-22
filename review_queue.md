@@ -206,6 +206,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | pending |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | pending |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | pending |
+| Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | pending |

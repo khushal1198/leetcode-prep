@@ -356,7 +356,7 @@
 |---|---------|------------|-------|------------|--------|
 | 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | Medium | 5/10 | 54.2% | [ ] |
 | 325 | [Maximum Size Subarray Sum Equals k](https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/) :lock: | Medium | 5/10 | 50.9% | [ ] |
-| 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | 6/10 | 51.3% | [ ] |
+| 525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | 6/10 | 51.3% | [x] |
 | 523 | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/) | Medium | 6/10 | 31.3% | [ ] |
 
 ## rolling_hash

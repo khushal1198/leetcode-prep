@@ -1818,3 +1818,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Seed `{0: 1}` = the empty prefix before index 0 (lets subarrays starting at 0 be counted)
 - Use COUNT not presence — same prefix sum can recur (zeros/negatives), each is a distinct valid start
 - 3 steps/iteration: `runningSum += num`; `count += map.get(runningSum - k, 0)`; `map[runningSum] = map.get(runningSum,0)+1`
+
+**Fresh problem (Contiguous Array #525 — prefix sum, longest-length variant):**
+| 126 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 6/10 | YES — redo 07-31 |
+- "Equal # of 0s and 1s" → treat 0 as -1 → becomes "longest subarray summing to 0"
+- Same running sum at index j and i ⟹ stretch (j+1..i) is balanced (sum didn't net-change)
+- For LONGEST: store `{sum: FIRST index}` (never overwrite → keeps earliest → longest stretch). Contrast with #560 which stored counts for COUNTING
+- Seed `{0: -1}` = empty prefix before index 0 (so a subarray balanced from the start counts)
+- LENGTH FORMULA nuance: `i - map[sum]` (NO +1). Because the stored index is EXCLUSIVE (boundary just before the subarray), unlike sliding-window where both ends are inclusive → `right - left + 1`. The +1 is absorbed since j is a before-start boundary
+- Misconception cleared: it's ANY repeated sum value that signals balance, not just sum==0 (showed `[1,1,0]` where balance comes from repeated sum 1, never returning to 0)
+- User noticed measuring right after recording gives a harmless 0 that max() absorbs — correct
