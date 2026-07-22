@@ -11,7 +11,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Stack | 6 | 100 | bracket_matching, stack_as_queue, monotonic_stack, min_stack, expression_evaluation |
 | BinarySearch | 10 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer, boundary_search, peak_finding, minimize_max, matrix_search, parity_pairing |
 | LinkedList | 7 | 53 | reversal, fast_slow_pointers, merge_lists, list_restructuring, two_pointer_gap, hash_map_clone |
-| Arrays | 3 | 224 | prefix_suffix_products, frequency_counting, matrix_simulation |
+| Arrays | 4 | 224 | prefix_suffix_products, frequency_counting, matrix_simulation, prefix_sum_hashmap |
 | SlidingWindow | 5 | 98 | fixed_window, variable_window, variable_window_unique_elements, replacement_budget |
 | Trees | 16 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor, binary_tree_dp, inorder_traversal, pass_down_state |
 | Graphs | 10 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort, multi_source_bfs, reverse_flood |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 124 / 2733**
+**Total: 125 / 2733**
 
 ## Key Files
 

@@ -396,7 +396,7 @@
 | 930 | [Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/) | Medium | 5/10 | 68.7% | [ ] |
 | 974 | [Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) | Medium | 5/10 | 56.3% | [ ] |
 | 1983 | [Widest Pair of Indices With Equal Range Sum](https://leetcode.com/problems/widest-pair-of-indices-with-equal-range-sum/) :lock: | Medium | 5/10 | 54.0% | [ ] |
-| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | 5/10 | 47.3% | [ ] |
+| 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | 5/10 | 47.3% | [x] |
 | 3737 | [Count Subarrays With Majority Element I](https://leetcode.com/problems/count-subarrays-with-majority-element-i/) | Medium | 6/10 | 65.6% | [ ] |
 | 1590 | [Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p/) | Medium | 6/10 | 42.6% | [ ] |
 | 1124 | [Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | Medium | 6/10 | 37.6% | [ ] |

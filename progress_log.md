@@ -1809,3 +1809,12 @@ Daily journal of problems solved, learnings, and next steps.
 **Bug (Delete and Earn):**
 - Recurrence skip-branch used `earn[i-1]` (raw earnings of one value) instead of `dp[i-1]` (best total through i-1) → discards accumulated DP history on the skip side. House Robber: take = `earn[i] + dp[i-2]`, skip = `dp[i-1]`
 - Phantom-earnings bug AVOIDED this time — `earn` built by iterating 0..maxNum with `.get(i,0)` so absent values = 0 correctly
+
+**Fresh problem (Subarray Sum Equals K #560 — prefix sum + hashmap):**
+| 125 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 5/10 | YES — redo 07-28 |
+- Count contiguous subarrays summing to k. Brute force O(n²); prefix-sum + hashmap = O(n)
+- Insight: subarray sum (j+1..i) = `prefix[i] - prefix[j]`. Want = k → `prefix[j] = prefix[i] - k`. So at each i, count earlier prefixes equal to `runningSum - k`
+- One pass, NO pointers: map `{prefix_sum: count}` remembers all past prefixes; one O(1) lookup replaces the inner loop
+- Seed `{0: 1}` = the empty prefix before index 0 (lets subarrays starting at 0 be counted)
+- Use COUNT not presence — same prefix sum can recur (zeros/negatives), each is a distinct valid start
+- 3 steps/iteration: `runningSum += num`; `count += map.get(runningSum - k, 0)`; `map[runningSum] = map.get(runningSum,0)+1`
