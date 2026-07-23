@@ -1828,3 +1828,25 @@ Daily journal of problems solved, learnings, and next steps.
 - LENGTH FORMULA nuance: `i - map[sum]` (NO +1). Because the stored index is EXCLUSIVE (boundary just before the subarray), unlike sliding-window where both ends are inclusive → `right - left + 1`. The +1 is absorbed since j is a before-start boundary
 - Misconception cleared: it's ANY repeated sum value that signals balance, not just sum==0 (showed `[1,1,0]` where balance comes from repeated sum 1, never returning to 0)
 - User noticed measuring right after recording gives a harmless 0 that max() absorbs — correct
+
+---
+
+## 2026-07-22 — Day 73
+
+**Reviews: 6**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | — | clean, retry 09-06 |
+| R | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | — | 3 bugs, retry 08-06 |
+| R | Jump Game II (#45) | Greedy | jump_levels | — | loop-bound bug, retry 07-25 |
+| R | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | — | unlink bug, retry 08-19 |
+| R | Permutations II (#47) | Backtracking | permutation_generation | — | missing `i in used` check, retry 08-01 |
+| R | Sort an Array (#912) | DivideAndConquer | merge_sort | — | multiple bugs, retry 09-05 |
+
+**Bugs + lessons:**
+- Pacific Atlantic: (1) border seeding rows/cols swapped — top/bottom iterate COLUMNS, left/right iterate ROWS; (2) uphill must be `>=` not `>` (flat regions still drain); (3) mutated `r`/`c` inside the direction loop → use fresh `nr`/`nc`
+- Jump Game II: loop must be `range(len(nums)-1)` — including the last index over-counts a phantom jump. Also reinforced farthest(promise, updates every step) vs currentEnd(committed, updates only at `i==currentEnd`)
+- Remove Nth: `slow = slow.next.next` just moves the local var — must be `slow.next = slow.next.next` to actually unlink
+- Permutations II: forgot `if i in used: continue` (the no-reuse check that replaces the start index). Permutations need BOTH: no-reuse + dedup
+- Sort an Array: `[0:mid]` is a SyntaxError — slice needs the sequence name (`nums[0:mid]`); missing base case → infinite recursion; merge must append the SMALLER element for ascending

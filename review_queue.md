@@ -176,7 +176,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-07 | 2026-07-14 | done |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-13 | 2026-07-27 | pending |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
-| Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | pending |
+| Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | done |
+| Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-22 | 2026-09-06 | pending |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | done |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-16 | 2026-10-16 | pending |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | done |
@@ -184,7 +185,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | pending |
-| Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | pending |
+| Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | done |
+| Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-19 | 2026-08-02 | pending |
@@ -195,7 +197,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | pending |
-| Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | pending |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | pending |
@@ -210,12 +213,14 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | pending |
-| Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | pending |
+| Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
+| Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
 | Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-14 | 2026-07-29 | pending |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | done |
-| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-15 | 2026-07-22 | pending |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-15 | 2026-07-22 | done |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-22 | 2026-08-01 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |
@@ -240,7 +245,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-05-29 | 2026-06-01 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-01 | 2026-06-16 | done |
 | Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-06-16 | 2026-07-01 | done |
-| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-07-01 | 2026-07-22 | pending |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-07-01 | 2026-07-22 | done |
+| Sort an Array (#912) | DivideAndConquer | merge_sort | 2026-07-22 | 2026-09-05 | pending |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-05-29 | 2026-06-05 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-06 | 2026-06-20 | done |
 | Merge Intervals (#56) | Greedy | interval_merge | 2026-06-20 | 2026-06-30 | done |
