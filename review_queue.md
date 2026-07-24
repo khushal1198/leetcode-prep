@@ -194,7 +194,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | done |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-19 | 2026-07-29 | pending |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
-| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | pending |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | done |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | pending |

@@ -1860,7 +1860,7 @@ Daily journal of problems solved, learnings, and next steps.
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
 | R | Find Median from Data Stream (#295) | Heap | two_heaps_median | — | MAJOR bug found, retry 08-02 |
-| R | Find First and Last Position (#34) | BinarySearch | boundary_search | — | pending |
+| R | Find First and Last Position (#34) | BinarySearch | boundary_search | — | clean (correctly ID'd Family 2 → Template A), retry 07-30 |
 
 **Find Median — the crucial two-heap lesson (verified w/ brute-force testing):**
 - USER'S BUG: the cross-over between heaps was GATED behind a size check → ordering silently rotted. Fails on DECREASING or MIXED input (e.g. `[-1,-2,-3]`, `[5,4,3,2,1]`); coincidentally works on INCREASING input only
