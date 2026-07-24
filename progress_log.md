@@ -1850,3 +1850,24 @@ Daily journal of problems solved, learnings, and next steps.
 - Remove Nth: `slow = slow.next.next` just moves the local var — must be `slow.next = slow.next.next` to actually unlink
 - Permutations II: forgot `if i in used: continue` (the no-reuse check that replaces the start index). Permutations need BOTH: no-reuse + dedup
 - Sort an Array: `[0:mid]` is a SyntaxError — slice needs the sequence name (`nums[0:mid]`); missing base case → infinite recursion; merge must append the SMALLER element for ascending
+
+---
+
+## 2026-07-23 — Day 74
+
+**Reviews: 2** (deep debugging session on Find Median)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Median from Data Stream (#295) | Heap | two_heaps_median | — | MAJOR bug found, retry 08-02 |
+| R | Find First and Last Position (#34) | BinarySearch | boundary_search | — | pending |
+
+**Find Median — the crucial two-heap lesson (verified w/ brute-force testing):**
+- USER'S BUG: the cross-over between heaps was GATED behind a size check → ordering silently rotted. Fails on DECREASING or MIXED input (e.g. `[-1,-2,-3]`, `[5,4,3,2,1]`); coincidentally works on INCREASING input only
+- THE RULE: two operations, different triggers:
+  1. ORDERING step (push to one heap, pop its boundary element into the other) → MUST happen on EVERY insert, unconditionally
+  2. SIZE step (move one back) → only IF the receiving heap is bigger
+- User merged these into one size-gated check → that was the bug. Ordering must be re-established every insert; size is the only conditional part
+- Symmetric: can enter through either heap; just make findMedian read whichever holds the extra for the odd case
+- Also fixed: `findMedian` precedence — `(len(a)+len(b)) % 2`, NOT `len(a)+len(b)%2` (% binds tighter than +)
+- Great meta-lesson: it's not enough that a heap solution "looks balanced" — verify the ORDERING invariant (max of low ≤ min of high) holds, which requires the unconditional cross-over

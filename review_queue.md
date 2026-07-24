@@ -94,7 +94,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | done |
-| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-28 | 2026-07-23 | pending |
+| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-28 | 2026-07-23 | done |
+| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-07-23 | 2026-08-02 | pending |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-28 | done |
