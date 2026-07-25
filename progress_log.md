@@ -1871,3 +1871,18 @@ Daily journal of problems solved, learnings, and next steps.
 - Symmetric: can enter through either heap; just make findMedian read whichever holds the extra for the odd case
 - Also fixed: `findMedian` precedence — `(len(a)+len(b)) % 2`, NOT `len(a)+len(b)%2` (% binds tighter than +)
 - Great meta-lesson: it's not enough that a heap solution "looks balanced" — verify the ORDERING invariant (max of low ≤ min of high) holds, which requires the unconditional cross-over
+
+---
+
+## 2026-07-24 — Day 75
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Task Scheduler (#621) | Greedy | cooldown_scheduling | — | clean, retry 08-18 |
+| R | Gas Station (#134) | Greedy | gas_station | — | clean (needed feasibility re-explained), retry 07-27 |
+
+**Notes:**
+- Task Scheduler clean — re-push correctly inside `if topElement[0] == time`, no `>1` guard
+- Gas Station: code recalled OK but needed the FEASIBILITY concept re-taught. Fact 1 = budget check: `sum(gas) >= sum(cost)` ⟺ possible (over the full loop, fuel collected ≥ fuel burned; if short, no start survives). `total = sum(diff) = sum(gas)-sum(cost)`, so `total >= 0` is the same test computed during the sweep. Fact 2 = greedy: reset `start=i+1`, `tank=0` when tank goes negative

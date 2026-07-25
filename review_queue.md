@@ -90,7 +90,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-23 | 2026-06-28 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-28 | 2026-07-18 | done |
-| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-07-17 | 2026-07-24 | pending |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-07-17 | 2026-07-24 | done |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-07-24 | 2026-08-18 | pending |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | done |
@@ -209,7 +210,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | pending |
-| Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | pending |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | done |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | pending |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
