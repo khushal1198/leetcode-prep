@@ -64,7 +64,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-07-15 | 2026-08-15 | pending |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-28 | 2026-06-08 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-08 | 2026-06-25 | done |
-| Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-25 | 2026-07-25 | pending |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-25 | 2026-07-25 | done |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-07-25 | 2026-08-25 | pending |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-29 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-29 | 2026-06-05 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-06 | 2026-06-20 | done |
@@ -151,7 +152,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-26 | 2026-07-06 | done |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-07-06 | 2026-07-26 | pending |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-12 | done |
-| Combination Sum (#39) | Backtracking | combination_sum | 2026-07-11 | 2026-07-25 | pending |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-07-11 | 2026-07-25 | done |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-07-25 | 2026-08-14 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | done |
@@ -186,7 +188,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
-| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | pending |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | done |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | done |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
@@ -201,7 +204,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
-| Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | pending |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | pending |
@@ -216,7 +220,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
-| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | pending |
+| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | done |
+| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-25 | 2026-08-19 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |

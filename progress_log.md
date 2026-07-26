@@ -1886,3 +1886,24 @@ Daily journal of problems solved, learnings, and next steps.
 **Notes:**
 - Task Scheduler clean — re-push correctly inside `if topElement[0] == time`, no `>1` guard
 - Gas Station: code recalled OK but needed the FEASIBILITY concept re-taught. Fact 1 = budget check: `sum(gas) >= sum(cost)` ⟺ possible (over the full loop, fuel collected ≥ fuel burned; if short, no start survives). `total = sum(diff) = sum(gas)-sum(cost)`, so `total >= 0` is the same test computed during the sweep. Fact 2 = greedy: reset `start=i+1`, `tank=0` when tank goes negative
+
+---
+
+## 2026-07-25 — Day 76
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Coin Change (#322) | DynamicProgramming | knapsack | — | clean, retry 08-25 |
+| R | Combination Sum (#39) | Backtracking | combination_sum | — | clean, retry 08-14 |
+| R | Combination Sum II (#40) | Backtracking | combination_sum | — | clean, retry 07-30 |
+| R | Jump Game II (#45) | Greedy | jump_levels | — | farthest-update bug, retry 07-29 |
+| R | Reorder List (#143) | LinkedList | list_restructuring | — | clean (was shaky Day 68, now solid all parities), retry 08-19 |
+
+**Concepts reinforced:**
+- Coin Change: `dp[i]` = min coins for amount i; `dp[i] = min(dp[i], dp[i-coin]+1)`. `i-coin` = remaining amount after using one coin. Bottom-up reuses smaller amounts
+- Combination Sum I vs II: I allows reuse → recurse with `i`; II each-used-once → recurse with `i+1`. The loop's next iteration IS the "skip this element" branch (no separate exclude call needed)
+- Dedup (CS II): `i > index and candidates[i]==candidates[i-1]` skips a duplicate SIBLING (same level after pop) but allows a duplicate CONTINUATION (deeper, index advanced). User articulated this distinction himself
+- Jump Game II bug: `farthest` update was gated behind `if i == farthest` and used `nums[i]` — must be UNGATED every step and `i + nums[i]` (position + length)
+- Reorder List: clean across even/odd/2/1 (verified by test) — was flagged "not confident" on Day 68
