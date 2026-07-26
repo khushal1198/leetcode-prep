@@ -222,6 +222,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-25 | 2026-08-19 | pending |
+| Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | 2026-07-26 | 2026-09-09 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
