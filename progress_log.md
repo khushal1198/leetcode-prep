@@ -1907,3 +1907,21 @@ Daily journal of problems solved, learnings, and next steps.
 - Dedup (CS II): `i > index and candidates[i]==candidates[i-1]` skips a duplicate SIBLING (same level after pop) but allows a duplicate CONTINUATION (deeper, index advanced). User articulated this distinction himself
 - Jump Game II bug: `farthest` update was gated behind `if i == farthest` and used `nums[i]` — must be UNGATED every step and `i + nums[i]` (position + length)
 - Reorder List: clean across even/odd/2/1 (verified by test) — was flagged "not confident" on Day 68
+
+---
+
+## 2026-07-26 — Day 77
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | — | clean, retry 09-26 |
+| R | Jump Game (#55) | Greedy | jump_reachability | — | clean (alt phrasing), retry 08-05 |
+| R | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | — | left-bound bug, retry 08-15 |
+
+**Concepts reinforced:**
+- Diameter: helper RETURNS height (`max(l,r)+1`); diameter tracked as side effect (`l+r` = path through node in edges). Clean
+- Jump Game: used alt phrasing `if i == farthest and i != len-1: return False` (bottom check) vs the Day 69 conventional `if i > farthest: return False` (top check). BOTH correct — verified 8 cases. i can only exceed farthest by first equaling it, so catching at equality is just-in-time. Got `i + nums[i]` right this time (Day 69 bug was `nums[i]`)
+- Capacity to Ship: `left = 1` is WRONG → must be `left = max(weights)`. Else a capacity smaller than the biggest package gets "validated" because calculateDays silently splits a package across days (lets currentCapacity go negative). Failure: `[1,1,1,10]` days=2 returned 3 instead of 10
+- FAMILY vs TEMPLATE confusion cleared: Family = what you search for (1 exact / 2 boundary / 3 side); Template = how you write the loop (A: `<=`, result var, mid±1 / B: `<`, right=mid, return left). Families 1 AND 2 both use Template A. Capacity to Ship = Family 2 + Template A

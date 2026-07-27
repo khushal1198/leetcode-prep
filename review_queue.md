@@ -150,7 +150,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-07-13 | 2026-08-25 | pending |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-20 | 2026-06-26 | done |
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-06-26 | 2026-07-06 | done |
-| Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-07-06 | 2026-07-26 | pending |
+| Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-07-06 | 2026-07-26 | done |
+| Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-07-26 | 2026-09-26 | pending |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-12 | done |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-07-11 | 2026-07-25 | done |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-07-25 | 2026-08-14 | pending |
@@ -202,13 +203,15 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | pending |
-| Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | pending |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | done |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | pending |
-| Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | pending |
+| Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
+| Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | pending |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | pending |
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
