@@ -191,7 +191,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) :lock: | Medium | 4/10 | 51.5% | [ ] |
+| 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) :lock: | Medium | 4/10 | 51.5% | [x] |
 | 2227 | [Encrypt and Decrypt Strings](https://leetcode.com/problems/encrypt-and-decrypt-strings/) | Hard | 7/10 | 38.3% | [ ] |
 
 ## binary_search_on_versioned_data

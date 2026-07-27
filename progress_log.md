@@ -1925,3 +1925,11 @@ Daily journal of problems solved, learnings, and next steps.
 - Jump Game: used alt phrasing `if i == farthest and i != len-1: return False` (bottom check) vs the Day 69 conventional `if i > farthest: return False` (top check). BOTH correct — verified 8 cases. i can only exceed farthest by first equaling it, so catching at equality is just-in-time. Got `i + nums[i]` right this time (Day 69 bug was `nums[i]`)
 - Capacity to Ship: `left = 1` is WRONG → must be `left = max(weights)`. Else a capacity smaller than the biggest package gets "validated" because calculateDays silently splits a package across days (lets currentCapacity go negative). Failure: `[1,1,1,10]` days=2 returned 3 instead of 10
 - FAMILY vs TEMPLATE confusion cleared: Family = what you search for (1 exact / 2 boundary / 3 side); Template = how you write the loop (A: `<=`, result var, mid±1 / B: `<`, right=mid, return left). Families 1 AND 2 both use Template A. Capacity to Ship = Family 2 + Template A
+
+**Fresh problem (Encode and Decode Strings #271 — string serialization):**
+| 127 | Encode and Decode Strings (#271) | Design | string_serialization | 4/10 | YES — redo 07-31 |
+- Problem: join list of strings into one, split back. Naive delimiter (`#`) FAILS — strings can contain any char
+- Trick: LENGTH-PREFIXING. Format per string: `<length>#<string>` → `["neet","code"]` = `"4#neet4#code"`
+- Decode = pointer walk: read digits until `#` → length L; grab exactly next L chars (blindly, `s[start:start+L]`); jump past. Never scans for `#` INSIDE data → embedded `#`/digits are fine
+- Multi-digit lengths work: scan ALL digits until `#`, `int()` the whole run (the `#` marks where number ends). Not capped at 9
+- Verified edge cases: empty strings (`0#`), `#` in data (`3#a#b`), digits+`#` in data (`4#12#3`), 42-char string, empty list
