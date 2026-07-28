@@ -1933,3 +1933,22 @@ Daily journal of problems solved, learnings, and next steps.
 - Decode = pointer walk: read digits until `#` → length L; grab exactly next L chars (blindly, `s[start:start+L]`); jump past. Never scans for `#` INSIDE data → embedded `#`/digits are fine
 - Multi-digit lengths work: scan ALL digits until `#`, `int()` the whole run (the `#` marks where number ends). Not capped at 9
 - Verified edge cases: empty strings (`0#`), `#` in data (`3#a#b`), digits+`#` in data (`4#12#3`), 42-char string, empty list
+
+---
+
+## 2026-07-27 — Day 78
+
+**Reviews: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Longest Repeating Char Replacement (#424) | SlidingWindow | replacement_budget | — | clean, retry 08-11 |
+| R | Majority Element (#169) | Arrays | frequency_counting | — | clean (Counter), retry 08-16 |
+| R | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | — | clean first try (was buggy before), retry 08-03 |
+| R | Gas Station (#134) | Greedy | gas_station | — | 2 total-var bugs, retry 07-31 |
+
+**Notes:**
+- LRCR: IMPORTANT correction — the `windowLen = right-left+1` recompute AFTER the shrink is NOT redundant (I wrongly said it was). Without it, `maxLen = max(maxLen, windowLen)` records the INVALID over-budget window → overcounts (verified: `"BC" k=0` gives 2 vs correct 1). With a stored windowLen variable you MUST refresh it post-shrink
+- Majority Element: Counter is O(n) time/space. Interview upgrade = Boyer-Moore voting (O(1) space): candidate + count, count==0 adopts new candidate. Noted to try next review
+- Single Element: CLEAN first try — nudge `mid` DOWN, `left=mid+2`, `right=mid`. All prior bugs (nudge up / mid+1) gone. Reinforced: pairs align at even indices before the single element; decision is POSITIONAL not value-based
+- Gas Station: (1) was resetting `total=0` inside the loop — total must NEVER reset (only fuel does); (2) `total > 0` should be `total >= 0` (break-even sum(gas)==sum(cost) IS solvable). Also re-clarified model: at station i, collect gas[i] THEN pay cost[i] to LEAVE for next station

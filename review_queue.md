@@ -160,7 +160,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-07 | 2026-07-14 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-13 | 2026-07-20 | done |
-| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-20 | 2026-07-27 | pending |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-20 | 2026-07-27 | done |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-27 | 2026-08-11 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
@@ -179,7 +180,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-20 | 2026-08-25 | pending |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | done |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-07 | 2026-07-14 | done |
-| Majority Element (#169) | Arrays | frequency_counting | 2026-07-13 | 2026-07-27 | pending |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-07-13 | 2026-07-27 | done |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-07-27 | 2026-08-16 | pending — try Boyer-Moore O(1) space next |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-22 | 2026-09-06 | pending |
@@ -202,7 +204,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
-| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | pending |
+| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | done |
+| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | done |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
@@ -218,7 +221,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | pending |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | done |
-| Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | pending |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | done |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | pending |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
