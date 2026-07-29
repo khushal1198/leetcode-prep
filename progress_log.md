@@ -1964,3 +1964,12 @@ Daily journal of problems solved, learnings, and next steps.
 | R | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | — | key-inversion bug, retry 08-22 |
 
 **Bug:** lookup key inverted — `k - runningSum` should be `runningSum - k`. Want past prefix `p` with `runningSum - p = k` → `p = runningSum - k`. Everything else clean (seed `{0:1}`, look up before recording)
+
+**Fresh problem (Word Break #139 — string DP):**
+| 128 | Word Break (#139) | DynamicProgramming | string_dp | 5/10 | YES — redo 07-30 |
+- `dp[i]` = can `s[0:i]` be segmented into dictionary words? (boolean). Answer = `dp[len(s)]`
+- Base case: `dp[0] = True` (empty string trivially segmentable) — the seed
+- Transition: `dp[i] = True` if EXISTS split `j < i` where `dp[j]` is True AND `s[j:i]` in wordSet. Two loops: outer i (prefix length 1..n), inner j (split point 0..i-1)
+- Analogy to Coin Change: builds `dp[i]` from smaller prefixes `dp[j]`, but stores True/False reachability instead of min-count. The "coin" = a dictionary word bridging `s[j:i]`
+- Details: `set(wordDict)` for O(1) lookup; `break` after first valid split (only need one way)
+- Verified incl. `"cars"` = `"ca"+"rs"` (split point matters even when `"car"` also matches prefix)

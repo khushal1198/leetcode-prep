@@ -225,6 +225,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | pending |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |

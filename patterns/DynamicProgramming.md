@@ -432,7 +432,7 @@
 | 1638 | [Count Substrings That Differ by One Character](https://leetcode.com/problems/count-substrings-that-differ-by-one-character/) | Medium | 5/10 | 72.3% | [ ] |
 | 72 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | Medium | 5/10 | 60.5% | [ ] |
 | 2707 | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/) | Medium | 5/10 | 57.4% | [ ] |
-| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | 5/10 | 49.4% | [ ] |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | 5/10 | 49.4% | [x] |
 | 3503 | [Longest Palindrome After Substring Concatenation I](https://leetcode.com/problems/longest-palindrome-after-substring-concatenation-i/) | Medium | 5/10 | 43.8% | [ ] |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) | Medium | 6/10 | 44.0% | [ ] |
 | 467 | [Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string/) | Medium | 6/10 | 43.0% | [ ] |
