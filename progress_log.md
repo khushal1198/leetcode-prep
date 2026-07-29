@@ -1973,3 +1973,12 @@ Daily journal of problems solved, learnings, and next steps.
 - Analogy to Coin Change: builds `dp[i]` from smaller prefixes `dp[j]`, but stores True/False reachability instead of min-count. The "coin" = a dictionary word bridging `s[j:i]`
 - Details: `set(wordDict)` for O(1) lookup; `break` after first valid split (only need one way)
 - Verified incl. `"cars"` = `"ca"+"rs"` (split point matters even when `"car"` also matches prefix)
+
+**Fresh problem (Longest Increasing Subsequence #300 — subsequence DP):**
+| 129 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 4/10 | YES — redo 08-01 |
+- `dp[i]` = length of longest increasing subseq ENDING at index i. Init all `dp[i]=1` (each element alone)
+- Transition: for each i, look back at ALL j<i; if `nums[j] < nums[i]` → `dp[i] = max(dp[i], dp[j]+1)`. Answer = `max(dp)` (LIS can END ANYWHERE, not dp[-1])
+- NEW DP shape vs Coin Change/Word Break: `dp[i]` scans ALL previous j (not fixed window), and answer is max over whole array
+- Direction correction the user needed: update `dp[i]` (current) USING `dp[j]` (earlier), not vice versa. "If an earlier element is smaller than me, I sit at the end of its subsequence → dp[i] = dp[j]+1 if longer"
+- Note: O(n^2) here; famous O(n log n) version uses binary search (patience sorting) — ties into BS framework, do later
+- NOTE: user prefers to LEARN DP by reading clean code first, then reproducing (vs deriving from scratch) — did not hand-write this one

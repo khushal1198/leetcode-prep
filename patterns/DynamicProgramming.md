@@ -236,7 +236,7 @@
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | Medium | 4/10 | 65.2% | [ ] |
-| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 4/10 | 59.4% | [ ] |
+| 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | Medium | 4/10 | 59.4% | [x] |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Medium | 4/10 | 59.1% | [ ] |
 | 1218 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) | Medium | 4/10 | 54.3% | [ ] |
 | 2826 | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/) | Medium | 4/10 | 43.0% | [ ] |
