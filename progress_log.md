@@ -1952,3 +1952,15 @@ Daily journal of problems solved, learnings, and next steps.
 - Majority Element: Counter is O(n) time/space. Interview upgrade = Boyer-Moore voting (O(1) space): candidate + count, count==0 adopts new candidate. Noted to try next review
 - Single Element: CLEAN first try — nudge `mid` DOWN, `left=mid+2`, `right=mid`. All prior bugs (nudge up / mid+1) gone. Reinforced: pairs align at even indices before the single element; decision is POSITIONAL not value-based
 - Gas Station: (1) was resetting `total=0` inside the loop — total must NEVER reset (only fuel does); (2) `total > 0` should be `total >= 0` (break-even sum(gas)==sum(cost) IS solvable). Also re-clarified model: at station i, collect gas[i] THEN pay cost[i] to LEAVE for next station
+
+---
+
+## 2026-07-28 — Day 79
+
+**Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | — | key-inversion bug, retry 08-22 |
+
+**Bug:** lookup key inverted — `k - runningSum` should be `runningSum - k`. Want past prefix `p` with `runningSum - p = k` → `p = runningSum - k`. Everything else clean (seed `{0:1}`, look up before recording)
