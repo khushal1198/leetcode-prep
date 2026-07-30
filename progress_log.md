@@ -1982,3 +1982,28 @@ Daily journal of problems solved, learnings, and next steps.
 - Direction correction the user needed: update `dp[i]` (current) USING `dp[j]` (earlier), not vice versa. "If an earlier element is smaller than me, I sit at the end of its subsequence → dp[i] = dp[j]+1 if longer"
 - Note: O(n^2) here; famous O(n log n) version uses binary search (patience sorting) — ties into BS framework, do later
 - NOTE: user prefers to LEARN DP by reading clean code first, then reproducing (vs deriving from scratch) — did not hand-write this one
+
+---
+
+## 2026-07-29 — Day 80
+
+**Reviews: 8** (Palindromic Substrings #647 deferred to tomorrow)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | — | clean, retry 08-29 |
+| R | Number of Provinces (#547) | UnionFind | connected_components | — | clean, retry 08-29 |
+| R | Single Number (#136) | BitManipulation | xor_cancellation | — | clean, retry 08-23 |
+| R | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | — | left-bound bug, retry 08-20 |
+| R | Subsets II (#90) | Backtracking | dedup_backtracking | — | missing sort, retry 08-04 |
+| R | Time Based KV Store (#981) | Design | binary_search_versioned | — | direction inverted, retry 08-05 |
+| R | Jump Game II (#45) | Greedy | jump_levels | — | clean, retry 08-08 |
+| R | Valid Sudoku (#36) | Hashing | matrix_set_validation | — | missing '.' skip, retry 09-29 |
+
+**Bugs + notes:**
+- Non-overlapping Intervals: sort by END time (not start) → keep earliest-ending → count removal when `previous[1] > interval[0]`. Touching endpoints don't overlap
+- Number of Provinces: clean union-find. Note for interview polish: no path compression / rank (works but not optimal); count distinct roots at end
+- Koko: `left = len(piles)` WRONG → must be `left = 1` (slowest speed). len(piles) is pile count, not a speed. Breaks when answer < len(piles), e.g. `[1,1,1,1,1] h=5` → 1
+- Subsets II: forgot `nums.sort()` — the `i>index and nums[i]==nums[i-1]` dedup only works if equal elements are ADJACENT. (Correctly said no `used` set needed — start index suffices)
+- Time Based KV: search direction inverted — on valid (`ts[mid]<=query`) must go `left=mid+1` to hunt LARGER floor, not `right=mid-1`. Also default `result=""` not 0. Reinforced Family 2 → Template A via verdict-vs-direction test
+- Valid Sudoku: forgot `if board[i][j]=='.': continue` — empty cells produce duplicate composite keys → false negative. Composite-key approach otherwise clean (`row_i_v`, `col_j_v`, `box_(i//3)_(j//3)_v`)

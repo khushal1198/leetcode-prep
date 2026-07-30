@@ -85,7 +85,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-30 | 2026-07-03 | done |
-| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-07-04 | 2026-07-29 | pending |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-07-04 | 2026-07-29 | done |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-07-29 | 2026-08-29 | pending |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-09 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | done |
@@ -112,7 +113,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Min Stack (#155) | Stack | min_stack | 2026-07-10 | 2026-08-11 | pending |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | done |
-| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-29 | 2026-07-29 | pending |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-06-29 | 2026-07-29 | done |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-07-29 | 2026-08-29 | pending |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | done |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-20 | 2026-06-25 | done |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-25 | 2026-07-06 | done |
@@ -132,7 +134,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-12 | 2026-08-06 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
-| Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | pending |
+| Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | done |
+| Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-29 | 2026-08-23 | pending |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-07 | 2026-07-17 | done |
@@ -166,7 +169,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-28 | 2026-07-19 | done |
-| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-07-19 | 2026-07-29 | pending |
+| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-07-19 | 2026-07-29 | done |
+| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-07-29 | 2026-08-20 | pending |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-28 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-28 | 2026-08-28 | pending |
@@ -189,7 +193,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-16 | 2026-10-16 | pending |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | done |
-| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | pending |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | done |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-29 | 2026-08-04 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | pending |
@@ -199,7 +204,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-19 | 2026-08-02 | pending |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | done |
-| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-19 | 2026-07-29 | pending |
+| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-19 | 2026-07-29 | done |
+| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-29 | 2026-08-05 | pending |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | pending |
@@ -210,7 +216,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
-| Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | pending |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | done |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-07-29 | 2026-08-08 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
@@ -237,7 +244,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
-| Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-14 | 2026-07-29 | pending |
+| Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-14 | 2026-07-29 | done |
+| Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-29 | 2026-09-29 | pending |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-15 | 2026-07-22 | done |
