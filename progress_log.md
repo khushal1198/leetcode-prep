@@ -2007,3 +2007,26 @@ Daily journal of problems solved, learnings, and next steps.
 - Subsets II: forgot `nums.sort()` — the `i>index and nums[i]==nums[i-1]` dedup only works if equal elements are ADJACENT. (Correctly said no `used` set needed — start index suffices)
 - Time Based KV: search direction inverted — on valid (`ts[mid]<=query`) must go `left=mid+1` to hunt LARGER floor, not `right=mid-1`. Also default `result=""` not 0. Reinforced Family 2 → Template A via verdict-vs-direction test
 - Valid Sudoku: forgot `if board[i][j]=='.': continue` — empty cells produce duplicate composite keys → false negative. Composite-key approach otherwise clean (`row_i_v`, `col_j_v`, `box_(i//3)_(j//3)_v`)
+
+---
+
+## 2026-07-30 — Day 81
+
+**Reviews: 6**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | — | odd-center bug, retry 08-06 |
+| R | Combination Sum II (#40) | Backtracking | combination_sum | — | clean (had redundant used-set), retry 08-04 |
+| R | Find First and Last Position (#34) | BinarySearch | boundary_search | — | typo `amswer`, retry 08-14 |
+| R | Trapping Rain Water (#42) | TwoPointers | trapping_water | — | clean, retry 08-19 (try O(1) next) |
+| R | Word Break (#139) | DynamicProgramming | string_dp | — | needed dp[0]+dp[j] recall, retry 08-02 |
+| R | Longest Palindromic Substring (#5) | String | expand_around_center | — | clean, retry 08-24 |
+
+**Bugs + concepts:**
+- Palindromic Substrings: odd center must start at `(i,i)` NOT `(i-1,i+1)` — the single char IS a length-1 palindrome, counted by the helper's first `s[i]==s[i]` check. Starting pre-expanded skips all length-1 palindromes (`"abc"` gave 0 instead of 3)
+- Combination Sum II: had a REDUNDANT `used` set. Forward-only `start` index + recurse `i+1` already prevents reuse → `used` unnecessary. Rule locked in: `used` set is ONLY for permutations (loop 0..n, no start); combinations/subsets use the index alone
+- Find First/Last: only bug was typo `amswer` (Python silently creates new var, never returned → always -1). Logic perfect. Also deep-dived Family 1 vs 2: F1 = "hit and STOP" (exact), F2 = "hit, RECORD, push to edge" (boundary). Find First/Last is F2 because you keep narrowing to the boundary
+- Trapping Rain Water: intuition locked — `water[i] = min(leftMax, rightMax) - height[i]`, held by the SHORTER wall (bottleneck). INCLUSIVE maxes (leftMax[i]>=height[i]) → never negative. Edge-seeded version (`leftMax[0]=height[0]`) clean. Prior negative-water bug gone
+- Word Break: needed nudge to recall dp[0]=True base case + the `dp[j] and s[j:i] in wordSet` two-part condition (chunk is word AND prefix segmentable)
+- Longest Palindromic Substring: expand-around-center returning the SUBSTRING, `max(..., key=len)` tracks longest. Clean

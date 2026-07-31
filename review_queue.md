@@ -197,7 +197,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-29 | 2026-08-04 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | done |
-| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | pending |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | done |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-30 | 2026-08-04 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | done |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
@@ -208,7 +209,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-29 | 2026-08-05 | pending |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | done |
-| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | pending |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | done |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-30 | 2026-08-14 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | pending |
@@ -226,13 +228,15 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | pending |
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
-| Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | pending |
+| Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | done |
+| Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-30 | 2026-08-19 | pending — try O(1) two-pointer next |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | pending |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
-| Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | pending |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | pending |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
@@ -257,10 +261,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-07-05 | 2026-10-05 | pending |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | done |
-| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-30 | 2026-07-30 | pending |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-30 | 2026-07-30 | done |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-07-30 | 2026-08-24 | pending |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | done |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-18 | 2026-07-08 | done |
-| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-08 | 2026-07-29 | pending |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-08 | 2026-07-29 | done |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-30 | 2026-08-06 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-24 | 2026-07-04 | done |
