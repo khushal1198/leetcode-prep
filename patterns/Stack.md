@@ -187,7 +187,7 @@
 | 2863 | [Maximum Length of Semi-Decreasing Subarrays](https://leetcode.com/problems/maximum-length-of-semi-decreasing-subarrays/) :lock: | Medium | 6/10 | 70.0% | [ ] |
 | 1966 | [Binary Searchable Numbers in an Unsorted Array](https://leetcode.com/problems/binary-searchable-numbers-in-an-unsorted-array/) :lock: | Medium | 6/10 | 63.6% | [ ] |
 | 962 | [Maximum Width Ramp](https://leetcode.com/problems/maximum-width-ramp/) | Medium | 6/10 | 55.9% | [ ] |
-| 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | 6/10 | 55.1% | [ ] |
+| 853 | [Car Fleet](https://leetcode.com/problems/car-fleet/) | Medium | 6/10 | 55.1% | [x] |
 | 1950 | [Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays/) :lock: | Medium | 6/10 | 48.0% | [ ] |
 | 2345 | [Finding the Number of Visible Mountains](https://leetcode.com/problems/finding-the-number-of-visible-mountains/) :lock: | Medium | 6/10 | 37.2% | [ ] |
 | 1944 | [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/) | Hard | 7/10 | 73.0% | [ ] |

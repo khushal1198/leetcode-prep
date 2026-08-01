@@ -8,7 +8,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 |----------|------|-------|-----------------|
 | Hashing | 12 | 107 | set_lookup, two_sum_pair, frequency_counting, grouping_by_key, consecutive_sequence, matrix_set_validation, prefix_sum_hash |
 | TwoPointers | 12 | 107 | palindrome_check, in_place_array_modification, opposite_ends_pair_sum, partition, three_sum, container, floyd_cycle, trapping_water |
-| Stack | 6 | 100 | bracket_matching, stack_as_queue, monotonic_stack, min_stack, expression_evaluation |
+| Stack | 7 | 100 | bracket_matching, stack_as_queue, monotonic_stack, min_stack, expression_evaluation, car_fleet |
 | BinarySearch | 10 | 162 | classic_binary_search, rotated_sorted_search, binary_search_on_answer, boundary_search, peak_finding, minimize_max, matrix_search, parity_pairing |
 | LinkedList | 7 | 53 | reversal, fast_slow_pointers, merge_lists, list_restructuring, two_pointer_gap, hash_map_clone |
 | Arrays | 4 | 224 | prefix_suffix_products, frequency_counting, matrix_simulation, prefix_sum_hashmap |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 129 / 2733**
+**Total: 130 / 2733**
 
 ## Key Files
 

@@ -2049,3 +2049,13 @@ Daily journal of problems solved, learnings, and next steps.
 - Gas Station: FINALLY solid — first time written cleanly with NO concept re-explanation needed (had needed re-teaching every prior review). User articulated the model himself before coding. Pattern stuck
 - Contiguous Array: clean — 0→-1, seed {0:-1}, if/else (repeated sum → measure `i - firstIndex`; new → record earliest). Both insights retained (any repeated sum = balance; length is i-firstIndex, no +1)
 - Encode/Decode: only bug was missing `result.append(string)` — built the word char-by-char then dropped it. Char-by-char decode (vs slicing) works fine
+
+**Fresh problem (Car Fleet #853 — monotonic stack):**
+| 130 | Car Fleet (#853) | Stack | monotonic_stack | 6/10 | YES — redo 08-05 |
+- Chosen by DATA: Stack was thinnest fundamental (5/100), monotonic stack barely touched. Also user is Medium-heavy (83 Med / 3 Hard) — patterns strong, need harder framing
+- Cars → target on 1 lane, can't pass. Faster car catches slower one ahead → forms a fleet at the SLOWER pace. Count fleets arriving
+- KEY: `time = (target - pos) / speed` (unobstructed arrival). Sort by position DESC (closest to target first — a car is only blocked by cars AHEAD)
+- Walk front→back: if `time > leadTime` → can't catch fleet ahead → NEW fleet, update leadTime. Else (`time <= leadTime`) → catches up → JOINS (its speed advantage wasted, arrives at fleet's slower time)
+- It's monotonic-stack in disguise: fleet arrival times form an increasing sequence; `leadTime` = top of stack. Stack version pushes a time only when > top; count = stack size
+- Family: Car Fleet / Daily Temperatures / Next Greater / Largest Rectangle — "process in order, maintain monotonic sequence, push/pop by comparison"
+- Learned: `zip` pairs parallel lists into tuples (so they sort together); `sorted()` works on any iterable & returns new list; `.sort()` is list-only, in place, returns None. `zip(...).sort()` fails (zip has no .sort); must `list(zip(...))` first
