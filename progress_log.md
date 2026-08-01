@@ -2030,3 +2030,22 @@ Daily journal of problems solved, learnings, and next steps.
 - Trapping Rain Water: intuition locked — `water[i] = min(leftMax, rightMax) - height[i]`, held by the SHORTER wall (bottleneck). INCLUSIVE maxes (leftMax[i]>=height[i]) → never negative. Edge-seeded version (`leftMax[0]=height[0]`) clean. Prior negative-water bug gone
 - Word Break: needed nudge to recall dp[0]=True base case + the `dp[j] and s[j:i] in wordSet` two-part condition (chunk is word AND prefix segmentable)
 - Longest Palindromic Substring: expand-around-center returning the SUBSTRING, `max(..., key=len)` tracks longest. Clean
+
+---
+
+## 2026-07-31 — Day 82
+
+**Reviews: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Insert Interval (#57) | Greedy | interval_merge | — | clean, retry 08-25 |
+| R | Gas Station (#134) | Greedy | gas_station | — | CLEAN FIRST TRY (finally stuck!), retry 08-07 |
+| R | Contiguous Array (#525) | Hashing | prefix_sum_hash | — | clean, retry 08-10 |
+| R | Encode and Decode Strings (#271) | Design | string_serialization | — | missing append, retry 08-15 |
+
+**Notes:**
+- Insert Interval: clean 3-case logic (before → append; after → flush newInterval + carry current forward; overlap → merge). The swap-and-carry in the "after" case is elegant
+- Gas Station: FINALLY solid — first time written cleanly with NO concept re-explanation needed (had needed re-teaching every prior review). User articulated the model himself before coding. Pattern stuck
+- Contiguous Array: clean — 0→-1, seed {0:-1}, if/else (repeated sum → measure `i - firstIndex`; new → record earliest). Both insights retained (any repeated sum = balance; length is i-firstIndex, no +1)
+- Encode/Decode: only bug was missing `result.append(string)` — built the word char-by-char then dropped it. Char-by-char decode (vs slicing) works fine

@@ -80,7 +80,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-04 | 2026-06-11 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-11 | 2026-06-25 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-25 | 2026-07-06 | done |
-| Insert Interval (#57) | Greedy | interval_merge | 2026-07-06 | 2026-07-31 | pending |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-07-06 | 2026-07-31 | done |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-07-31 | 2026-08-25 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | done |
@@ -232,19 +233,22 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-30 | 2026-08-19 | pending — try O(1) two-pointer next |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | done |
-| Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | pending |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | done |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-31 | 2026-08-07 | pending |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | pending |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | pending |
-| Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | pending |
+| Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | done |
+| Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-31 | 2026-08-10 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-25 | 2026-08-19 | pending |
 | Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | 2026-07-26 | 2026-09-09 | pending |
-| Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-26 | 2026-07-31 | pending |
+| Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-26 | 2026-07-31 | done |
+| Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-31 | 2026-08-15 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
