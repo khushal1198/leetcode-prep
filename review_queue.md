@@ -108,7 +108,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-23 | 2026-07-03 | done |
-| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-07-04 | 2026-08-01 | pending |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-07-04 | 2026-08-01 | done |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-08-01 | 2026-08-11 | pending |
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | done |
 | Min Stack (#155) | Stack | min_stack | 2026-06-20 | 2026-07-10 | done |
 | Min Stack (#155) | Stack | min_stack | 2026-07-10 | 2026-08-11 | pending |
@@ -126,7 +127,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-18 | 2026-07-01 | done |
-| Word Search (#79) | Backtracking | grid_backtracking | 2026-07-01 | 2026-08-01 | pending |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-07-01 | 2026-08-01 | done |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-08-01 | 2026-09-01 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-08 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-08 | 2026-06-12 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | done |
@@ -226,7 +228,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | pending |
-| Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | pending |
+| Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | done |
+| Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-08-01 | 2026-08-27 | pending |
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | done |
@@ -239,7 +242,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | pending |
-| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | pending |
+| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | done |
+| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | done |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-31 | 2026-08-10 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
@@ -258,7 +262,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-09 | 2026-07-12 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-15 | 2026-07-22 | done |
-| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-22 | 2026-08-01 | pending |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-07-22 | 2026-08-01 | done |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-08-01 | 2026-08-11 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |

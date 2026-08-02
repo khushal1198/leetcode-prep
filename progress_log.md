@@ -2059,3 +2059,24 @@ Daily journal of problems solved, learnings, and next steps.
 - It's monotonic-stack in disguise: fleet arrival times form an increasing sequence; `leadTime` = top of stack. Stack version pushes a time only when > top; count = stack size
 - Family: Car Fleet / Daily Temperatures / Next Greater / Largest Rectangle — "process in order, maintain monotonic sequence, push/pop by comparison"
 - Learned: `zip` pairs parallel lists into tuples (so they sort together); `sorted()` works on any iterable & returns new list; `.sort()` is list-only, in place, returns None. `zip(...).sort()` fails (zip has no .sort); must `list(zip(...))` first
+
+---
+
+## 2026-08-01 — Day 83
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | — | 2 bugs, retry 08-11 |
+| R | Word Search (#79) | Backtracking | grid_backtracking | — | success-check placement, retry 09-01 |
+| R | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | — | tiebreaker needed, retry 08-27 |
+| R | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | — | clean from memory, retry 08-05 |
+| R | Permutations II (#47) | Backtracking | permutation_generation | — | clean, retry 08-11 |
+
+**Bugs + notes:**
+- Max Product Subarray: (1) fresh-start candidate must be `nums[i]` NOT `dp_min/max[i-1]` (contiguous → must include nums[i]); (2) answer = `max(dp_max.values())` not `dp_max[last]` (best subarray ends ANYWHERE). Track BOTH min & max — negative × negative flips min into max
+- Word Search: success check was DEFERRED to a neighbor recursion → failed on single-cell/boundary (`[["a"]] "a"` returned False). Fix: check `if index == len(word)-1: return True` right AFTER the match, not via a neighbor call. Better structured than Day 66 version. (Alt: mark visited in-place on board for O(1) space)
+- Merge k Lists: equal `val`s make heap compare ListNode objects → TypeError. Need a tiebreaker (counter is safe; user used `random.random()` — works but tiny collision risk). Also guard `if l:` for empty lists
+- LIS: clean reproduction from memory (learned code-first 4 days ago) — the "scan all j<i, answer max(dp)" shape sticking
+- Permutations II: clean — needs `used` set (permutations loop 0..n, no start index) + sort + sibling skip `nums[i]==nums[i-1] and (i-1) not in used`
