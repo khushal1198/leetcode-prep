@@ -99,7 +99,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-28 | 2026-07-23 | done |
-| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-07-23 | 2026-08-02 | pending |
+| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-07-23 | 2026-08-02 | done |
+| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-08-02 | 2026-08-17 | pending |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-28 | done |
@@ -206,7 +207,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | done |
-| LRU Cache (#146) | Design | cache_design | 2026-07-19 | 2026-08-02 | pending |
+| LRU Cache (#146) | Design | cache_design | 2026-07-19 | 2026-08-02 | done |
+| LRU Cache (#146) | Design | cache_design | 2026-08-02 | 2026-08-22 | pending |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | done |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-19 | 2026-07-29 | done |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-29 | 2026-08-05 | pending |
@@ -224,10 +226,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-29 | 2026-08-08 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
-| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | pending |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | done |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-12 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | pending |
-| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | pending |
+| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | done |
+| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-02 | 2026-08-07 | pending |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | done |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-08-01 | 2026-08-27 | pending |
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
@@ -241,7 +245,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
-| Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | pending |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | done |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-08-02 | 2026-08-09 | pending |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | done |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | done |

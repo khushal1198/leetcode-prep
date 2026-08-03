@@ -2080,3 +2080,24 @@ Daily journal of problems solved, learnings, and next steps.
 - Merge k Lists: equal `val`s make heap compare ListNode objects → TypeError. Need a tiebreaker (counter is safe; user used `random.random()` — works but tiny collision risk). Also guard `if l:` for empty lists
 - LIS: clean reproduction from memory (learned code-first 4 days ago) — the "scan all j<i, answer max(dp)" shape sticking
 - Permutations II: clean — needs `used` set (permutations loop 0..n, no start index) + sort + sibling skip `nums[i]==nums[i-1] and (i-1) not in used`
+
+---
+
+## 2026-08-02 — Day 84
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Median from Data Stream (#295) | Heap | two_heaps_median | — | 2 findMedian bugs, retry 08-17 |
+| R | LRU Cache (#146) | Design | cache_design | — | CLEAN w/ helpers finally!, retry 08-22 |
+| R | Find Peak Element (#162) | BinarySearch | peak_finding | — | clean, retry 08-12 |
+| R | Search a 2D Matrix (#74) | BinarySearch | matrix_search | — | clean, retry 08-07 |
+| R | Word Break (#139) | DynamicProgramming | string_dp | — | range/index bugs, retry 08-09 |
+
+**Notes:**
+- Find Median: BIG WIN — `addNum` now has the UNCONDITIONAL cross-over (the hard lesson from the multi-round debug session STUCK). Verified 5000 trials. Only bugs were in findMedian: `self.minHeap` → `self.minHeap[0]`, and precedence `(len+len)%2`
+- LRU Cache: FINALLY extracted helpers (`removeFromDLL`/`appendAtFront`/`removeLRU`) as suggested across prior reps → cleanest version yet. Verified 3000 random op-sequences vs OrderedDict. Storing `key` on node (for `del map[lru.key]` on evict) is the crucial detail
+- Find Peak: clean Family 3 / Template B. Reinforced Family vs Template vocab (no "template 3" — Family 3, Template B). Family 3 = only a DIRECTION at mid (compare neighbor), mid might be answer → keep it
+- Search 2D Matrix: Family 1 / Template A, flatten m×n → binary search `0..m*n-1`, convert `row = mid//cols`, `col = mid%cols`. DERIVED the formula: //cols = how many full rows passed, %cols = leftover within row (odometer rollover)
+- Word Break: bugs were `dp[len(s)+1]` out of bounds → `dp[len(s)]`, and outer loop `range(len(s))` too short → `range(1, len(s)+1)` (else dp[len(s)] never computed). Recurrence body was correct
