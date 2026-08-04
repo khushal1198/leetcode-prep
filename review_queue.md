@@ -218,7 +218,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-30 | 2026-08-14 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | done |
-| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | pending |
+| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | done |
+| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-08-03 | 2026-09-03 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | done |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
@@ -259,6 +260,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-26 | 2026-07-31 | done |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-31 | 2026-08-15 | pending |
 | Car Fleet (#853) | Stack | monotonic_stack | 2026-07-31 | 2026-08-05 | pending |
+| Decode String (#394) | Stack | nested_decode | 2026-08-03 | 2026-08-05 | pending — reattempt with 2-VARIABLE approach (curString/curNum) |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |

@@ -2101,3 +2101,23 @@ Daily journal of problems solved, learnings, and next steps.
 - Find Peak: clean Family 3 / Template B. Reinforced Family vs Template vocab (no "template 3" — Family 3, Template B). Family 3 = only a DIRECTION at mid (compare neighbor), mid might be answer → keep it
 - Search 2D Matrix: Family 1 / Template A, flatten m×n → binary search `0..m*n-1`, convert `row = mid//cols`, `col = mid%cols`. DERIVED the formula: //cols = how many full rows passed, %cols = leftover within row (odometer rollover)
 - Word Break: bugs were `dp[len(s)+1]` out of bounds → `dp[len(s)]`, and outer loop `range(len(s))` too short → `range(1, len(s)+1)` (else dp[len(s)] never computed). Recurrence body was correct
+
+---
+
+## 2026-08-03 — Day 85
+
+**Reviews: 1 · New: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | — | CLEAN 3rd rep → graduated, retry 09-03 |
+| 131 | Decode String (#394) | Stack | nested_decode | 5/10 | YES — reattempt 08-05 |
+
+**Notes:**
+- Single Element: 3rd clean rep running → graduated to a long interval (30 days). Solid.
+- Decode String (NEW — stack for NESTED structure, a new stack muscle beyond monotonic):
+  - User chose the SINGLE-STACK approach (push all chars raw; on `]` pop back to `[` for inner string, pop digits for count, push `string*count` back). Valid & verified, but bug-prone
+  - Bugs: loop header no colon + `i` never init/incremented; reused `i` as inner for-loop var (clobbers outer index → use `_`); `st.pop` missing `()`; digit loop needs empty guard `while st and st[-1].isdigit()`; missing `return "".join(st)`
+  - KEY teaching: the stack blends RAW input + FINISHED output; each `]` collapses the innermost group and pushes result back as if it were input → nesting resolves inside-out. `[` is the boundary bookmark
+  - RECOMMENDED the cleaner TWO-VARIABLE approach for reattempt: stack holds only outer context `(curString, curNum)`; on `[` push+reset, on `]` `curString = prev + count*curString`. Digit build `curNum = curNum*10 + int(ch)`. Fewer edge cases, clearer separation. Review 08-05 to relearn this way
+- STRATEGY note: today followed the new "1 new problem / 2 days, depth-first" plan (last new = Car Fleet 07-31). Decode String picked to build a NEW stack flavor

@@ -76,7 +76,7 @@
 | 1910 | [Remove All Occurrences of a Substring](https://leetcode.com/problems/remove-all-occurrences-of-a-substring/) | Medium | 4/10 | 78.5% | [ ] |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | Medium | 4/10 | 61.2% | [ ] |
 | 1717 | [Maximum Score From Removing Substrings](https://leetcode.com/problems/maximum-score-from-removing-substrings/) | Medium | 5/10 | 66.5% | [ ] |
-| 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | 5/10 | 62.6% | [ ] |
+| 394 | [Decode String](https://leetcode.com/problems/decode-string/) | Medium | 5/10 | 62.6% | [x] |
 | 1209 | [Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | Medium | 5/10 | 61.2% | [ ] |
 
 ## bracket_matching
