@@ -198,11 +198,13 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | done |
-| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-29 | 2026-08-04 | pending |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-29 | 2026-08-04 | done |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-08-04 | 2026-08-11 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | done |
-| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-30 | 2026-08-04 | pending |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-30 | 2026-08-04 | done |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-08-04 | 2026-08-25 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | done |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |

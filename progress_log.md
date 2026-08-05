@@ -2121,3 +2121,18 @@ Daily journal of problems solved, learnings, and next steps.
   - KEY teaching: the stack blends RAW input + FINISHED output; each `]` collapses the innermost group and pushes result back as if it were input → nesting resolves inside-out. `[` is the boundary bookmark
   - RECOMMENDED the cleaner TWO-VARIABLE approach for reattempt: stack holds only outer context `(curString, curNum)`; on `[` push+reset, on `]` `curString = prev + count*curString`. Digit build `curNum = curNum*10 + int(ch)`. Fewer edge cases, clearer separation. Review 08-05 to relearn this way
 - STRATEGY note: today followed the new "1 new problem / 2 days, depth-first" plan (last new = Car Fleet 07-31). Decode String picked to build a NEW stack flavor
+
+---
+
+## 2026-08-04 — Day 86
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subsets II (#90) | Backtracking | dedup_backtracking | — | `i > 0` should be `i > index`, retry 08-11 |
+| R | Combination Sum II (#40) | Backtracking | combination_sum | — | clean (got `i > index` right), retry 08-25 |
+
+**Note:**
+- Subsets II bug: dedup skip was `i > 0` — must be `i > index`. `i > index` = "not the FIRST choice at this level" → sibling → skip; `i == index` = continuation (deeper after taking prev dup) → allowed. `i > 0` wrongly skips legit continuations (`[1,2,2]`, `[2,2]` never generated)
+- Combination Sum II: got `i > index` right this time — clean
