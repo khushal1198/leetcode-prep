@@ -2136,3 +2136,12 @@ Daily journal of problems solved, learnings, and next steps.
 **Note:**
 - Subsets II bug: dedup skip was `i > 0` — must be `i > index`. `i > index` = "not the FIRST choice at this level" → sibling → skip; `i == index` = continuation (deeper after taking prev dup) → allowed. `i > 0` wrongly skips legit continuations (`[1,2,2]`, `[2,2]` never generated)
 - Combination Sum II: got `i > index` right this time — clean
+
+**Fresh problem (Add and Search Words #211 — Trie + DFS wildcard):**
+| 132 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 5/10 | YES — redo 08-24 |
+- Depth-first pick: fills thin Trie category (was 1/43), new muscle = Trie + DFS wildcard
+- TrieNode design: `children = {}` (char→node, char is on the EDGE not in the node) + `isEnd` bool. Node doesn't store its own char — identity comes from how you reached it (canonical design; storing char in node is a valid-but-redundant variation)
+- addWord: simple loop (never branches — always know exact char), create missing nodes, set isEnd at end
+- search NEEDS DFS (not a loop) because `.` wildcard branches: normal char → follow the one matching child; `.` → fan out into ALL children, succeed if ANY returns True
+- Bugs: (1) `TrieNode` missing `()` → stored the CLASS not an instance; (2) `search` didn't `return` the dfs; (3) base case returned `True` instead of `node.isEnd` (reaching end = matched all chars, but must ALSO be a word-end, else prefix "ba" falsely matches "bad")
+- Verified: wildcards `.ad`/`b..`/`...`, prefix-not-word `ba`→False, too-long `bad.`→False
