@@ -2145,3 +2145,24 @@ Daily journal of problems solved, learnings, and next steps.
 - search NEEDS DFS (not a loop) because `.` wildcard branches: normal char → follow the one matching child; `.` → fan out into ALL children, succeed if ANY returns True
 - Bugs: (1) `TrieNode` missing `()` → stored the CLASS not an instance; (2) `search` didn't `return` the dfs; (3) base case returned `True` instead of `node.isEnd` (reaching end = matched all chars, but must ALSO be a word-end, else prefix "ba" falsely matches "bad")
 - Verified: wildcards `.ad`/`b..`/`...`, prefix-not-word `ba`→False, too-long `bad.`→False
+
+---
+
+## 2026-08-05 — Day 87
+
+**Reviews: 5**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Decode String (#394) | Stack | nested_decode | — | RELEARNED 2-var approach, clean, retry 08-09 |
+| R | Time Based KV Store (#981) | Design | binary_search_versioned | — | clean (direction right this time), retry 08-25 |
+| R | Jump Game (#55) | Greedy | jump_reachability | — | clean (3rd distinct phrasing), retry 08-20 |
+| R | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | — | `>` should be `<`, retry 08-17 |
+| R | Car Fleet (#853) | Stack | monotonic_stack | — | forgot to sort, retry 08-15 |
+
+**Notes:**
+- Decode String: user forgot the 2-variable method, re-taught it. Now clean: stack holds ONLY saved outer context `(curNum, curString)`; `[` pushes+resets, `]` pops & stitches `prevString + prevNum*curString`. Digit build `curNum*10+int(ch)`. Much less bug-prone than his first single-stack version
+- Time Based KV: got direction RIGHT this time (`left=mid+1` on valid to chase LARGEST floor) — had inverted it before
+- Jump Game: 3rd DISTINCT correct phrasing across reviews (`i==farthest`, `i>farthest`, now `farthest < i+1`) — understands reachability, not memorizing
+- LIS: comparison backwards `nums[j] > nums[i]` → must be `<` (increasing needs earlier element SMALLER). `>` finds longest DECREASING
+- Car Fleet: forgot `sorted(zip(...), reverse=True)` — the sort by position DESC is the WHOLE game (makes leadTime = "fleet ahead"). Also had a typo lastestTime/latestTime. First review since learning it 07-31

@@ -213,7 +213,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | LRU Cache (#146) | Design | cache_design | 2026-08-02 | 2026-08-22 | pending |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-12 | 2026-07-19 | done |
 | Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-19 | 2026-07-29 | done |
-| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-29 | 2026-08-05 | pending |
+| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-07-29 | 2026-08-05 | done |
+| Time Based Key-Value Store (#981) | Design | binary_search_versioned | 2026-08-05 | 2026-08-25 | pending |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | done |
@@ -223,7 +224,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-08-03 | 2026-09-03 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | done |
-| Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | pending |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | done |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-08-05 | 2026-08-20 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | done |
@@ -251,7 +253,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-08-02 | 2026-08-09 | pending |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | done |
-| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | pending |
+| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | done |
+| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-05 | 2026-08-17 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | done |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-31 | 2026-08-10 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
@@ -261,8 +264,10 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | 2026-07-26 | 2026-09-09 | pending |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-26 | 2026-07-31 | done |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-31 | 2026-08-15 | pending |
-| Car Fleet (#853) | Stack | monotonic_stack | 2026-07-31 | 2026-08-05 | pending |
-| Decode String (#394) | Stack | nested_decode | 2026-08-03 | 2026-08-05 | pending — reattempt with 2-VARIABLE approach (curString/curNum) |
+| Car Fleet (#853) | Stack | monotonic_stack | 2026-07-31 | 2026-08-05 | done |
+| Car Fleet (#853) | Stack | monotonic_stack | 2026-08-05 | 2026-08-15 | pending |
+| Decode String (#394) | Stack | nested_decode | 2026-08-03 | 2026-08-05 | done |
+| Decode String (#394) | Stack | nested_decode | 2026-08-05 | 2026-08-09 | pending |
 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 2026-08-04 | 2026-08-24 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
