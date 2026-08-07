@@ -2166,3 +2166,21 @@ Daily journal of problems solved, learnings, and next steps.
 - Jump Game: 3rd DISTINCT correct phrasing across reviews (`i==farthest`, `i>farthest`, now `farthest < i+1`) — understands reachability, not memorizing
 - LIS: comparison backwards `nums[j] > nums[i]` → must be `<` (increasing needs earlier element SMALLER). `>` finds longest DECREASING
 - Car Fleet: forgot `sorted(zip(...), reverse=True)` — the sort by position DESC is the WHOLE game (makes leadTime = "fleet ahead"). Also had a typo lastestTime/latestTime. First review since learning it 07-31
+
+---
+
+## 2026-08-06 — Day 88
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | nums[left] bug, retry 08-13 |
+| R | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | — | cleanest yet (return type only), retry 09-20 |
+| R | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | — | clean, retry 09-16 |
+
+**Notes:**
+- Find Min Rotated: compared against `nums[left]` → BUG. Fails fully-sorted `[1,2,3,4,5]`→5 and rotated cases, because when left half is sorted its min is `nums[left]` itself, and `left=mid+1` DISCARDS it. Must anchor to `nums[right]`: `nums[mid] > nums[right]` → min strictly right (mid provably not min, safe to discard); else `right=mid` (keep, mid might be min)
+- KEY INTUITION built: the min is the bottom of the "cliff" (the one break in sorted order). `nums[right]` is the anchor on the LOW side of the cliff → gives a clean verdict "still on high plateau (go right) vs on low run (go left/stay)". `nums[left]` is on the high side → can't cleanly locate the low point, and you'd step over a min sitting at left
+- Pacific Atlantic: CLEANEST yet — all prior bugs gone (border seeding rows/cols correct, `>=` uphill, fresh nr/nc, visited set = both visited-check AND reachable-result). Only nit: return type (set→list; LC accepts tuples for #417). DFS returns nothing, just fills the passed set
+- Palindromic Substrings: clean, odd center `(i,i)` / even `(i,i+1)`, count each expansion. Prior odd-center `(i-1,i+1)` bug gone

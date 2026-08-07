@@ -135,7 +135,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-27 | 2026-07-02 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-04 | 2026-07-14 | done |
-| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-12 | 2026-08-06 | pending |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-12 | 2026-08-06 | done |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-06 | 2026-08-13 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | done |
@@ -206,7 +207,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-30 | 2026-08-04 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-08-04 | 2026-08-25 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | done |
-| Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | pending |
+| Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | done |
+| Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-08-06 | 2026-09-20 | pending |
 | LRU Cache (#146) | Design | cache_design | 2026-07-09 | 2026-07-12 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-11 | 2026-07-19 | done |
 | LRU Cache (#146) | Design | cache_design | 2026-07-19 | 2026-08-02 | done |
@@ -291,7 +293,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | done |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-18 | 2026-07-08 | done |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-08 | 2026-07-29 | done |
-| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-30 | 2026-08-06 | pending |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-30 | 2026-08-06 | done |
+| Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-08-06 | 2026-09-16 | pending |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-24 | 2026-07-04 | done |
