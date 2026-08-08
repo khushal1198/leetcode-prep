@@ -2184,3 +2184,21 @@ Daily journal of problems solved, learnings, and next steps.
 - KEY INTUITION built: the min is the bottom of the "cliff" (the one break in sorted order). `nums[right]` is the anchor on the LOW side of the cliff → gives a clean verdict "still on high plateau (go right) vs on low run (go left/stay)". `nums[left]` is on the high side → can't cleanly locate the low point, and you'd step over a min sitting at left
 - Pacific Atlantic: CLEANEST yet — all prior bugs gone (border seeding rows/cols correct, `>=` uphill, fresh nr/nc, visited set = both visited-check AND reachable-result). Only nit: return type (set→list; LC accepts tuples for #417). DFS returns nothing, just fills the passed set
 - Palindromic Substrings: clean, odd center `(i,i)` / even `(i,i+1)`, count each expansion. Prior odd-center `(i-1,i+1)` bug gone
+
+---
+
+## 2026-08-07 — Day 89
+
+**Reviews: 4**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | — | clean (re-explained concept), retry 09-06 |
+| R | Number of 1 Bits (#191) | BitManipulation | bit_counting | — | clean 4th rep → graduated 30d, retry 09-06 |
+| R | Search a 2D Matrix (#74) | BinarySearch | matrix_search | — | clean, retry 08-27 |
+| R | Gas Station (#134) | Greedy | gas_station | — | reset-condition bug, retry 08-17 |
+
+**Notes:**
+- Find Duplicate: clean by memory. Re-explained Floyd's: model array as linked list (i → nums[i]); duplicate → two indices share a "next" → cycle; cycle ENTRANCE = duplicate. Phase 1 slow/fast meet; Phase 2 reset one to head, both move 1 → meet at entrance. Math: F = kC − a. Flag for Floyd's = "O(1) space, don't modify array"
+- Number of 1 Bits: 4th clean rep → graduated (30 days). `n&1` + `n>>1` loop
+- Gas Station REGRESSED slightly: reset on `diff < 0` (single station) instead of `tank < 0` (running total). A strong station carries you through a weak one — only abandon start when ACCUMULATED tank goes negative, and reset tank=0. Also `>0` should be `>=0`. Fixed. (Had been clean 07-31; the single-vs-running distinction is the recurring subtlety here)

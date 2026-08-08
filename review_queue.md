@@ -105,7 +105,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-28 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-28 | 2026-07-18 | done |
-| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-07-18 | 2026-08-07 | pending |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-07-18 | 2026-08-07 | done |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-08-07 | 2026-09-06 | pending |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-23 | 2026-07-03 | done |
@@ -144,7 +145,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-07 | 2026-07-17 | done |
-| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-17 | 2026-08-07 | pending |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-17 | 2026-08-07 | done |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-08-07 | 2026-09-06 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-30 | 2026-08-14 | pending |
@@ -238,7 +240,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | done |
-| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-02 | 2026-08-07 | pending |
+| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-02 | 2026-08-07 | done |
+| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-07 | 2026-08-27 | pending |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | done |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-08-01 | 2026-08-27 | pending |
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
@@ -248,7 +251,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | done |
-| Gas Station (#134) | Greedy | gas_station | 2026-07-31 | 2026-08-07 | pending |
+| Gas Station (#134) | Greedy | gas_station | 2026-07-31 | 2026-08-07 | done |
+| Gas Station (#134) | Greedy | gas_station | 2026-08-07 | 2026-08-17 | pending |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
