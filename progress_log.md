@@ -2202,3 +2202,21 @@ Daily journal of problems solved, learnings, and next steps.
 - Find Duplicate: clean by memory. Re-explained Floyd's: model array as linked list (i → nums[i]); duplicate → two indices share a "next" → cycle; cycle ENTRANCE = duplicate. Phase 1 slow/fast meet; Phase 2 reset one to head, both move 1 → meet at entrance. Math: F = kC − a. Flag for Floyd's = "O(1) space, don't modify array"
 - Number of 1 Bits: 4th clean rep → graduated (30 days). `n&1` + `n>>1` loop
 - Gas Station REGRESSED slightly: reset on `diff < 0` (single station) instead of `tank < 0` (running total). A strong station carries you through a weak one — only abandon start when ACCUMULATED tank goes negative, and reset tank=0. Also `>0` should be `>=0`. Fixed. (Had been clean 07-31; the single-vs-running distinction is the recurring subtlety here)
+
+---
+
+## 2026-08-08 — Day 90
+
+**New: 1 (first HARD in a while!)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 133 | Word Search II (#212) | Trie | trie_grid_backtracking | 8/10 HARD | YES — redo 08-15 |
+
+**Word Search II — SYNTHESIS problem (Trie + grid backtracking):**
+- Depth-first pick: combines Add and Search Words (Trie, 08-04) + Word Search (grid backtracking). First Hard in a while (addressing the 3-Hard gap)
+- Problem: find which dictionary words exist as adjacent-cell paths in the grid (Word Search #79 but for MANY words at once)
+- Efficiency insight: naive = run Word Search per word (re-scans grid, redundant on shared prefixes). Better = Trie of ALL words + ONE grid DFS walking the Trie in lockstep; prune the instant the path leaves the Trie
+- Design: store the full word ON the end node (`node.string = word`) instead of passing curString through DFS. DFS args = (r, c, trieNode). node.string doubles as isEnd flag; can null it to dedup
+- BUGS (approach was right, mechanics wrong): (1) setupTrie never called; (2) `visited` tracked the LETTER not `(r,c)` — classic grid bug; (3) THE HARD ONE: `isEnd` checked on `node` (PARENT) — must extract `childNode = node.children[board[r][c]]` and check childNode.isEnd + recurse with childNode. Code was off-by-one-level: checked parent for isEnd but recursed with child. Single-cell `["a"]` exposed it (returned []); (4) setupTrie `not in` / undefined var
+- FIX PATTERN: pull out `childNode` and use it for BOTH the isEnd check AND recursion → level consistent. "childNode = where I am in the Trie right now"

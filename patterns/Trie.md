@@ -192,7 +192,7 @@
 
 | # | Problem | Difficulty | Score | Acceptance | Status |
 |---|---------|------------|-------|------------|--------|
-| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | 8/10 | 38.4% | [ ] |
+| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | Hard | 8/10 | 38.4% | [x] |
 
 ## trie_dp_and_graph
 

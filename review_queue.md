@@ -275,6 +275,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Decode String (#394) | Stack | nested_decode | 2026-08-03 | 2026-08-05 | done |
 | Decode String (#394) | Stack | nested_decode | 2026-08-05 | 2026-08-09 | pending |
 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 2026-08-04 | 2026-08-24 | pending |
+| Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-08 | 2026-08-15 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
