@@ -2220,3 +2220,5 @@ Daily journal of problems solved, learnings, and next steps.
 - Design: store the full word ON the end node (`node.string = word`) instead of passing curString through DFS. DFS args = (r, c, trieNode). node.string doubles as isEnd flag; can null it to dedup
 - BUGS (approach was right, mechanics wrong): (1) setupTrie never called; (2) `visited` tracked the LETTER not `(r,c)` — classic grid bug; (3) THE HARD ONE: `isEnd` checked on `node` (PARENT) — must extract `childNode = node.children[board[r][c]]` and check childNode.isEnd + recurse with childNode. Code was off-by-one-level: checked parent for isEnd but recursed with child. Single-cell `["a"]` exposed it (returned []); (4) setupTrie `not in` / undefined var
 - FIX PATTERN: pull out `childNode` and use it for BOTH the isEnd check AND recursion → level consistent. "childNode = where I am in the Trie right now"
+
+**Review: 1** — Jump Game II (#45): clean levels greedy (discovered `farthest` vs committed `currentEnd`), retry 08-20

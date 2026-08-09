@@ -233,7 +233,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | done |
-| Jump Game II (#45) | Greedy | jump_levels | 2026-07-29 | 2026-08-08 | pending |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-07-29 | 2026-08-08 | done |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-08-08 | 2026-08-20 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-12 | pending |
