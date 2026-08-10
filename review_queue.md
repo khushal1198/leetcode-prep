@@ -258,7 +258,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | done |
-| Word Break (#139) | DynamicProgramming | string_dp | 2026-08-02 | 2026-08-09 | pending |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-08-02 | 2026-08-09 | done |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-08-09 | 2026-08-19 | pending |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | done |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | done |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-05 | 2026-08-17 | pending |
@@ -274,7 +275,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Car Fleet (#853) | Stack | monotonic_stack | 2026-07-31 | 2026-08-05 | done |
 | Car Fleet (#853) | Stack | monotonic_stack | 2026-08-05 | 2026-08-15 | pending |
 | Decode String (#394) | Stack | nested_decode | 2026-08-03 | 2026-08-05 | done |
-| Decode String (#394) | Stack | nested_decode | 2026-08-05 | 2026-08-09 | pending |
+| Decode String (#394) | Stack | nested_decode | 2026-08-05 | 2026-08-09 | done |
+| Decode String (#394) | Stack | nested_decode | 2026-08-09 | 2026-08-21 | pending |
 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 2026-08-04 | 2026-08-24 | pending |
 | Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-08 | 2026-08-15 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |

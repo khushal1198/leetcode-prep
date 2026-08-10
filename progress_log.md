@@ -2222,3 +2222,18 @@ Daily journal of problems solved, learnings, and next steps.
 - FIX PATTERN: pull out `childNode` and use it for BOTH the isEnd check AND recursion → level consistent. "childNode = where I am in the Trie right now"
 
 **Review: 1** — Jump Game II (#45): clean levels greedy (discovered `farthest` vs committed `currentEnd`), retry 08-20
+
+---
+
+## 2026-08-09 — Day 91
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Word Break (#139) | DynamicProgramming | string_dp | — | off-by-one range again, retry 08-19 |
+| R | Decode String (#394) | Stack | nested_decode | — | clean 2-var from memory, retry 08-21 |
+
+**Notes:**
+- Word Break: recurring off-by-one — outer loop `range(1, len(s))` must be `range(1, len(s)+1)` so `dp[len(s)]` (the answer) gets computed. `dp[i]` = prefix of length i; full string is length len(s)
+- Decode String: CLEAN 2-variable method from memory (no re-teaching). Progression: first did bug-prone single-stack → relearned 2-var 08-05 → now reproduced solid. Model stuck: stack holds saved outer context (currentString, currentNum); `[` push+reset; `]` pop & stitch `prev + num*current`
