@@ -2256,3 +2256,7 @@ Daily journal of problems solved, learnings, and next steps.
 - Used the CLEANER (start_index, height) variant: store the leftmost index the bar can extend back to. On pop, `start = index` (current bar inherits popped bar's start, since everything between was ≥ current height). Width = `i - index` (NO -1, no empty-stack special case) because index is the inclusive left edge
 - Key clarifications user needed: (1) pop happens FIRST so stack[-1] is the NEW top; (2) use `height` (popped bar) NOT `h` (current) — we're finalizing the POPPED bar's rectangle; h is just the right-wall trigger; (3) requested explicit if/else over compressed ternary
 - MILESTONE: first Hard solved by reasoning through it (not handed the code). 2nd Hard this week (Word Search II 08-08) — actively closing the Hard gap
+
+**Early reviews (did Aug 11's batch early on Aug 10):**
+- Design Linked List (#707): `get` off-by-one — start at `dummyHead.next` OR (user's fix) return `head.next.val` after moving `index` steps. With a dummy head, dummyHead is position -1: to reach index i take i+1 steps; insert/delete want the PREDECESSOR (i steps), get wants the node itself. Latent bug: addAtIndex guard `index > size+1` should be `> size` (index==size+1 exactly crashes onto dummyTail; passed LC only because tests didn't hit that exact input). Retry 09-05
+- Longest Repeating Char Replacement (#424): only a typo `longestSubstringLexn`. Logic correct (windowLen - maxFreq > k → shrink). Retry 09-16

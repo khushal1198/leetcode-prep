@@ -153,7 +153,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-19 | 2026-06-23 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-23 | 2026-06-26 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-26 | 2026-07-10 | done |
-| Design Linked List (#707) | Design | doubly_linked_list | 2026-07-10 | 2026-08-11 | pending |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-07-10 | 2026-08-11 | done |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-08-11 | 2026-09-05 | pending |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-24 | done |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-24 | 2026-06-30 | done |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-30 | 2026-07-14 | done |
@@ -171,7 +172,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-07 | 2026-07-14 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-13 | 2026-07-20 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-20 | 2026-07-27 | done |
-| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-27 | 2026-08-11 | pending |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-27 | 2026-08-11 | done |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-08-11 | 2026-09-16 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
