@@ -264,7 +264,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | done |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-05 | 2026-08-17 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | done |
-| Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-31 | 2026-08-10 | pending |
+| Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-31 | 2026-08-10 | done |
+| Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-08-10 | 2026-09-10 | pending |
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | done |
@@ -279,6 +280,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Decode String (#394) | Stack | nested_decode | 2026-08-09 | 2026-08-21 | pending |
 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 2026-08-04 | 2026-08-24 | pending |
 | Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-08 | 2026-08-15 | pending |
+| Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-10 | 2026-08-14 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |

@@ -2237,3 +2237,22 @@ Daily journal of problems solved, learnings, and next steps.
 **Notes:**
 - Word Break: recurring off-by-one — outer loop `range(1, len(s))` must be `range(1, len(s)+1)` so `dp[len(s)]` (the answer) gets computed. `dp[i]` = prefix of length i; full string is length len(s)
 - Decode String: CLEAN 2-variable method from memory (no re-teaching). Progression: first did bug-prone single-stack → relearned 2-var 08-05 → now reproduced solid. Model stuck: stack holds saved outer context (currentString, currentNum); `[` push+reset; `]` pop & stitch `prev + num*current`
+
+---
+
+## 2026-08-10 — Day 92
+
+**Reviews: 1 · New: 1 (2nd HARD this week!)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Contiguous Array (#525) | Hashing | prefix_sum_hash | — | clean, retry 09-10 |
+| 134 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 8/10 HARD | YES — redo 08-14 |
+
+**Largest Rectangle — monotonic stack capstone (2nd Hard this week):**
+- Reframe: each bar = the SHORTEST bar of some rectangle. Width runs to the nearest SHORTER bar on each side. area = height × width. Max over all bars
+- Related to Trapping Rain Water (bars+areas, both monotonic-stack-able) but DIFFERENT quantity: Trapping = min(walls)-height (containment); Largest Rect = height × width-until-shorter (extent)
+- Increasing-height stack holds bars waiting for their RIGHT boundary. A shorter bar arriving FINALIZES the taller ones (pop + compute)
+- Used the CLEANER (start_index, height) variant: store the leftmost index the bar can extend back to. On pop, `start = index` (current bar inherits popped bar's start, since everything between was ≥ current height). Width = `i - index` (NO -1, no empty-stack special case) because index is the inclusive left edge
+- Key clarifications user needed: (1) pop happens FIRST so stack[-1] is the NEW top; (2) use `height` (popped bar) NOT `h` (current) — we're finalizing the POPPED bar's rectangle; h is just the right-wall trigger; (3) requested explicit if/else over compressed ternary
+- MILESTONE: first Hard solved by reasoning through it (not handed the code). 2nd Hard this week (Word Search II 08-08) — actively closing the Hard gap

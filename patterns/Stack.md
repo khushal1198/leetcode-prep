@@ -365,7 +365,7 @@
 | 1856 | [Maximum Subarray Min-Product](https://leetcode.com/problems/maximum-subarray-min-product/) | Medium | 7/10 | 40.3% | [ ] |
 | 907 | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | Medium | 7/10 | 38.5% | [ ] |
 | 768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | Hard | 8/10 | 54.8% | [ ] |
-| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | 8/10 | 49.8% | [ ] |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Hard | 8/10 | 49.8% | [x] |
 | 2334 | [Subarray With Elements Greater Than Varying Threshold](https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/) | Hard | 8/10 | 45.4% | [ ] |
 | 3229 | [Minimum Operations to Make Array Equal to Target](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target/) | Hard | 8/10 | 41.5% | [ ] |
 | 2866 | [Beautiful Towers II](https://leetcode.com/problems/beautiful-towers-ii/) | Medium | 8/10 | 36.4% | [ ] |
