@@ -57,7 +57,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-25 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-06 | done |
-| Permutations (#46) | Backtracking | permutation_generation | 2026-07-06 | 2026-08-11 | pending |
+| Permutations (#46) | Backtracking | permutation_generation | 2026-07-06 | 2026-08-11 | done |
+| Permutations (#46) | Backtracking | permutation_generation | 2026-08-11 | 2026-09-21 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-28 | 2026-06-07 | done |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-15 | done |
@@ -111,10 +112,12 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-23 | 2026-07-03 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-07-04 | 2026-08-01 | done |
-| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-08-01 | 2026-08-11 | pending |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-08-01 | 2026-08-11 | done |
+| Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-08-11 | 2026-10-01 | pending |
 | Min Stack (#155) | Stack | min_stack | 2026-06-14 | 2026-06-20 | done |
 | Min Stack (#155) | Stack | min_stack | 2026-06-20 | 2026-07-10 | done |
-| Min Stack (#155) | Stack | min_stack | 2026-07-10 | 2026-08-11 | pending |
+| Min Stack (#155) | Stack | min_stack | 2026-07-10 | 2026-08-11 | done |
+| Min Stack (#155) | Stack | min_stack | 2026-08-12 | 2026-10-12 | pending |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | done |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-29 | 2026-07-29 | done |
@@ -204,7 +207,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-11 | 2026-07-15 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-29 | 2026-08-04 | done |
-| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-08-04 | 2026-08-11 | pending |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-08-04 | 2026-08-11 | done |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-08-12 | 2026-09-01 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | done |
@@ -283,6 +287,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 2026-08-04 | 2026-08-24 | pending |
 | Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-08 | 2026-08-15 | pending |
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-10 | 2026-08-14 | pending |
+| Network Delay Time (#743) | Graphs | dijkstra | 2026-08-12 | 2026-08-19 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
@@ -292,7 +297,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-11 | 2026-07-15 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-15 | 2026-07-22 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-22 | 2026-08-01 | done |
-| Permutations II (#47) | Backtracking | permutation_generation | 2026-08-01 | 2026-08-11 | pending |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-08-01 | 2026-08-11 | done |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-08-12 | 2026-08-30 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |

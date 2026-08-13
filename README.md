@@ -14,7 +14,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | Arrays | 4 | 224 | prefix_suffix_products, frequency_counting, matrix_simulation, prefix_sum_hashmap |
 | SlidingWindow | 5 | 98 | fixed_window, variable_window, variable_window_unique_elements, replacement_budget |
 | Trees | 16 | 227 | dfs_traversal, tree_modification, path_sum, bst_operations, bfs_level_order, lowest_common_ancestor, binary_tree_dp, inorder_traversal, pass_down_state |
-| Graphs | 10 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort, multi_source_bfs, reverse_flood |
+| Graphs | 11 | 187 | grid_traversal, dfs_connected_components, graph_traversal, topological_sort, multi_source_bfs, reverse_flood, dijkstra |
 | DynamicProgramming | 10 | 392 | linear_dp, knapsack, expand_around_center, multi_state_dp, string_dp, subsequence_dp |
 | Greedy | 8 | 331 | stock_trading, interval_merge, interval_scheduling, cooldown_scheduling, jump_reachability, jump_levels, gas_station |
 | Backtracking | 9 | 69 | subset_enumeration, permutation_generation, combination_generation, grid_backtracking, combination_sum, dedup_backtracking |
@@ -28,7 +28,7 @@ Catching back up on DSA patterns after a few years. Solving problems on LeetCode
 | DivideAndConquer | 1 | 24 | merge_sort |
 | SegmentTree | 0 | 25 | |
 
-**Total: 134 / 2733**
+**Total: 135 / 2733**
 
 ## Key Files
 

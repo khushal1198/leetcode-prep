@@ -2260,3 +2260,27 @@ Daily journal of problems solved, learnings, and next steps.
 **Early reviews (did Aug 11's batch early on Aug 10):**
 - Design Linked List (#707): `get` off-by-one — start at `dummyHead.next` OR (user's fix) return `head.next.val` after moving `index` steps. With a dummy head, dummyHead is position -1: to reach index i take i+1 steps; insert/delete want the PREDECESSOR (i steps), get wants the node itself. Latent bug: addAtIndex guard `index > size+1` should be `> size` (index==size+1 exactly crashes onto dummyTail; passed LC only because tests didn't hit that exact input). Retry 09-05
 - Longest Repeating Char Replacement (#424): only a typo `longestSubstringLexn`. Logic correct (windowLen - maxFreq > k → shrink). Retry 09-16
+
+---
+
+## 2026-08-12 — Day 93
+
+**Reviews: 4 (cleared Aug-11 carryover + more) · New: 1 (Dijkstra!)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Permutations (#46) | Backtracking | permutation_generation | — | clean (`not in current`), retry 09-21 |
+| R | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | — | clean, retry 10-01 |
+| R | Min Stack (#155) | Stack | min_stack | — | clean (3000 trials), retry 10-12 |
+| R | Subsets II (#90) | Backtracking | dedup_backtracking | — | clean (`i>index` right this time), retry 09-01 |
+| R | Permutations II (#47) | Backtracking | permutation_generation | — | clean (got `(i-1) not in used` guard), retry 08-30 |
+| 135 | Network Delay Time (#743) | Graphs | dijkstra | 5/10 | YES — redo 08-19 |
+
+**Dijkstra's algorithm (NEW — fills weighted-graph gap):**
+- Depth-first pick: had BFS/DFS/topo/union-find but NOT weighted shortest-path. Dijkstra = the foundational one; unlocks Cheapest Flights, Min Effort, Swim in Water, MST-Prim
+- Problem (Network Delay #743): shortest time from k to every node, return the MAX (last node to receive). -1 if any unreachable
+- Core idea: repeatedly grab the CLOSEST unvisited node (min-heap), finalize its distance, relax neighbors (offer `dist+w`). Non-negative weights → once popped, distance is final
+- Template: heap of `(distance, node)`, `dist={}`/visited set, skip-if-already-finalized on pop, push `(d+w, neighbor)`. Answer = max(dist) if len==n else -1
+- BUGS: (1) THE BIG ONE — heap tuple was `(node, distance)` → heap sorted by node number not distance → broke "closest first" (gave 4 instead of 3). Must be `(distance, node)` — distance FIRST; (2) missing skip-if-visited on pop → stale larger entries inflated maxTime
+- Mental model: Dijkstra = BFS but with a PRIORITY QUEUE (explore by total distance, not hop count). Skip-stale-pop replaces decrease-key
+- Note: user asked me to STOP dumping all code+explanation at once — prefers simple, incremental, small pieces. (Applies generally, even for algorithms — start with 1-line intuition, build up)

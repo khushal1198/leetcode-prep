@@ -289,7 +289,7 @@
 | 2737 | [Find the Closest Marked Node](https://leetcode.com/problems/find-the-closest-marked-node/) :lock: | Medium | 4/10 | 65.4% | [ ] |
 | 2473 | [Minimum Cost to Buy Apples](https://leetcode.com/problems/minimum-cost-to-buy-apples/) :lock: | Medium | 5/10 | 67.2% | [ ] |
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | Medium | 5/10 | 65.5% | [ ] |
-| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | 5/10 | 60.3% | [ ] |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | Medium | 5/10 | 60.3% | [x] |
 | 3341 | [Find Minimum Time to Reach Last Room I](https://leetcode.com/problems/find-minimum-time-to-reach-last-room-i/) | Medium | 5/10 | 55.4% | [ ] |
 | 3112 | [Minimum Time to Visit Disappearing Nodes](https://leetcode.com/problems/minimum-time-to-visit-disappearing-nodes/) | Medium | 5/10 | 37.8% | [ ] |
 | 3286 | [Find a Safe Walk Through a Grid](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | Medium | 5/10 | 33.2% | [ ] |
