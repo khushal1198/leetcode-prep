@@ -243,7 +243,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Jump Game II (#45) | Greedy | jump_levels | 2026-08-08 | 2026-08-20 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | done |
-| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-12 | pending |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-13 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | done |
@@ -251,7 +251,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-07 | 2026-08-27 | pending |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | done |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-08-01 | 2026-08-27 | pending |
-| Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-12 | pending |
+| Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-13 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-30 | 2026-08-19 | pending — try O(1) two-pointer next |
