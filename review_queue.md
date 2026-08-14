@@ -290,7 +290,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Decode String (#394) | Stack | nested_decode | 2026-08-09 | 2026-08-21 | pending |
 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 2026-08-04 | 2026-08-24 | pending |
 | Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-08 | 2026-08-15 | pending |
-| Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-10 | 2026-08-14 | pending |
+| Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-10 | 2026-08-14 | done |
+| Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-13 | 2026-08-18 | pending |
 | Network Delay Time (#743) | Graphs | dijkstra | 2026-08-12 | 2026-08-19 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |

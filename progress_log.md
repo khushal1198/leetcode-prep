@@ -2289,7 +2289,7 @@ Daily journal of problems solved, learnings, and next steps.
 
 ## 2026-08-13 — Day 94
 
-**Reviews: 4 (cleared Aug-12 carryover + deferred batch)**
+**Reviews: 5 (cleared Aug-12 carryover + deferred batch + Aug-14 redo)**
 
 | # | Problem | Category | Pattern | Score | Review? |
 |---|---------|----------|---------|-------|---------|
@@ -2297,11 +2297,17 @@ Daily journal of problems solved, learnings, and next steps.
 | R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | retry 08-23 |
 | R | Find Peak Element (#162) | BinarySearch | peak_finding | — | clean, retry 08-25 |
 | R | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | — | clean, retry 09-27 |
+| R | Largest Rectangle in Histogram (#84) | Stack | histogram_area | — | retry 08-18 (5 days — needed hints) |
 
 **Find Min in Rotated — deeper than a clean pass:**
 - First attempt had the decision rule INVERTED + off-by-one: `nums[mid] < nums[right] → right = mid - 1` (discards mid when it could BE the min) and kept `left = mid` on the provably-wrong side (infinite-loop risk at 2 elements)
 - Relearned the *why*: rotated array = big run + small run; min = first of small run (the drop). `nums[right]` is a fixed reference inside the small run. `nums[mid] > nums[right]` → mid in big run, drop strictly right (`left = mid+1` safe since mid provably not answer); else mid in small run, min at mid or left (`right = mid`, inclusive — never discard a candidate)
 - Framing that stuck: predicate "nums[i] > nums[right]" is monotone T→F; first F = answer. Each move may only discard what's PROVEN wrong
+
+**Largest Rectangle redo (4 days after first solve) — partially remembered:**
+- Recalled: (height, index) stack, the pop-finalizes-taller-bars idea. Forgot: pop direction (had `< h`, needs `> h`), the `start` inheritance, the area formula, and the end-of-array flush
+- After hints + reference: got all four, but final draft still had the last bug — computed `start = index` then pushed `(h, i)` instead of `(h, start)`. Inheritance computed but not used
+- Short 5-day retry (not the usual long gap) since this needed heavy hinting — it's a Hard and the key mechanics aren't sticking yet
 
 **Other notes:**
 - Find Peak: clean Template B, same family as Find Min (converge, never discard the candidate). Uphill → `left = mid+1`, else `right = mid`. Added an unnecessary `mid+1 < len(nums)` guard — harmless, but `left < right` already guarantees `mid+1` in bounds
