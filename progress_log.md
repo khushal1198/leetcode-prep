@@ -2284,3 +2284,32 @@ Daily journal of problems solved, learnings, and next steps.
 - BUGS: (1) THE BIG ONE — heap tuple was `(node, distance)` → heap sorted by node number not distance → broke "closest first" (gave 4 instead of 3). Must be `(distance, node)` — distance FIRST; (2) missing skip-if-visited on pop → stale larger entries inflated maxTime
 - Mental model: Dijkstra = BFS but with a PRIORITY QUEUE (explore by total distance, not hop count). Skip-stale-pop replaces decrease-key
 - Note: user asked me to STOP dumping all code+explanation at once — prefers simple, incremental, small pieces. (Applies generally, even for algorithms — start with 1-line intuition, build up)
+
+---
+
+## 2026-08-13 — Day 94
+
+**Reviews: 2 (cleared Aug-12 carryover)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | — | clean, retry 09-02 |
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | retry 08-23 |
+
+**Find Min in Rotated — deeper than a clean pass:**
+- First attempt had the decision rule INVERTED + off-by-one: `nums[mid] < nums[right] → right = mid - 1` (discards mid when it could BE the min) and kept `left = mid` on the provably-wrong side (infinite-loop risk at 2 elements)
+- Relearned the *why*: rotated array = big run + small run; min = first of small run (the drop). `nums[right]` is a fixed reference inside the small run. `nums[mid] > nums[right]` → mid in big run, drop strictly right (`left = mid+1` safe since mid provably not answer); else mid in small run, min at mid or left (`right = mid`, inclusive — never discard a candidate)
+- Framing that stuck: predicate "nums[i] > nums[right]" is monotone T→F; first F = answer. Each move may only discard what's PROVEN wrong
+
+---
+
+## 2026-08-14 — Day 95
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Peak Element (#162) | BinarySearch | peak_finding | — | clean, retry 08-26 |
+| R | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | — | clean, retry 09-28 |
+
+- Find Peak: clean Template B, same family as Find Min from yesterday (converge, never discard the candidate). Uphill → `left = mid+1`, else `right = mid`. Added an unnecessary `mid+1 < len(nums)` guard — harmless, but `left < right` already guarantees `mid+1` in bounds

@@ -46,7 +46,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-09 | 2026-06-23 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-23 | 2026-07-13 | done |
-| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-07-12 | 2026-08-12 | pending |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-07-12 | 2026-08-12 | done |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-08-13 | 2026-09-02 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-24 | 2026-05-28 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-28 | 2026-06-07 | done |
@@ -140,7 +141,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-27 | 2026-07-02 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-04 | 2026-07-14 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-12 | 2026-08-06 | done |
-| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-06 | 2026-08-13 | pending |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-06 | 2026-08-13 | done |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-13 | 2026-08-23 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | done |
@@ -243,7 +245,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Jump Game II (#45) | Greedy | jump_levels | 2026-08-08 | 2026-08-20 | pending |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | done |
-| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-13 | pending |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-13 | done |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-14 | 2026-08-26 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | done |
@@ -251,7 +254,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-07 | 2026-08-27 | pending |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | done |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-08-01 | 2026-08-27 | pending |
-| Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-13 | pending |
+| Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-13 | done |
+| Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-08-14 | 2026-09-28 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-30 | 2026-08-19 | pending — try O(1) two-pointer next |
