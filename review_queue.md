@@ -154,7 +154,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-08-07 | 2026-09-06 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | done |
-| Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-30 | 2026-08-14 | pending |
+| Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-30 | 2026-08-14 | done |
+| Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-08-14 | 2026-09-23 | pending |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-19 | 2026-06-23 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-23 | 2026-06-26 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-26 | 2026-07-10 | done |
@@ -170,7 +171,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Diameter of Binary Tree (#543) | Trees | binary_tree_dp | 2026-07-26 | 2026-09-26 | pending |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-12 | done |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-07-11 | 2026-07-25 | done |
-| Combination Sum (#39) | Backtracking | combination_sum | 2026-07-25 | 2026-08-14 | pending |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-07-25 | 2026-08-14 | done |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-08-14 | 2026-09-08 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | done |
@@ -230,7 +232,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-12 | 2026-07-16 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | done |
-| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-30 | 2026-08-14 | pending |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-30 | 2026-08-14 | done |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-08-14 | 2026-09-18 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | done |

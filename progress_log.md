@@ -2312,3 +2312,20 @@ Daily journal of problems solved, learnings, and next steps.
 **Other notes:**
 - Find Peak: clean Template B, same family as Find Min (converge, never discard the candidate). Uphill → `left = mid+1`, else `right = mid`. Added an unnecessary `mid+1 < len(nums)` guard — harmless, but `left < right` already guarantees `mid+1` in bounds
 - RPN: clean — popped op2 then op1 (order right for `-` and `/`), `int(op1/op2)` truncation
+
+---
+
+## 2026-08-14 — Day 95
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Rotting Oranges (#994) | Graphs | multi_source_bfs | — | time over-count bug, retry 09-23 |
+| R | Combination Sum (#39) | Backtracking | combination_sum | — | clean (recurse with `i`), retry 09-08 |
+| R | Find First and Last Position (#34) | BinarySearch | boundary_search | — | clean (typo gone), retry 09-18 |
+
+**Notes:**
+- Rotting Oranges: `time += 1` at the START of every while-iteration over-counts by 1 — the final drain level (last-rotted oranges, no fresh neighbors) still adds a minute (`[[2,1]]`→2 not 1). Fix: only count a minute when a level ACTUALLY rots something (`rotted` flag). Offered 2 alternatives — Option A (`if q: time+=1` after level = minute is the TRANSITION between levels), Option B (carry minute in queue `(r,c,t)`, answer = max t — cleanest, standard BFS-distance template). User kept the flag. Also: outer `for i in range(len(q))` + inner `for (i,j)` shadow `i` — harmless (range fixed at loop start) but confusing
+- Combination Sum: clean, recurse with `i` for reuse. `sort()` optional here (no dedup needed; could enable early-break)
+- Find First/Last: clean Family 2 / Template A, two searches differ only on match line (first→right=mid-1, last→left=mid+1). Prior `amswer` typo gone
