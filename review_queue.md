@@ -63,7 +63,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-28 | 2026-06-07 | done |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-06-25 | 2026-07-15 | done |
-| House Robber (#198) | DynamicProgramming | linear_dp | 2026-07-15 | 2026-08-15 | pending |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-07-15 | 2026-08-15 | done |
+| House Robber (#198) | DynamicProgramming | linear_dp | 2026-08-16 | 2026-10-05 | pending |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-28 | 2026-06-08 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-08 | 2026-06-25 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-25 | 2026-07-25 | done |
@@ -251,7 +252,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-13 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-13 | 2026-08-25 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
-| Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | pending |
+| Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | done |
+| Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-08-16 | 2026-09-30 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | done |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-02 | 2026-08-07 | done |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-07 | 2026-08-27 | pending |
@@ -307,7 +309,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-22 | 2026-08-01 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-08-01 | 2026-08-11 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-08-12 | 2026-08-30 | pending |
-| Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | pending |
+| Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | done |
+| Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-08-16 | 2026-09-20 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-10 | 2026-06-28 | done |
 | Group Anagrams (#49) | Hashing | grouping_by_key | 2026-06-28 | 2026-07-05 | done |

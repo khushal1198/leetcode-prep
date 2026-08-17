@@ -2329,3 +2329,21 @@ Daily journal of problems solved, learnings, and next steps.
 - Rotting Oranges: `time += 1` at the START of every while-iteration over-counts by 1 — the final drain level (last-rotted oranges, no fresh neighbors) still adds a minute (`[[2,1]]`→2 not 1). Fix: only count a minute when a level ACTUALLY rots something (`rotted` flag). Offered 2 alternatives — Option A (`if q: time+=1` after level = minute is the TRANSITION between levels), Option B (carry minute in queue `(r,c,t)`, answer = max t — cleanest, standard BFS-distance template). User kept the flag. Also: outer `for i in range(len(q))` + inner `for (i,j)` shadow `i` — harmless (range fixed at loop start) but confusing
 - Combination Sum: clean, recurse with `i` for reuse. `sort()` optional here (no dedup needed; could enable early-break)
 - Find First/Last: clean Family 2 / Template A, two searches differ only on match line (first→right=mid-1, last→left=mid+1). Prior `amswer` typo gone
+
+---
+
+## 2026-08-16 — Day 96
+
+**Reviews: 3** (Aug 15 was skipped; 4 more rolled to tomorrow: Word Search II, Encode/Decode, Car Fleet, Majority Element)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | — | `> 0` should be `>= 0`, retry 09-30 |
+| R | House Robber (#198) | DynamicProgramming | linear_dp | — | clean, retry 10-05 |
+| R | Binary Tree Right Side View (#199) | Trees | bfs_level_order | — | clean (DFS overwrite trick), retry 09-20 |
+
+**Notes:**
+- Capacity to Ship: `calculateDays` fill condition `currentCapacity - weight > 0` must be `>= 0` — an exact fit (remaining capacity == weight) should stay on the CURRENT day, not open a new one. `> 0` over-counts days → search lands on too-big capacity (16 vs 15). Binary search itself correct
+- House Robber: clean `dp[i] = max(dp[i-2]+nums[i], dp[i-1])`
+- Right Side View: clever DFS-overwrite variant — visit LEFT then RIGHT, overwrite `output[height]` for every node. Works because DFS fully processes the left subtree before the right, so at each height the rightmost node is written LAST. (Common version = visit RIGHT first, append only when `len==height`, first-seen wins.) Both correct
+- STILL PENDING from tomorrow: finish Min Cost to Connect Points (#1584) Prim's — got the core idea (grow tree, add nearest unconnected point), need the min-heap mechanics next
