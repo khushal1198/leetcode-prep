@@ -2347,3 +2347,19 @@ Daily journal of problems solved, learnings, and next steps.
 - House Robber: clean `dp[i] = max(dp[i-2]+nums[i], dp[i-1])`
 - Right Side View: clever DFS-overwrite variant — visit LEFT then RIGHT, overwrite `output[height]` for every node. Works because DFS fully processes the left subtree before the right, so at each height the rightmost node is written LAST. (Common version = visit RIGHT first, append only when `len==height`, first-seen wins.) Both correct
 - STILL PENDING from tomorrow: finish Min Cost to Connect Points (#1584) Prim's — got the core idea (grow tree, add nearest unconnected point), need the min-heap mechanics next
+
+---
+
+## 2026-08-17 — Day 97
+
+**Reviews: 2** (4 more rolled to tomorrow: Car Fleet, Majority Element, Find Median, LIS)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Word Search II (#212) | Trie | trie_grid_backtracking | — | 4 bugs (setup + dedup), retry 09-06 |
+| R | Encode and Decode Strings (#271) | Design | string_serialization | — | missing `return result`, retry 09-11 |
+
+**Notes:**
+- Word Search II: (1) never called populateTrie → empty Trie; (2) didn't reset `node` to root per word → word 2+ built off word 1's end; (3) `isEnd={}` should be `False`; (4) THE ONE HE FOUND HIMSELF via a custom test — DUPLICATE results: a word reachable via multiple grid paths got added repeatedly. Fix: `child.isEnd = False` after appending (mark collected) OR use a set. DFS child-level extraction was correct (held from Aug 8)
+- Encode/Decode: decode returned None — missing `return result` after the while loop (the `continue` masked it visually). Also earlier draft had infinite loop from missing `digit -= 1`. Logic otherwise correct. LESSON: I must run the user's EXACT pasted code — I transcribed a `return` in and missed that his version lacked it
+- STILL PENDING: Min Cost to Connect Points (#1584) Prim's — core idea understood, need heap mechanics
