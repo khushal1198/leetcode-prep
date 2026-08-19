@@ -202,7 +202,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | done |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-07 | 2026-07-14 | done |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-13 | 2026-07-27 | done |
-| Majority Element (#169) | Arrays | frequency_counting | 2026-07-27 | 2026-08-16 | pending — try Boyer-Moore O(1) space next |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-07-27 | 2026-08-16 | done |
+| Majority Element (#169) | Arrays | frequency_counting | 2026-08-19 | 2026-10-09 | pending — try Boyer-Moore O(1) space next |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-22 | 2026-09-06 | pending |
@@ -290,7 +291,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-31 | 2026-08-15 | done |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-08-17 | 2026-09-11 | pending |
 | Car Fleet (#853) | Stack | monotonic_stack | 2026-07-31 | 2026-08-05 | done |
-| Car Fleet (#853) | Stack | monotonic_stack | 2026-08-05 | 2026-08-15 | pending |
+| Car Fleet (#853) | Stack | monotonic_stack | 2026-08-05 | 2026-08-15 | done |
+| Car Fleet (#853) | Stack | monotonic_stack | 2026-08-19 | 2026-09-03 | pending |
 | Decode String (#394) | Stack | nested_decode | 2026-08-03 | 2026-08-05 | done |
 | Decode String (#394) | Stack | nested_decode | 2026-08-05 | 2026-08-09 | done |
 | Decode String (#394) | Stack | nested_decode | 2026-08-09 | 2026-08-21 | pending |

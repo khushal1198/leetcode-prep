@@ -2381,3 +2381,19 @@ Daily journal of problems solved, learnings, and next steps.
 - Template (nearly identical to Dijkstra): min-heap, `connected` set, skip-if-already-connected on pop, add cost to total, push edges from newly-connected node
 - KEY DIFFERENCE from Dijkstra: Prim's pushes `(edge_weight, node)` — cost of the SINGLE edge into the tree. Dijkstra pushes `(dist_from_source + edge, node)` — accumulated path. MST cares about "cheapest to CONNECT" not "shortest path FROM source"
 - Clarifications user needed: (1) node = INDEX into points list (input is [x,y] pairs, no explicit IDs — index becomes the ID); (2) start point doesn't matter — any seed grows the same MST; (3) NO adjacency list needed — complete graph, compute distances lazily on the fly (O(n²) time but no O(n²) space structure); (4) `(0,0)` seed is ONE push, not the n² concern
+
+---
+
+## 2026-08-19 — Day 99
+
+**Reviews: 2** (5 still pending, roll to tomorrow: Find Median, LIS, Gas Station, Task Scheduler, Largest Rectangle)
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Car Fleet (#853) | Stack | monotonic_stack | — | clean (sorted correctly this time), retry 09-03 |
+| R | Majority Element (#169) | Arrays | frequency_counting | — | clean (Counter), retry 10-09 |
+
+**Notes:**
+- Car Fleet: clean — sorted by position DESC via `key=lambda x:-x[0]`. Last review he'd FORGOTTEN the sort entirely; got it right this time
+- Majority Element: Counter one-liner. Still noted to try Boyer-Moore O(1) next time
+- BACKLOG FLAG: 5 reviews rolled to tomorrow. Queue is compounding — graduation pass on rock-solid problems still deferred (offered again, user focused on new problem + partial reviews). Consider prioritizing reviews next session
