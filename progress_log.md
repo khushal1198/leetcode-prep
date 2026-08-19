@@ -2363,3 +2363,21 @@ Daily journal of problems solved, learnings, and next steps.
 - Word Search II: (1) never called populateTrie → empty Trie; (2) didn't reset `node` to root per word → word 2+ built off word 1's end; (3) `isEnd={}` should be `False`; (4) THE ONE HE FOUND HIMSELF via a custom test — DUPLICATE results: a word reachable via multiple grid paths got added repeatedly. Fix: `child.isEnd = False` after appending (mark collected) OR use a set. DFS child-level extraction was correct (held from Aug 8)
 - Encode/Decode: decode returned None — missing `return result` after the while loop (the `continue` masked it visually). Also earlier draft had infinite loop from missing `digit -= 1`. Logic otherwise correct. LESSON: I must run the user's EXACT pasted code — I transcribed a `return` in and missed that his version lacked it
 - STILL PENDING: Min Cost to Connect Points (#1584) Prim's — core idea understood, need heap mechanics
+
+---
+
+## 2026-08-18 — Day 98
+
+**New: 1 (Prim's MST)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| 136 | Min Cost to Connect All Points (#1584) | Graphs | minimum_spanning_tree | 5/10 | YES — redo 08-22 |
+
+**Prim's algorithm (NEW — MST, cements weighted-graph cluster w/ Dijkstra):**
+- FIRST TRY CLEAN, no bugs. Depth-first pick right after Dijkstra to make the distinction crisp
+- Problem: connect ALL points, min total wire cost. Edge weight = Manhattan `|x1-x2|+|y1-y2|`
+- Prim's = grow a tree: start anywhere, repeatedly add the CHEAPEST edge to a NOT-yet-connected node, until all in
+- Template (nearly identical to Dijkstra): min-heap, `connected` set, skip-if-already-connected on pop, add cost to total, push edges from newly-connected node
+- KEY DIFFERENCE from Dijkstra: Prim's pushes `(edge_weight, node)` — cost of the SINGLE edge into the tree. Dijkstra pushes `(dist_from_source + edge, node)` — accumulated path. MST cares about "cheapest to CONNECT" not "shortest path FROM source"
+- Clarifications user needed: (1) node = INDEX into points list (input is [x,y] pairs, no explicit IDs — index becomes the ID); (2) start point doesn't matter — any seed grows the same MST; (3) NO adjacency list needed — complete graph, compute distances lazily on the fly (O(n²) time but no O(n²) space structure); (4) `(0,0)` seed is ONE push, not the n² concern

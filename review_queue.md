@@ -297,6 +297,7 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Add and Search Words (#211) | Trie | trie_wildcard_dfs | 2026-08-04 | 2026-08-24 | pending |
 | Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-08 | 2026-08-15 | done |
 | Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-17 | 2026-09-06 | pending |
+| Min Cost to Connect All Points (#1584) | Graphs | minimum_spanning_tree | 2026-08-18 | 2026-08-22 | pending |
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-10 | 2026-08-14 | done |
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-13 | 2026-08-18 | pending |
 | Network Delay Time (#743) | Graphs | dijkstra | 2026-08-12 | 2026-08-19 | pending |
