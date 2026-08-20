@@ -97,13 +97,15 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-23 | 2026-06-28 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-28 | 2026-07-18 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-07-17 | 2026-07-24 | done |
-| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-07-24 | 2026-08-18 | pending |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-07-24 | 2026-08-18 | done |
+| Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-08-19 | 2026-09-28 | pending |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-02 | 2026-06-07 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-07 | 2026-06-14 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-13 | 2026-06-28 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-06-28 | 2026-07-23 | done |
 | Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-07-23 | 2026-08-02 | done |
-| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-08-02 | 2026-08-17 | pending |
+| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-08-02 | 2026-08-17 | done |
+| Find Median from Data Stream (#295) | Heap | two_heaps_median | 2026-08-19 | 2026-10-04 | pending |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-14 | 2026-06-19 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-18 | 2026-06-22 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-28 | done |
@@ -269,7 +271,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-31 | 2026-08-07 | done |
-| Gas Station (#134) | Greedy | gas_station | 2026-08-07 | 2026-08-17 | pending |
+| Gas Station (#134) | Greedy | gas_station | 2026-08-07 | 2026-08-17 | done |
+| Gas Station (#134) | Greedy | gas_station | 2026-08-19 | 2026-09-13 | pending — RECURRING BUG: resets on `diff<0` not `totalFuel<0` |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
@@ -278,7 +281,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-08-09 | 2026-08-19 | pending |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | done |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | done |
-| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-05 | 2026-08-17 | pending |
+| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-05 | 2026-08-17 | done |
+| Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-19 | 2026-09-18 | pending |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | done |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-31 | 2026-08-10 | done |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-08-10 | 2026-09-10 | pending |

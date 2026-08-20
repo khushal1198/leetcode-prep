@@ -2397,3 +2397,16 @@ Daily journal of problems solved, learnings, and next steps.
 - Car Fleet: clean — sorted by position DESC via `key=lambda x:-x[0]`. Last review he'd FORGOTTEN the sort entirely; got it right this time
 - Majority Element: Counter one-liner. Still noted to try Boyer-Moore O(1) next time
 - BACKLOG FLAG: 5 reviews rolled to tomorrow. Queue is compounding — graduation pass on rock-solid problems still deferred (offered again, user focused on new problem + partial reviews). Consider prioritizing reviews next session
+
+**Additional reviews later on Day 99 (Aug 19) — backlog clearing:**
+| R | Find Median from Data Stream (#295) | Heap | two_heaps_median | — | `[-1]` should be `[0]`, retry 10-04 |
+| R | Gas Station (#134) | Greedy | gas_station | — | RECURRING `diff<0` vs `totalFuel<0`, retry 09-13 |
+| R | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | — | clean (`<` right this time), retry 09-18 |
+| R | Task Scheduler (#621) | Greedy | cooldown_scheduling | — | clean, retry 09-28 |
+
+**Notes:**
+- Find Median: addNum FLAWLESS (cross-over automatic now). Only bug: `findMedian` read `heap[-1]` (arbitrary leaf) instead of `heap[0]` (the top). Verified 5000 trials with fix
+- Gas Station: RECURRING BUG (3rd+ time) — resets on `diff < 0` (single weak station) instead of `totalFuel < 0` (running tank). A strong station carries you through a weak one; only abandon when tank runs dry. Concept clear on correction but reset condition not reflexive yet. Flagged in queue
+- LIS: `nums[j] < nums[i]` correct this time (last review had `>`)
+- Task Scheduler: clean cooldown model — heap=ready pool, queue=cooling room, task returns to heap when `time==allowedTime` (available not executed). `time+n` correct
+- BACKLOG: down from 11 to 6 pending after this session. Still deferred: graduation pass
