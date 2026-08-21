@@ -2410,3 +2410,21 @@ Daily journal of problems solved, learnings, and next steps.
 - LIS: `nums[j] < nums[i]` correct this time (last review had `>`)
 - Task Scheduler: clean cooldown model — heap=ready pool, queue=cooling room, task returns to heap when `time==allowedTime` (available not executed). `time+n` correct
 - BACKLOG: down from 11 to 6 pending after this session. Still deferred: graduation pass
+
+---
+
+## 2026-08-20 — Day 100 🎉
+
+**Reviews: 3 (started graduation pass to drain backlog)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Combinations (#77) | Backtracking | combination_generation | — | clean 7th rep → GRADUATED 45d, retry 10-04 |
+| R | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | — | clean 6th rep → GRADUATED 60d, retry 10-20 |
+| R | Jump Game (#55) | Greedy | jump_reachability | — | clean (4th distinct phrasing), retry 09-04 |
+
+**Notes — DAY 100 milestone. Started the graduation pass:**
+- Combinations: 7 clean reps → graduated to 45 days. Optional `return` after append at len==k to prune
+- Koko: 6 clean reps → graduated to 60 days. Family 2 / Template A, solid
+- Jump Game: 4th DISTINCT correct phrasing across reviews — owns reachability. Had leftover `current`/`i==current` dead code from Jump Game II (harmless)
+- STRATEGY: began graduating heavily-repped clean problems to LONG intervals (45-60d) to stop the daily backlog compounding. Still pending (roll to tomorrow): Jump Game II, Container, Trapping Rain Water, Word Break, Reorder List, Network Delay, Remove Nth, Largest Rectangle (Hard redo). Continue graduating the clean ones

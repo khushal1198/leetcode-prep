@@ -36,7 +36,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combinations (#77) | Backtracking | combination_generation | 2026-06-04 | 2026-06-08 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-06-08 | 2026-06-22 | done |
 | Combinations (#77) | Backtracking | combination_generation | 2026-06-21 | 2026-07-06 | done |
-| Combinations (#77) | Backtracking | combination_generation | 2026-07-06 | 2026-08-20 | pending |
+| Combinations (#77) | Backtracking | combination_generation | 2026-07-06 | 2026-08-20 | done |
+| Combinations (#77) | Backtracking | combination_generation | 2026-08-20 | 2026-10-04 | pending — GRADUATED (7 clean reps) |
 | Validate BST (#98) | Trees | bst_operations | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-23 | 2026-05-26 | done |
 | Climbing Stairs (#70) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-30 | done |
@@ -189,7 +190,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-28 | 2026-07-19 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-07-19 | 2026-07-29 | done |
-| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-07-29 | 2026-08-20 | pending |
+| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-07-29 | 2026-08-20 | done |
+| Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-08-20 | 2026-10-20 | pending — GRADUATED (6 clean reps) |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-28 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-28 | 2026-08-28 | pending |
@@ -244,7 +246,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-08-03 | 2026-09-03 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | done |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | done |
-| Jump Game (#55) | Greedy | jump_reachability | 2026-08-05 | 2026-08-20 | pending |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-08-05 | 2026-08-20 | done |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-08-20 | 2026-09-04 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | done |
