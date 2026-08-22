@@ -2428,3 +2428,21 @@ Daily journal of problems solved, learnings, and next steps.
 - Koko: 6 clean reps → graduated to 60 days. Family 2 / Template A, solid
 - Jump Game: 4th DISTINCT correct phrasing across reviews — owns reachability. Had leftover `current`/`i==current` dead code from Jump Game II (harmless)
 - STRATEGY: began graduating heavily-repped clean problems to LONG intervals (45-60d) to stop the daily backlog compounding. Still pending (roll to tomorrow): Jump Game II, Container, Trapping Rain Water, Word Break, Reorder List, Network Delay, Remove Nth, Largest Rectangle (Hard redo). Continue graduating the clean ones
+
+---
+
+## 2026-08-21 — Day 101
+
+**Reviews: 4 (graduation pass continues)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Container With Most Water (#11) | TwoPointers | container | — | clean 4 reps → GRADUATED 75d, retry 11-05 |
+| R | Largest Rectangle in Histogram (#84) | Stack | histogram_area | — | 2 bugs (missing push + precedence), retry 08-31 |
+| R | Jump Game II (#45) | Greedy | jump_levels | — | clean 5 reps → GRADUATED 45d, retry 10-05 |
+
+**Notes:**
+- Container: move the SHORTER wall (area capped by shorter side; moving taller keeps same height, shrinks width). Graduated
+- Largest Rectangle: GOOD conceptual progress — the `start` inheritance FINALLY clicked via detailed walk-through (`[2,5,6,3,1]` trace: bar 3 inherits start=1 from popped taller bars, then when bar 1 pops bar 3, width = 4-1 = 3 correct). "stored start = note-to-future-self: how far left I reach, computed now when I displace taller bars, used later when I'm popped". Bugs were mechanical: (1) forgot `st.append((h,start))` → empty stack → returns 0; (2) precedence `height * len - index` needs `height * (len - index)`. 2nd solve, 10-day retry
+- Jump Game II: re-explained last-index skip — count a jump to LEAVE a level; never depart the destination. Contrast Game I (loop full range, check reachability) vs Game II (range-1, count departures). Graduated
+- BACKLOG: 10 → ~6 pending. Graduated Container + Jump Game II (+ Combinations, Koko yesterday). Remaining: Word Break, Trapping Rain Water, Reorder List, Remove Nth, Network Delay, Decode String, Redundant Connection

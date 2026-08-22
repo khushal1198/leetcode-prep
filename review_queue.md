@@ -252,7 +252,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-29 | 2026-08-08 | done |
-| Jump Game II (#45) | Greedy | jump_levels | 2026-08-08 | 2026-08-20 | pending |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-08-08 | 2026-08-20 | done |
+| Jump Game II (#45) | Greedy | jump_levels | 2026-08-21 | 2026-10-05 | pending — GRADUATED (5 clean reps) |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-13 | done |
@@ -308,7 +309,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Word Search II (#212) | Trie | trie_grid_backtracking | 2026-08-17 | 2026-09-06 | pending |
 | Min Cost to Connect All Points (#1584) | Graphs | minimum_spanning_tree | 2026-08-18 | 2026-08-22 | pending |
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-10 | 2026-08-14 | done |
-| Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-13 | 2026-08-18 | pending |
+| Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-13 | 2026-08-18 | done |
+| Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-21 | 2026-08-31 | pending |
 | Network Delay Time (#743) | Graphs | dijkstra | 2026-08-12 | 2026-08-19 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
@@ -339,7 +341,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-04 | 2026-06-09 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-10 | 2026-06-24 | done |
 | Container With Most Water (#11) | TwoPointers | container | 2026-06-24 | 2026-07-04 | done |
-| Container With Most Water (#11) | TwoPointers | container | 2026-07-04 | 2026-08-19 | pending |
+| Container With Most Water (#11) | TwoPointers | container | 2026-07-04 | 2026-08-19 | done |
+| Container With Most Water (#11) | TwoPointers | container | 2026-08-21 | 2026-11-05 | pending — GRADUATED (4 clean reps) |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-07 | done |
 | Delete and Earn (#740) | DynamicProgramming | linear_dp | 2026-06-07 | 2026-06-25 | done |
