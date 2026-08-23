@@ -2446,3 +2446,17 @@ Daily journal of problems solved, learnings, and next steps.
 - Largest Rectangle: GOOD conceptual progress — the `start` inheritance FINALLY clicked via detailed walk-through (`[2,5,6,3,1]` trace: bar 3 inherits start=1 from popped taller bars, then when bar 1 pops bar 3, width = 4-1 = 3 correct). "stored start = note-to-future-self: how far left I reach, computed now when I displace taller bars, used later when I'm popped". Bugs were mechanical: (1) forgot `st.append((h,start))` → empty stack → returns 0; (2) precedence `height * len - index` needs `height * (len - index)`. 2nd solve, 10-day retry
 - Jump Game II: re-explained last-index skip — count a jump to LEAVE a level; never depart the destination. Contrast Game I (loop full range, check reachability) vs Game II (range-1, count departures). Graduated
 - BACKLOG: 10 → ~6 pending. Graduated Container + Jump Game II (+ Combinations, Koko yesterday). Remaining: Word Break, Trapping Rain Water, Reorder List, Remove Nth, Network Delay, Decode String, Redundant Connection
+
+---
+
+## 2026-08-22 — Day 102
+
+**Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Word Break (#139) | DynamicProgramming | string_dp | — | RECURRING off-by-one (3rd time), retry 09-06 |
+
+**Notes:**
+- Word Break: 3rd time hitting the same off-by-one — `dp` sized `len(s)` (too small) + loop `range(len(s))` (too short) + `return dp[len(s)-1]`. All three stem from one idea: `dp[i]` = prefix of length i, full string is length len(s), so array is `len+1`, loop to `len`, return `dp[len]`. Kept on SHORT interval (15 days, NOT graduated) since it's recurring. Anchor flagged in queue
+- Session focus: continuing to clear the review backlog + graduating clean problems. ~9 still pending (Reorder List, Remove Nth, Trapping Rain Water, Network Delay, Min Cost Connect Points, Redundant Connection, Decode String, Subarray Sum, LRU)

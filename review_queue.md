@@ -282,7 +282,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-08-02 | 2026-08-09 | done |
-| Word Break (#139) | DynamicProgramming | string_dp | 2026-08-09 | 2026-08-19 | pending |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-08-09 | 2026-08-19 | done |
+| Word Break (#139) | DynamicProgramming | string_dp | 2026-08-22 | 2026-09-06 | pending — RECURRING off-by-one (3rd time): array len+1, loop to len, return dp[len] |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-07-28 | 2026-08-01 | done |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-01 | 2026-08-05 | done |
 | Longest Increasing Subsequence (#300) | DynamicProgramming | subsequence_dp | 2026-08-05 | 2026-08-17 | done |
