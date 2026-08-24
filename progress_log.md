@@ -2460,3 +2460,21 @@ Daily journal of problems solved, learnings, and next steps.
 **Notes:**
 - Word Break: 3rd time hitting the same off-by-one — `dp` sized `len(s)` (too small) + loop `range(len(s))` (too short) + `return dp[len(s)-1]`. All three stem from one idea: `dp[i]` = prefix of length i, full string is length len(s), so array is `len+1`, loop to `len`, return `dp[len]`. Kept on SHORT interval (15 days, NOT graduated) since it's recurring. Anchor flagged in queue
 - Session focus: continuing to clear the review backlog + graduating clean problems. ~9 still pending (Reorder List, Remove Nth, Trapping Rain Water, Network Delay, Min Cost Connect Points, Redundant Connection, Decode String, Subarray Sum, LRU)
+
+---
+
+## 2026-08-23/24 — Day 103
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | clean, retry 09-07 |
+| R | Single Number (#136) | BitManipulation | xor_cancellation | — | clean, retry 10-23 |
+| R | Reorder List (#143) | LinkedList | list_restructuring | — | weave over-engineered, retry 09-18 |
+
+**Notes:**
+- Subsets: clean — record every node, start index, recurse i+1
+- Single Number: clean XOR
+- Reorder List: find-middle + reverse phases CORRECT, but WEAVE was tangled — `n1.next = tmp2` (=n2.next) orphaned n2, plus convoluted `if tmp2: n2 = tmp2.next` advanced wrong. LESSON: don't over-engineer the weave. Clean form: `tmp1,tmp2 = n1.next, n2.next; n1.next = n2; n2.next = tmp1; n1,n2 = tmp1,tmp2`. Splice n1→n2→tmp1, advance both
+- Backlog steadily draining via graduation pass + clears

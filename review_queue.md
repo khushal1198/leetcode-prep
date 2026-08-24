@@ -55,7 +55,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-07 | 2026-06-25 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-25 | 2026-06-26 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-27 | 2026-07-14 | done |
-| Subsets (#78) | Backtracking | subset_enumeration | 2026-07-13 | 2026-08-23 | pending |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-07-13 | 2026-08-23 | done |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-08-23 | 2026-09-07 | pending |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-25 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-06 | done |
@@ -150,7 +151,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | done |
-| Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-29 | 2026-08-23 | pending |
+| Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-29 | 2026-08-23 | done |
+| Single Number (#136) | BitManipulation | xor_cancellation | 2026-08-23 | 2026-10-23 | pending |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-12 | 2026-06-19 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-07 | 2026-07-17 | done |
@@ -294,7 +296,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | done |
-| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-25 | 2026-08-19 | pending |
+| Reorder List (#143) | LinkedList | list_restructuring | 2026-07-25 | 2026-08-19 | done |
+| Reorder List (#143) | LinkedList | list_restructuring | 2026-08-24 | 2026-09-18 | pending |
 | Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | 2026-07-26 | 2026-09-09 | pending |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-26 | 2026-07-31 | done |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-31 | 2026-08-15 | done |
