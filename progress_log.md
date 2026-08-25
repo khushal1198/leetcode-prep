@@ -2478,3 +2478,20 @@ Daily journal of problems solved, learnings, and next steps.
 - Single Number: clean XOR
 - Reorder List: find-middle + reverse phases CORRECT, but WEAVE was tangled — `n1.next = tmp2` (=n2.next) orphaned n2, plus convoluted `if tmp2: n2 = tmp2.next` advanced wrong. LESSON: don't over-engineer the weave. Clean form: `tmp1,tmp2 = n1.next, n2.next; n1.next = n2; n2.next = tmp1; n1,n2 = tmp1,tmp2`. Splice n1→n2→tmp1, advance both
 - Backlog steadily draining via graduation pass + clears
+
+---
+
+## 2026-08-25 — Day 104
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | clean (anchored to nums[right]), retry 09-14 |
+| R | Longest Palindromic Substring (#5) | String | expand_around_center | — | clean, retry 10-04 |
+
+**Notes:**
+- Reviewed the full binary-search framework (3 families / 2 templates) at user's request before Find Min. Find Min = Family 3 / Template B, anchor to nums[right]
+- Find Min: clean this time — wrote the MIRROR version (`nums[mid] < nums[right] → right=mid` else `left=mid+1`), equivalent to the standard. Correctly anchored to nums[right] (last review had inverted the rule). Passes fully-sorted `[1,2,3,4,5]`
+- Longest Palindromic Substring: clean expand-around-center, `max(result, odd, even, key=len)` one-liner
+- Backlog still draining: ~9 pending (Remove Nth, Trapping Rain Water, Subarray Sum, LRU, Network Delay, Min Cost Connect, Redundant Connection, Decode String, Add and Search Words)

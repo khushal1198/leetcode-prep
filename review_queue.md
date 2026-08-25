@@ -147,7 +147,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-04 | 2026-07-14 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-12 | 2026-08-06 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-06 | 2026-08-13 | done |
-| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-13 | 2026-08-23 | pending |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-13 | 2026-08-23 | done |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-25 | 2026-09-14 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | done |
@@ -336,7 +337,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-11 | 2026-06-16 | done |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-16 | 2026-06-30 | done |
 | Longest Palindromic Substring (#5) | String | expand_around_center | 2026-06-30 | 2026-07-30 | done |
-| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-07-30 | 2026-08-24 | pending |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-07-30 | 2026-08-24 | done |
+| Longest Palindromic Substring (#5) | String | expand_around_center | 2026-08-25 | 2026-10-04 | pending |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-11 | 2026-06-17 | done |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-06-18 | 2026-07-08 | done |
 | Palindromic Substrings (#647) | DynamicProgramming | expand_around_center | 2026-07-08 | 2026-07-29 | done |
