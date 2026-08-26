@@ -2513,3 +2513,5 @@ Daily journal of problems solved, learnings, and next steps.
 - BACKLOG at 17 — outpacing ~2/day clears. Recommended a bulk graduation session to reset. Continuing to graduate/clear
 
 **+1 review (Find Peak Element #162):** clean Template B, retry 10-26. Discussed why compare `mid` with `mid+1` not `mid-1`: `mid=(left+right)//2` rounds DOWN so `mid<right` always → `mid+1` always in bounds, but `mid-1` underflows to -1 at mid=0. So compare RIGHTWARD (guard-free). Uphill (`nums[mid]<nums[mid+1]`) → peak is right (`left=mid+1`); else `right=mid` (keep, might be peak). Mirror version with mid-1 needs round-up mid + bounds guard
+
+**+1 review (Longest Consecutive #128):** (1) empty array returned 1 → need early `return 0` (maxLen init 1); (2) EFFICIENCY: started from every num with a successor (`num+1 in set`) → O(n²), recounts from mid-sequence. Fix: start only from sequence STARTS (`num-1 not in set`) → each sequence counted once → O(n). Correct answer either way but efficiency matters. Retry 10-05. 4 reviews cleared today.

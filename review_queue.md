@@ -205,7 +205,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-29 | 2026-07-20 | done |
-| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-20 | 2026-08-25 | pending |
+| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-07-20 | 2026-08-25 | done |
+| Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-08-26 | 2026-10-05 | pending |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-06-30 | 2026-07-07 | done |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-07 | 2026-07-14 | done |
 | Majority Element (#169) | Arrays | frequency_counting | 2026-07-13 | 2026-07-27 | done |
