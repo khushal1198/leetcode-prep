@@ -260,7 +260,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-12 | 2026-07-19 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-07-19 | 2026-08-02 | done |
 | Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-02 | 2026-08-13 | done |
-| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-13 | 2026-08-25 | pending |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-13 | 2026-08-25 | done |
+| Find Peak Element (#162) | BinarySearch | peak_finding | 2026-08-26 | 2026-10-26 | pending |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-12 | 2026-07-26 | done |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-07-26 | 2026-08-15 | done |
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-08-16 | 2026-09-30 | pending |

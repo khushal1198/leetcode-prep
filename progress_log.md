@@ -2511,3 +2511,5 @@ Daily journal of problems solved, learnings, and next steps.
 - Remove Nth: only bug was `return head` — must be `return dummyHead.next` (when deleting the FIRST node, `head` points to the orphaned removed node; dummyHead.next always points to current first). Two-pointer gap logic correct
 - Trapping Rain Water: clean — inclusive edge-seeded maxes (`leftMax[0]=height[0]`, `max(prev, height[i])`), `min(leftMax,rightMax)-height[i]`. Prior negative-water bug (exclusive maxes) gone. Water held by SHORTER wall. Still flagged: try O(1) two-pointer next
 - BACKLOG at 17 — outpacing ~2/day clears. Recommended a bulk graduation session to reset. Continuing to graduate/clear
+
+**+1 review (Find Peak Element #162):** clean Template B, retry 10-26. Discussed why compare `mid` with `mid+1` not `mid-1`: `mid=(left+right)//2` rounds DOWN so `mid<right` always → `mid+1` always in bounds, but `mid-1` underflows to -1 at mid=0. So compare RIGHTWARD (guard-free). Uphill (`nums[mid]<nums[mid+1]`) → peak is right (`left=mid+1`); else `right=mid` (keep, might be peak). Mirror version with mid-1 needs round-up mid + bounds guard
