@@ -273,7 +273,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-08-13 | 2026-09-27 | pending |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-13 | 2026-07-20 | done |
 | Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-20 | 2026-07-30 | done |
-| Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-30 | 2026-08-19 | pending — try O(1) two-pointer next |
+| Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-07-30 | 2026-08-19 | done |
+| Trapping Rain Water (#42) | TwoPointers | trapping_water | 2026-08-26 | 2026-10-16 | pending — try O(1) two-pointer next |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-20 | 2026-07-24 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-24 | 2026-07-27 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | done |
@@ -318,7 +319,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-21 | 2026-08-31 | pending |
 | Network Delay Time (#743) | Graphs | dijkstra | 2026-08-12 | 2026-08-19 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
-| Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | pending |
+| Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | done |
+| Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-08-26 | 2026-10-26 | pending |
 | Copy List with Random Pointer (#138) | LinkedList | hash_map_clone | 2026-07-14 | 2026-09-14 | pending |
 | Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-14 | 2026-07-29 | done |
 | Valid Sudoku (#36) | Hashing | matrix_set_validation | 2026-07-29 | 2026-09-29 | pending |

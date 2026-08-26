@@ -2495,3 +2495,19 @@ Daily journal of problems solved, learnings, and next steps.
 - Find Min: clean this time — wrote the MIRROR version (`nums[mid] < nums[right] → right=mid` else `left=mid+1`), equivalent to the standard. Correctly anchored to nums[right] (last review had inverted the rule). Passes fully-sorted `[1,2,3,4,5]`
 - Longest Palindromic Substring: clean expand-around-center, `max(result, odd, even, key=len)` one-liner
 - Backlog still draining: ~9 pending (Remove Nth, Trapping Rain Water, Subarray Sum, LRU, Network Delay, Min Cost Connect, Redundant Connection, Decode String, Add and Search Words)
+
+---
+
+## 2026-08-26 — Day 105
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | — | `return head` should be `return dummyHead.next`, retry 10-26 |
+| R | Trapping Rain Water (#42) | TwoPointers | trapping_water | — | clean (inclusive maxes), retry 10-16 |
+
+**Notes:**
+- Remove Nth: only bug was `return head` — must be `return dummyHead.next` (when deleting the FIRST node, `head` points to the orphaned removed node; dummyHead.next always points to current first). Two-pointer gap logic correct
+- Trapping Rain Water: clean — inclusive edge-seeded maxes (`leftMax[0]=height[0]`, `max(prev, height[i])`), `min(leftMax,rightMax)-height[i]`. Prior negative-water bug (exclusive maxes) gone. Water held by SHORTER wall. Still flagged: try O(1) two-pointer next
+- BACKLOG at 17 — outpacing ~2/day clears. Recommended a bulk graduation session to reset. Continuing to graduate/clear
