@@ -286,7 +286,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Gas Station (#134) | Greedy | gas_station | 2026-08-07 | 2026-08-17 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-08-19 | 2026-09-13 | pending — RECURRING BUG: resets on `diff<0` not `totalFuel<0` |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
-| Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | pending |
+| Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | done |
+| Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-08-27 | 2026-10-27 | pending |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-28 | 2026-07-30 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-07-30 | 2026-08-02 | done |
 | Word Break (#139) | DynamicProgramming | string_dp | 2026-08-02 | 2026-08-09 | done |

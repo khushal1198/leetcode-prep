@@ -2531,3 +2531,5 @@ Daily journal of problems solved, learnings, and next steps.
 - Coin Change: partial recall — had `dp[i]=dp[j]+1` (wrong, dp[j] is amount j) → must be `dp[i-j]+1` (leftover after coin); missing `min`; `>0` should be `>=0` (exact-coin fit); missing `-1` fallback. Anchor: `dp[i-j]` = best for the leftover, +1 for the coin, min over coins
 - Insert Interval: overlap case APPENDED the merged interval immediately → breaks when newInterval overlaps MULTIPLE intervals (emits separate pieces). Fix: overlap → UPDATE newInterval (expand), don't append; emit only when past all overlaps (the after-case) or at end. Multi-overlap `[4,8]` should swallow 3 intervals into `[3,10]`
 - Both graduated to long intervals (2.5mo, ~2.5mo). Backlog: 13 → 11
+
+**+1 review (Subarray Sum Equals K #560):** ORDER bug — recorded `runningSum` into map BEFORE looking up `runningSum-k`. Must LOOK UP FIRST (against prior prefixes), THEN record. Else k=0 matches own just-added prefix (zero-length subarray) → over-counts. `[1],k=0` gave 1 not 0. Retry 10-27. Backlog 11 → 10
