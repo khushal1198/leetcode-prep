@@ -2515,3 +2515,19 @@ Daily journal of problems solved, learnings, and next steps.
 **+1 review (Find Peak Element #162):** clean Template B, retry 10-26. Discussed why compare `mid` with `mid+1` not `mid-1`: `mid=(left+right)//2` rounds DOWN so `mid<right` always → `mid+1` always in bounds, but `mid-1` underflows to -1 at mid=0. So compare RIGHTWARD (guard-free). Uphill (`nums[mid]<nums[mid+1]`) → peak is right (`left=mid+1`); else `right=mid` (keep, might be peak). Mirror version with mid-1 needs round-up mid + bounds guard
 
 **+1 review (Longest Consecutive #128):** (1) empty array returned 1 → need early `return 0` (maxLen init 1); (2) EFFICIENCY: started from every num with a successor (`num+1 in set`) → O(n²), recounts from mid-sequence. Fix: start only from sequence STARTS (`num-1 not in set`) → each sequence counted once → O(n). Correct answer either way but efficiency matters. Retry 10-05. 4 reviews cleared today.
+
+---
+
+## 2026-08-26 — Day 106
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Coin Change (#322) | DynamicProgramming | knapsack | — | recurrence bugs (dp[j] vs dp[i-j]), retry 11-10 |
+| R | Insert Interval (#57) | Greedy | interval_merge | — | overlap appended early not merged, retry 11-11 |
+
+**Notes:**
+- Coin Change: partial recall — had `dp[i]=dp[j]+1` (wrong, dp[j] is amount j) → must be `dp[i-j]+1` (leftover after coin); missing `min`; `>0` should be `>=0` (exact-coin fit); missing `-1` fallback. Anchor: `dp[i-j]` = best for the leftover, +1 for the coin, min over coins
+- Insert Interval: overlap case APPENDED the merged interval immediately → breaks when newInterval overlaps MULTIPLE intervals (emits separate pieces). Fix: overlap → UPDATE newInterval (expand), don't append; emit only when past all overlaps (the after-case) or at end. Multi-overlap `[4,8]` should swallow 3 intervals into `[3,10]`
+- Both graduated to long intervals (2.5mo, ~2.5mo). Backlog: 13 → 11

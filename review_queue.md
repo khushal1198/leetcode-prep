@@ -70,7 +70,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-28 | 2026-06-08 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-08 | 2026-06-25 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-06-25 | 2026-07-25 | done |
-| Coin Change (#322) | DynamicProgramming | knapsack | 2026-07-25 | 2026-08-25 | pending |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-07-25 | 2026-08-25 | done |
+| Coin Change (#322) | DynamicProgramming | knapsack | 2026-08-26 | 2026-11-10 | pending |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-26 | 2026-05-29 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-29 | 2026-06-05 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-06 | 2026-06-20 | done |
@@ -86,7 +87,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-11 | 2026-06-25 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-06-25 | 2026-07-06 | done |
 | Insert Interval (#57) | Greedy | interval_merge | 2026-07-06 | 2026-07-31 | done |
-| Insert Interval (#57) | Greedy | interval_merge | 2026-07-31 | 2026-08-25 | pending |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-07-31 | 2026-08-25 | done |
+| Insert Interval (#57) | Greedy | interval_merge | 2026-08-26 | 2026-11-11 | pending |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-05-31 | 2026-06-05 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-06 | 2026-06-16 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | done |
