@@ -270,7 +270,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Capacity to Ship Packages (#1011) | BinarySearch | minimize_max | 2026-08-16 | 2026-09-30 | pending |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-07-12 | 2026-08-02 | done |
 | Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-02 | 2026-08-07 | done |
-| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-07 | 2026-08-27 | pending |
+| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-07 | 2026-08-27 | done |
+| Search a 2D Matrix (#74) | BinarySearch | matrix_search | 2026-08-27 | 2026-11-11 | pending |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-07-12 | 2026-08-01 | done |
 | Merge k Sorted Lists (#23) | Heap | merge_k_sorted | 2026-08-01 | 2026-08-27 | pending |
 | Evaluate Reverse Polish Notation (#150) | Stack | expression_evaluation | 2026-07-12 | 2026-08-13 | done |
@@ -322,7 +323,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-10 | 2026-08-14 | done |
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-13 | 2026-08-18 | done |
 | Largest Rectangle in Histogram (#84) | Stack | histogram_area | 2026-08-21 | 2026-08-31 | pending |
-| Network Delay Time (#743) | Graphs | dijkstra | 2026-08-12 | 2026-08-19 | pending |
+| Network Delay Time (#743) | Graphs | dijkstra | 2026-08-12 | 2026-08-19 | done |
+| Network Delay Time (#743) | Graphs | dijkstra | 2026-08-28 | 2026-09-17 | pending |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-14 | 2026-07-22 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-07-22 | 2026-08-19 | done |
 | Remove Nth Node From End (#19) | LinkedList | two_pointer_gap | 2026-08-26 | 2026-10-26 | pending |

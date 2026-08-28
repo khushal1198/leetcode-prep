@@ -2533,3 +2533,18 @@ Daily journal of problems solved, learnings, and next steps.
 - Both graduated to long intervals (2.5mo, ~2.5mo). Backlog: 13 → 11
 
 **+1 review (Subarray Sum Equals K #560):** ORDER bug — recorded `runningSum` into map BEFORE looking up `runningSum-k`. Must LOOK UP FIRST (against prior prefixes), THEN record. Else k=0 matches own just-added prefix (zero-length subarray) → over-counts. `[1],k=0` gave 1 not 0. Retry 10-27. Backlog 11 → 10
+
+---
+
+## 2026-08-27/28 — Day 107
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Search a 2D Matrix (#74) | BinarySearch | matrix_search | — | clean, retry 11-11 |
+| R | Network Delay Time (#743) | Graphs | dijkstra | — | clean + SIMPLIFIED, retry 09-17 |
+
+**Notes:**
+- Search 2D: clean flatten (row=mid//n, col=mid%n), factored m/n. Graduated
+- Network Delay (Dijkstra): CLEAN + user IMPROVED it. (1) heap tuple `(distance, node)` correct order this time (last review had `(node, distance)` bug). (2) User reasoned out that a full dist MAP isn't needed here — only the MAX shortest-distance matters, so `visited` set + `maxTime` variable suffices. Fold `maxTime=max(maxTime,d)` on finalize. When you'd need the map: distance to a specific node / all distances. Adjacency list needed (sparse, directed graph) unlike Prim's (complete graph). Real understanding, not memorization
