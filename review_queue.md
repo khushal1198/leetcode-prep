@@ -136,7 +136,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-07-06 | 2026-08-21 | pending |
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-16 | 2026-06-21 | done |
 | Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-21 | 2026-06-28 | done |
-| Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-28 | 2026-08-28 | pending |
+| Pow(x, n) (#50) | Math | fast_exponentiation | 2026-06-28 | 2026-08-28 | done |
+| Pow(x, n) (#50) | Math | fast_exponentiation | 2026-08-31 | 2026-10-31 | pending |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-03 | 2026-06-08 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-18 | 2026-07-01 | done |
@@ -199,7 +200,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-08-20 | 2026-10-20 | pending — GRADUATED (6 clean reps) |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-04 | 2026-06-11 | done |
 | 3Sum (#15) | TwoPointers | three_sum | 2026-06-10 | 2026-06-28 | done |
-| 3Sum (#15) | TwoPointers | three_sum | 2026-06-28 | 2026-08-28 | pending |
+| 3Sum (#15) | TwoPointers | three_sum | 2026-06-28 | 2026-08-28 | done |
+| 3Sum (#15) | TwoPointers | three_sum | 2026-08-31 | 2026-11-30 | pending |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-10 | 2026-06-15 | done |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-15 | 2026-06-29 | done |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-29 | 2026-07-20 | done |

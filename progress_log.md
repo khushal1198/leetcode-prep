@@ -2548,3 +2548,19 @@ Daily journal of problems solved, learnings, and next steps.
 **Notes:**
 - Search 2D: clean flatten (row=mid//n, col=mid%n), factored m/n. Graduated
 - Network Delay (Dijkstra): CLEAN + user IMPROVED it. (1) heap tuple `(distance, node)` correct order this time (last review had `(node, distance)` bug). (2) User reasoned out that a full dist MAP isn't needed here — only the MAX shortest-distance matters, so `visited` set + `maxTime` variable suffices. Fold `maxTime=max(maxTime,d)` on finalize. When you'd need the map: distance to a specific node / all distances. Adjacency list needed (sparse, directed graph) unlike Prim's (complete graph). Real understanding, not memorization
+
+---
+
+## 2026-08-31 — Day 108
+
+**Reviews: 2 (backlog clearing)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | 3Sum (#15) | TwoPointers | three_sum | — | clean, retry 11-30 |
+| R | Pow(x, n) (#50) | Math | fast_exponentiation | — | negative-exp bugs, retry 10-31 |
+
+**Notes:**
+- 3Sum: clean — sort, fix firstNum, two-pointer inner, outer `i>0 and nums[i]==nums[i-1]` skip + set dedup. Graduated
+- Pow: (1) checked `x<0` should be `n<0` (negative EXPONENT not base — negative base is fine); (2) must flip BOTH: `helper(1/x, -n)` — flipping only base leaves n negative → infinite recursion (n stays <0, never reaches n==0). Also had `n*half*half` should be `x*half*half`. Fast exp: `x^n=(x^(n/2))²` → O(log n). Neg exp → `(1/x)^(-n)`
+- Backlog: FIRST Math problem cleared (Math was 0/129). Queue ~15 — still heavy, missed 2 days. Recommend bulk graduation
