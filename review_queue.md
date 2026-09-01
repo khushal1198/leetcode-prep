@@ -76,7 +76,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-05-29 | 2026-06-05 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-06 | 2026-06-20 | done |
 | Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-06-20 | 2026-07-10 | done |
-| Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-07-10 | 2026-08-31 | pending |
+| Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-07-10 | 2026-08-31 | done |
+| Maximum Subarray (#53) | DynamicProgramming | linear_dp | 2026-08-31 | 2026-11-15 | pending |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-27 | 2026-05-30 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-05-30 | 2026-06-09 | done |
 | House Robber II (#213) | DynamicProgramming | linear_dp | 2026-06-10 | 2026-06-24 | done |
@@ -303,7 +304,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-21 | 2026-07-31 | done |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-07-31 | 2026-08-10 | done |
 | Contiguous Array (#525) | Hashing | prefix_sum_hash | 2026-08-10 | 2026-09-10 | pending |
-| Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | pending |
+| Rotate Image (#48) | Arrays | matrix_simulation | 2026-07-14 | 2026-08-28 | done |
+| Rotate Image (#48) | Arrays | matrix_simulation | 2026-09-01 | 2026-12-01 | pending |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-14 | 2026-07-17 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-25 | 2026-08-19 | done |

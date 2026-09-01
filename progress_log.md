@@ -2564,3 +2564,19 @@ Daily journal of problems solved, learnings, and next steps.
 - 3Sum: clean — sort, fix firstNum, two-pointer inner, outer `i>0 and nums[i]==nums[i-1]` skip + set dedup. Graduated
 - Pow: (1) checked `x<0` should be `n<0` (negative EXPONENT not base — negative base is fine); (2) must flip BOTH: `helper(1/x, -n)` — flipping only base leaves n negative → infinite recursion (n stays <0, never reaches n==0). Also had `n*half*half` should be `x*half*half`. Fast exp: `x^n=(x^(n/2))²` → O(log n). Neg exp → `(1/x)^(-n)`
 - Backlog: FIRST Math problem cleared (Math was 0/129). Queue ~15 — still heavy, missed 2 days. Recommend bulk graduation
+
+---
+
+## 2026-09-01 — Day 109
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Maximum Subarray (#53) | DynamicProgramming | linear_dp | — | clean (Kadane's), retry 11-15 |
+| R | Rotate Image (#48) | Arrays | matrix_simulation | — | transpose overwrite not swap, retry 12-01 |
+
+**Notes:**
+- Maximum Subarray: clean Kadane's-as-DP `dp[i]=max(dp[i-1]+nums[i], nums[i])`, answer max(dp). Graduated
+- Rotate Image: transpose OVERWROTE instead of SWAPPED (`matrix[i][j]=matrix[j][i]` loses data) → need `matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]`. `range(i)` so each pair swapped once (full range would double-swap). `row=row.reverse()` clutter (reverse returns None; works only bc row references real list). Keeper: rotate 90CW = transpose(swap) + reverse each row. Graduated
+- BACKLOG at 18 — persistent. Word Search + Subsets II newly due. Continue clearing next session
