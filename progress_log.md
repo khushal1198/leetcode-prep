@@ -2580,3 +2580,19 @@ Daily journal of problems solved, learnings, and next steps.
 - Maximum Subarray: clean Kadane's-as-DP `dp[i]=max(dp[i-1]+nums[i], nums[i])`, answer max(dp). Graduated
 - Rotate Image: transpose OVERWROTE instead of SWAPPED (`matrix[i][j]=matrix[j][i]` loses data) → need `matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]`. `range(i)` so each pair swapped once (full range would double-swap). `row=row.reverse()` clutter (reverse returns None; works only bc row references real list). Keeper: rotate 90CW = transpose(swap) + reverse each row. Graduated
 - BACKLOG at 18 — persistent. Word Search + Subsets II newly due. Continue clearing next session
+
+---
+
+## 2026-09-02 — Day 110
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subsets II (#90) | Backtracking | dedup_backtracking | — | clean, retry 10-17 |
+| R | Permutations II (#47) | Backtracking | permutation_generation | — | clean, retry 10-07 |
+
+**Notes:**
+- Subsets II: clean — sort, record every node, `i>index` sibling skip, recurse i+1. Graduated
+- Permutations II: clean — sort + `i in used` (no reuse) + sibling skip `(i-1) not in used`. Graduated
+- Both dedup-backtracking patterns solid now. Backlog ~16 still — persistent. Keep clearing

@@ -227,7 +227,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-15 | 2026-07-29 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-29 | 2026-08-04 | done |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-08-04 | 2026-08-11 | done |
-| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-08-12 | 2026-09-01 | pending |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-08-12 | 2026-09-01 | done |
+| Subsets II (#90) | Backtracking | dedup_backtracking | 2026-09-02 | 2026-10-17 | pending |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-08 | 2026-07-15 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | done |
@@ -340,7 +341,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-15 | 2026-07-22 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-07-22 | 2026-08-01 | done |
 | Permutations II (#47) | Backtracking | permutation_generation | 2026-08-01 | 2026-08-11 | done |
-| Permutations II (#47) | Backtracking | permutation_generation | 2026-08-12 | 2026-08-30 | pending |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-08-12 | 2026-08-30 | done |
+| Permutations II (#47) | Backtracking | permutation_generation | 2026-09-02 | 2026-10-07 | pending |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-07-01 | 2026-08-15 | done |
 | Binary Tree Right Side View (#199) | Trees | bfs_level_order | 2026-08-16 | 2026-09-20 | pending |
 | Balanced Binary Tree (#110) | Trees | balanced_tree | 2026-07-01 | 2026-10-01 | pending |
