@@ -2612,3 +2612,5 @@ Daily journal of problems solved, learnings, and next steps.
 - Number of Provinces: 3 bugs, main one an INFINITE LOOP — `find` had `while parent[a] == a` (loops while a IS root) → must be `while parent[a] != a` (climb UNTIL root). Also `union` set `parent[a]=parent_b` should link ROOTS `parent[parent_a]=parent_b`; and final count `self.find(i)` missing `parent` arg. Union-find keeper: find walks up while node isn't its own parent; union links one root under the other
 - Min Cost Climbing Stairs: clean `dp[i]=cost[i]+min(dp[i-1],dp[i-2])`, answer = min of last two steps
 - Backlog ~15. Slowly draining via graduation
+
+**+1 review (Non-overlapping Intervals #435):** clean — sort by END time, keep earliest-ending, count removal when `interval[0] < result[-1][1]`. Touching endpoints don't overlap. Keeper: sort by END (not start) → earliest-ending leaves most room → greedy optimal. Retry 12-03. 3 reviews cleared today.

@@ -96,7 +96,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-16 | 2026-06-30 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-06-30 | 2026-07-03 | done |
 | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-07-04 | 2026-07-29 | done |
-| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-07-29 | 2026-08-29 | pending |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-07-29 | 2026-08-29 | done |
+| Non-overlapping Intervals (#435) | Greedy | interval_scheduling | 2026-09-03 | 2026-12-03 | pending |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-01 | 2026-06-04 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-04 | 2026-06-09 | done |
 | Task Scheduler (#621) | Greedy | cooldown_scheduling | 2026-06-09 | 2026-06-23 | done |
