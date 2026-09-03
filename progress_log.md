@@ -2596,3 +2596,19 @@ Daily journal of problems solved, learnings, and next steps.
 - Subsets II: clean — sort, record every node, `i>index` sibling skip, recurse i+1. Graduated
 - Permutations II: clean — sort + `i in used` (no reuse) + sibling skip `(i-1) not in used`. Graduated
 - Both dedup-backtracking patterns solid now. Backlog ~16 still — persistent. Keep clearing
+
+---
+
+## 2026-09-03 — Day 111
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Number of Provinces (#547) | UnionFind | connected_components | — | find() infinite loop, retry 11-03 |
+| R | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | — | clean, retry 11-18 |
+
+**Notes:**
+- Number of Provinces: 3 bugs, main one an INFINITE LOOP — `find` had `while parent[a] == a` (loops while a IS root) → must be `while parent[a] != a` (climb UNTIL root). Also `union` set `parent[a]=parent_b` should link ROOTS `parent[parent_a]=parent_b`; and final count `self.find(i)` missing `parent` arg. Union-find keeper: find walks up while node isn't its own parent; union links one root under the other
+- Min Cost Climbing Stairs: clean `dp[i]=cost[i]+min(dp[i-1],dp[i-2])`, answer = min of last two steps
+- Backlog ~15. Slowly draining via graduation

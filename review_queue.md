@@ -48,7 +48,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-09 | 2026-06-23 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-06-23 | 2026-07-13 | done |
 | Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-07-12 | 2026-08-12 | done |
-| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-08-13 | 2026-09-02 | pending |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-08-13 | 2026-09-02 | done |
+| Min Cost Climbing Stairs (#746) | DynamicProgramming | linear_dp | 2026-09-03 | 2026-11-18 | pending |
 | House Robber (#198) | DynamicProgramming | linear_dp | 2026-05-24 | 2026-05-28 | done |
 | Coin Change (#322) | DynamicProgramming | knapsack | 2026-05-25 | 2026-05-28 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-28 | 2026-06-07 | done |
@@ -130,7 +131,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-15 | 2026-06-19 | done |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-19 | 2026-06-29 | done |
 | Number of Provinces (#547) | UnionFind | connected_components | 2026-06-29 | 2026-07-29 | done |
-| Number of Provinces (#547) | UnionFind | connected_components | 2026-07-29 | 2026-08-29 | pending |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-07-29 | 2026-08-29 | done |
+| Number of Provinces (#547) | UnionFind | connected_components | 2026-09-03 | 2026-11-03 | pending |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-15 | 2026-06-20 | done |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-20 | 2026-06-25 | done |
 | Redundant Connection (#684) | UnionFind | cycle_detection | 2026-06-25 | 2026-07-06 | done |
