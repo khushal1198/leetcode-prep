@@ -209,7 +209,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-10 | 2026-06-15 | done |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-15 | 2026-06-29 | done |
 | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-06-29 | 2026-07-20 | done |
-| Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-07-20 | 2026-09-03 | pending |
+| Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-07-20 | 2026-09-03 | done |
+| Product of Array Except Self (#238) | Arrays | prefix_suffix_products | 2026-09-04 | 2026-12-04 | pending |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-10 | 2026-06-15 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-15 | 2026-06-29 | done |
 | Longest Consecutive Sequence (#128) | Hashing | consecutive_sequence | 2026-06-29 | 2026-07-20 | done |
@@ -256,7 +257,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | done |
-| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-08-03 | 2026-09-03 | pending |
+| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-08-03 | 2026-09-03 | done |
+| Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-09-04 | 2026-10-04 | pending |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | done |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | done |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-08-05 | 2026-08-20 | done |

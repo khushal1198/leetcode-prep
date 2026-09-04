@@ -2614,3 +2614,20 @@ Daily journal of problems solved, learnings, and next steps.
 - Backlog ~15. Slowly draining via graduation
 
 **+1 review (Non-overlapping Intervals #435):** clean — sort by END time, keep earliest-ending, count removal when `interval[0] < result[-1][1]`. Touching endpoints don't overlap. Keeper: sort by END (not start) → earliest-ending leaves most room → greedy optimal. Retry 12-03. 3 reviews cleared today.
+
+---
+
+## 2026-09-04 — Day 112
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Product of Array Except Self (#238) | Arrays | prefix_suffix_products | — | overwrite vs multiply, retry 12-04 |
+| R | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | — | nudged mid UP (should be down), retry 10-04 |
+| R | Non-overlapping Intervals (#435) | Greedy | interval_scheduling | — | clean (Day 111), retry 12-03 |
+
+**Notes:**
+- Product Except Self: pass 2 OVERWROTE (`result[i]=product`) instead of MULTIPLYING (`result[i]=result[i]*product`). result[i] = prefix × suffix; pass 1 stores prefix, pass 2 must multiply IN the suffix. Passed by luck at low indices, broke at i=2
+- Single Element: nudged mid UP (`mid+=1`) → INFINITE LOOP (mid can equal right, `right=mid` no progress) AND out-of-bounds (`[1,1,2]` mid→2, nums[3] off end). Fix: nudge DOWN (`mid-=1`). Same lesson as Find Peak: `mid` rounds down → `mid-1`/keeping mid<right is safe, going up isn't
+- Backlog ~14. 3/day pace holding
