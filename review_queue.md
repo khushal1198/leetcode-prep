@@ -146,7 +146,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-08 | 2026-06-18 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-06-18 | 2026-07-01 | done |
 | Word Search (#79) | Backtracking | grid_backtracking | 2026-07-01 | 2026-08-01 | done |
-| Word Search (#79) | Backtracking | grid_backtracking | 2026-08-01 | 2026-09-01 | pending |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-08-01 | 2026-09-01 | done |
+| Word Search (#79) | Backtracking | grid_backtracking | 2026-09-08 | 2026-11-23 | pending |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-03 | 2026-06-08 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-08 | 2026-06-12 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-06-12 | 2026-06-26 | done |
@@ -262,7 +263,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-18 | 2026-07-26 | done |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-07-26 | 2026-08-05 | done |
 | Jump Game (#55) | Greedy | jump_reachability | 2026-08-05 | 2026-08-20 | done |
-| Jump Game (#55) | Greedy | jump_reachability | 2026-08-20 | 2026-09-04 | pending |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-08-20 | 2026-09-04 | done |
+| Jump Game (#55) | Greedy | jump_reachability | 2026-09-08 | 2026-11-08 | pending |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-19 | 2026-07-22 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-22 | 2026-07-25 | done |
 | Jump Game II (#45) | Greedy | jump_levels | 2026-07-25 | 2026-07-29 | done |

@@ -2631,3 +2631,19 @@ Daily journal of problems solved, learnings, and next steps.
 - Product Except Self: pass 2 OVERWROTE (`result[i]=product`) instead of MULTIPLYING (`result[i]=result[i]*product`). result[i] = prefix × suffix; pass 1 stores prefix, pass 2 must multiply IN the suffix. Passed by luck at low indices, broke at i=2
 - Single Element: nudged mid UP (`mid+=1`) → INFINITE LOOP (mid can equal right, `right=mid` no progress) AND out-of-bounds (`[1,1,2]` mid→2, nums[3] off end). Fix: nudge DOWN (`mid-=1`). Same lesson as Find Peak: `mid` rounds down → `mid-1`/keeping mid<right is safe, going up isn't
 - Backlog ~14. 3/day pace holding
+
+---
+
+## 2026-09-08 — Day 113
+
+**Reviews: 2**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Word Search (#79) | Backtracking | grid_backtracking | — | 2 bugs (returnVal in loop + single-cell), retry 11-23 |
+| R | Jump Game (#55) | Greedy | jump_reachability | — | clean (5th distinct phrasing), retry 11-08 |
+
+**Notes:**
+- Word Search: (1) `returnVal=False` was INSIDE the direction loop → reset each iteration, kept only last direction's result. Move before loop. (2) single-cell `[["a"]],"a"` returned False — success only registered via a neighbor recursion, but no in-bounds neighbor for single cell/corner. Fix: `if index==len(word)-1: return True` right after char match (register success ON the match, not one recursion later). Same lesson as Word Search II
+- Jump Game: 5th distinct correct phrasing (`if i==farthest: return False` after update = stuck). Verified 20k random vs brute. Owns reachability
+- Backlog ~22 (built up over gap days). Still heavy — keep clearing
