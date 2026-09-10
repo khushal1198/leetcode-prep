@@ -2647,3 +2647,17 @@ Daily journal of problems solved, learnings, and next steps.
 - Word Search: (1) `returnVal=False` was INSIDE the direction loop → reset each iteration, kept only last direction's result. Move before loop. (2) single-cell `[["a"]],"a"` returned False — success only registered via a neighbor recursion, but no in-bounds neighbor for single cell/corner. Fix: `if index==len(word)-1: return True` right after char match (register success ON the match, not one recursion later). Same lesson as Word Search II
 - Jump Game: 5th distinct correct phrasing (`if i==farthest: return False` after update = stuck). Verified 20k random vs brute. Owns reachability
 - Backlog ~22 (built up over gap days). Still heavy — keep clearing
+
+---
+
+## 2026-09-09 — Day 114
+
+**Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Design Linked List (#707) | Design | doubly_linked_list | — | deleteAtIndex guard `>` should be `>=`, retry 12-09 |
+
+**Notes:**
+- Design Linked List: much cleaner than prior attempt. Only bug — `deleteAtIndex` guard `index > self.size` should be `index >= self.size` (index==size is out of bounds for delete → would unlink dummyTail and corrupt list). KEEPER: insert allows 0..size (`index > size` skips); delete allows only 0..size-1 (`index >= size` skips). Off-by-one asymmetry between add and delete
+- Backlog ~23 — persistent. Missed/gap days keep it high

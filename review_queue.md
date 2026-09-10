@@ -175,7 +175,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-23 | 2026-06-26 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-06-26 | 2026-07-10 | done |
 | Design Linked List (#707) | Design | doubly_linked_list | 2026-07-10 | 2026-08-11 | done |
-| Design Linked List (#707) | Design | doubly_linked_list | 2026-08-11 | 2026-09-05 | pending |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-08-11 | 2026-09-05 | done |
+| Design Linked List (#707) | Design | doubly_linked_list | 2026-09-09 | 2026-12-09 | pending |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-20 | 2026-06-24 | done |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-24 | 2026-06-30 | done |
 | LCA of a Binary Tree (#236) | Trees | lowest_common_ancestor | 2026-06-30 | 2026-07-14 | done |
