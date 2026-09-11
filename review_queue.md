@@ -57,7 +57,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-25 | 2026-06-26 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-06-27 | 2026-07-14 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-07-13 | 2026-08-23 | done |
-| Subsets (#78) | Backtracking | subset_enumeration | 2026-08-23 | 2026-09-07 | pending |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-08-23 | 2026-09-07 | done |
+| Subsets (#78) | Backtracking | subset_enumeration | 2026-09-10 | 2026-12-10 | pending |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-28 | 2026-06-07 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-07 | 2026-06-25 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-06-25 | 2026-07-06 | done |
@@ -118,7 +119,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-21 | 2026-06-28 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-06-28 | 2026-07-18 | done |
 | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-07-18 | 2026-08-07 | done |
-| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-08-07 | 2026-09-06 | pending |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-08-07 | 2026-09-06 | done |
+| Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | 2026-09-10 | 2026-11-10 | pending |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-14 | 2026-06-18 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-18 | 2026-06-23 | done |
 | Maximum Product Subarray (#152) | DynamicProgramming | multi_state_dp | 2026-06-23 | 2026-07-03 | done |
@@ -166,7 +168,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-06-19 | 2026-07-07 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-07 | 2026-07-17 | done |
 | Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-07-17 | 2026-08-07 | done |
-| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-08-07 | 2026-09-06 | pending |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-08-07 | 2026-09-06 | done |
+| Number of 1 Bits (#191) | BitManipulation | bit_counting | 2026-09-10 | 2026-11-25 | pending |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-19 | 2026-06-24 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-24 | 2026-06-30 | done |
 | Rotting Oranges (#994) | Graphs | multi_source_bfs | 2026-06-30 | 2026-08-14 | done |
@@ -319,7 +322,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-17 | 2026-07-25 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-07-25 | 2026-08-19 | done |
 | Reorder List (#143) | LinkedList | list_restructuring | 2026-08-24 | 2026-09-18 | pending |
-| Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | 2026-07-26 | 2026-09-09 | pending |
+| Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | 2026-07-26 | 2026-09-09 | done |
+| Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | 2026-09-10 | 2026-12-10 | pending |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-26 | 2026-07-31 | done |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-07-31 | 2026-08-15 | done |
 | Encode and Decode Strings (#271) | Design | string_serialization | 2026-08-17 | 2026-09-11 | pending |

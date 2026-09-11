@@ -2661,3 +2661,20 @@ Daily journal of problems solved, learnings, and next steps.
 **Notes:**
 - Design Linked List: much cleaner than prior attempt. Only bug — `deleteAtIndex` guard `index > self.size` should be `index >= self.size` (index==size is out of bounds for delete → would unlink dummyTail and corrupt list). KEEPER: insert allows 0..size (`index > size` skips); delete allows only 0..size-1 (`index >= size` skips). Off-by-one asymmetry between add and delete
 - Backlog ~23 — persistent. Missed/gap days keep it high
+
+---
+
+## 2026-09-10 — Day 115
+
+**Reviews: 4 (all clean)**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Subsets (#78) | Backtracking | subset_enumeration | — | clean, retry 12-10 |
+| R | Number of 1 Bits (#191) | BitManipulation | bit_counting | — | clean, retry 11-25 |
+| R | Find the Duplicate Number (#287) | TwoPointers | floyd_cycle | — | clean (Floyd's), retry 11-10 |
+| R | Longest Substring Without Repeating (#3) | SlidingWindow | variable_window_unique_elements | — | clean, retry 12-10 |
+
+**Notes:**
+- All 4 CLEAN, no bugs — good session. Subsets (record every node, i+1), Num 1 Bits (n&1 + shift), Find Duplicate (Floyd's 2-phase, user coded it before asking for full hint), Longest Substring (sliding window + set, while-shrink; incremented right before maxLen=right-left so measures current window correctly)
+- Backlog ~20. 4 clean in a session is good progress
