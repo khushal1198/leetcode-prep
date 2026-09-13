@@ -191,7 +191,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-06-22 | 2026-07-12 | done |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-07-11 | 2026-07-25 | done |
 | Combination Sum (#39) | Backtracking | combination_sum | 2026-07-25 | 2026-08-14 | done |
-| Combination Sum (#39) | Backtracking | combination_sum | 2026-08-14 | 2026-09-08 | pending |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-08-14 | 2026-09-08 | done |
+| Combination Sum (#39) | Backtracking | combination_sum | 2026-09-12 | 2026-11-27 | pending |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-22 | 2026-06-24 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-24 | 2026-06-28 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-06-28 | 2026-07-06 | done |
@@ -228,7 +229,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Majority Element (#169) | Arrays | frequency_counting | 2026-08-19 | 2026-10-09 | pending — try Boyer-Moore O(1) space next |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-06-30 | 2026-07-03 | done |
 | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-04 | 2026-07-22 | done |
-| Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-22 | 2026-09-06 | pending |
+| Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-07-22 | 2026-09-06 | done |
+| Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | 2026-09-12 | 2026-11-27 | pending |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-05 | 2026-07-16 | done |
 | Count Good Nodes (#1448) | Trees | pass_down_state | 2026-07-16 | 2026-10-16 | pending |
 | Subsets II (#90) | Backtracking | dedup_backtracking | 2026-07-07 | 2026-07-12 | done |
@@ -242,7 +244,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-15 | 2026-07-25 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-25 | 2026-07-30 | done |
 | Combination Sum II (#40) | Backtracking | combination_sum | 2026-07-30 | 2026-08-04 | done |
-| Combination Sum II (#40) | Backtracking | combination_sum | 2026-08-04 | 2026-08-25 | pending |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-08-04 | 2026-08-25 | done |
+| Combination Sum II (#40) | Backtracking | combination_sum | 2026-09-12 | 2026-11-27 | pending |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-08 | 2026-07-22 | done |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-07-22 | 2026-08-06 | done |
 | Pacific Atlantic Water Flow (#417) | Graphs | reverse_flood | 2026-08-06 | 2026-09-20 | pending |

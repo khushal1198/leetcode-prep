@@ -2678,3 +2678,20 @@ Daily journal of problems solved, learnings, and next steps.
 **Notes:**
 - All 4 CLEAN, no bugs — good session. Subsets (record every node, i+1), Num 1 Bits (n&1 + shift), Find Duplicate (Floyd's 2-phase, user coded it before asking for full hint), Longest Substring (sliding window + set, while-shrink; incremented right before maxLen=right-left so measures current window correctly)
 - Backlog ~20. 4 clean in a session is good progress
+
+---
+
+## 2026-09-12 — Day 116
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Combination Sum (#39) | Backtracking | combination_sum | — | clean, retry 11-27 |
+| R | Combination Sum II (#40) | Backtracking | combination_sum | — | clean, retry 11-27 |
+| R | Kth Smallest Element in a BST (#230) | Trees | inorder_traversal | — | k not decremented (pass-by-value), retry 11-27 |
+
+**Notes:**
+- Combination Sum I & II: both clean (I recurse `i`, II sort + `i>index` skip + `i+1`)
+- Kth Smallest: `k` passed by VALUE, checked `if k==1` but never decremented → only worked for k=1. Fix: SHARED `self.k` counter, decrement on each in-order visit, record when `self.k==0`. In-order = sorted order for BST → kth visited = kth smallest. User made it a clean 2-line change (init `self.k=k` + decrement/check)
+- Backlog ~19. Steady clearing
