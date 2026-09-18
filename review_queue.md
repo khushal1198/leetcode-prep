@@ -158,7 +158,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-07-12 | 2026-08-06 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-06 | 2026-08-13 | done |
 | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-13 | 2026-08-23 | done |
-| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-25 | 2026-09-14 | pending |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-08-25 | 2026-09-14 | done |
+| Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | 2026-09-17 | 2026-11-01 | pending |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-12 | 2026-06-19 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-06-18 | 2026-07-02 | done |
 | Single Number (#136) | BitManipulation | xor_cancellation | 2026-07-04 | 2026-07-29 | done |
@@ -200,7 +201,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-13 | 2026-07-20 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-20 | 2026-07-27 | done |
 | Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-07-27 | 2026-08-11 | done |
-| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-08-11 | 2026-09-16 | pending |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-08-11 | 2026-09-16 | done |
+| Longest Repeating Character Replacement (#424) | SlidingWindow | replacement_budget | 2026-09-17 | 2026-12-01 | pending |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-03 | 2026-06-07 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-07 | 2026-06-21 | done |
 | Koko Eating Bananas (#875) | BinarySearch | binary_search_on_answer | 2026-06-21 | 2026-06-28 | done |
@@ -303,7 +305,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Gas Station (#134) | Greedy | gas_station | 2026-07-27 | 2026-07-31 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-07-31 | 2026-08-07 | done |
 | Gas Station (#134) | Greedy | gas_station | 2026-08-07 | 2026-08-17 | done |
-| Gas Station (#134) | Greedy | gas_station | 2026-08-19 | 2026-09-13 | pending — RECURRING BUG: resets on `diff<0` not `totalFuel<0` |
+| Gas Station (#134) | Greedy | gas_station | 2026-08-19 | 2026-09-13 | done |
+| Gas Station (#134) | Greedy | gas_station | 2026-09-18 | 2026-11-17 | pending — RECURRING: structure doesn't stick, rebuilt from scratch again. Anchor: tank += gas-cost; reset start=i+1 when tank<0 |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-21 | 2026-07-28 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-07-28 | 2026-08-22 | done |
 | Subarray Sum Equals K (#560) | Arrays | prefix_sum_hashmap | 2026-08-27 | 2026-10-27 | pending |

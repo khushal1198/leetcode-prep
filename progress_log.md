@@ -2695,3 +2695,21 @@ Daily journal of problems solved, learnings, and next steps.
 - Combination Sum I & II: both clean (I recurse `i`, II sort + `i>index` skip + `i+1`)
 - Kth Smallest: `k` passed by VALUE, checked `if k==1` but never decremented → only worked for k=1. Fix: SHARED `self.k` counter, decrement on each in-order visit, record when `self.k==0`. In-order = sorted order for BST → kth visited = kth smallest. User made it a clean 2-line change (init `self.k=k` + decrement/check)
 - Backlog ~19. Steady clearing
+
+---
+
+## 2026-09-17/18 — Day 117
+
+**Reviews: 3**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find Min in Rotated Array (#153) | BinarySearch | rotated_sorted_search | — | clean (Family 3/Template B), retry 11-01 |
+| R | Longest Repeating Char Replacement (#424) | SlidingWindow | replacement_budget | — | clean (verified vs brute), retry 12-01 |
+| R | Gas Station (#134) | Greedy | gas_station | — | RECURRING — rebuilt from scratch, retry 11-17 |
+
+**Notes:**
+- Find Min: clean, re-explained families (F3 = direction only, mid might be answer, keep it → Template B). Anchored nums[right]
+- LRCR: clean, `while currentLen > maxValues+k` shrink. Verified 3000 vs brute (stale maxValues during shrink is fine)
+- Gas Station: RECURRING STRUGGLE — this time totally lost the structure (used only gas[i], no cost, max/subtract nonsense, dead-code reset `currentFuel < gas[i]` which can never fire after `max(...)`). Rebuilt: `tank += gas[i]-cost[i]`; reset start=i+1, tank=0 on `tank<0`. This is the ONE problem whose STRUCTURE doesn't stick between reviews (concept clear on rebuild each time). Flagged in queue. Anchor: "tank += (gas-cost) each step; reset start when tank runs dry"
+- Backlog ~20
