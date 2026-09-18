@@ -25,7 +25,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-05-30 | 2026-06-05 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-06-06 | 2026-06-22 | done |
 | Course Schedule II (#210) | Graphs | topological_sort | 2026-06-21 | 2026-07-12 | done |
-| Course Schedule II (#210) | Graphs | topological_sort | 2026-07-11 | 2026-09-11 | pending |
+| Course Schedule II (#210) | Graphs | topological_sort | 2026-07-11 | 2026-09-11 | done |
+| Course Schedule II (#210) | Graphs | topological_sort | 2026-09-18 | 2026-12-18 | pending |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-22 | 2026-05-24 | done |
 | Subsets (#78) | Backtracking | subset_enumeration | 2026-05-24 | 2026-05-28 | done |
 | Permutations (#46) | Backtracking | permutation_generation | 2026-05-22 | 2026-05-24 | done |

@@ -2713,3 +2713,5 @@ Daily journal of problems solved, learnings, and next steps.
 - LRCR: clean, `while currentLen > maxValues+k` shrink. Verified 3000 vs brute (stale maxValues during shrink is fine)
 - Gas Station: RECURRING STRUGGLE — this time totally lost the structure (used only gas[i], no cost, max/subtract nonsense, dead-code reset `currentFuel < gas[i]` which can never fire after `max(...)`). Rebuilt: `tank += gas[i]-cost[i]`; reset start=i+1, tank=0 on `tank<0`. This is the ONE problem whose STRUCTURE doesn't stick between reviews (concept clear on rebuild each time). Flagged in queue. Anchor: "tank += (gas-cost) each step; reset start when tank runs dry"
 - Backlog ~20
+
+**+1 review (Course Schedule II #210):** clean topo-sort + cycle detection. `visiting` set catches back-edges (cycle→False→return []), `visited` skips done, append AFTER recursing prereqs → correct order. Retry 12-18. 4 reviews cleared this session.
