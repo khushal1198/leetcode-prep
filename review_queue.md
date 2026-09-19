@@ -264,7 +264,8 @@ Problems that need a second pass. Spaced repetition — retry after a few days.
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-16 | 2026-07-23 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-23 | 2026-07-30 | done |
 | Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-07-30 | 2026-08-14 | done |
-| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-08-14 | 2026-09-18 | pending |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-08-14 | 2026-09-18 | done |
+| Find First and Last Position (#34) | BinarySearch | boundary_search | 2026-09-19 | 2026-12-19 | pending |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-16 | 2026-07-20 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-20 | 2026-07-27 | done |
 | Single Element in a Sorted Array (#540) | BinarySearch | parity_pairing | 2026-07-27 | 2026-08-03 | done |

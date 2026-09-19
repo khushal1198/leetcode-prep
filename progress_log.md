@@ -2715,3 +2715,17 @@ Daily journal of problems solved, learnings, and next steps.
 - Backlog ~20
 
 **+1 review (Course Schedule II #210):** clean topo-sort + cycle detection. `visiting` set catches back-edges (cycle→False→return []), `visited` skips done, append AFTER recursing prereqs → correct order. Retry 12-18. 4 reviews cleared this session.
+
+---
+
+## 2026-09-19 — Day 118
+
+**Reviews: 1**
+
+| # | Problem | Category | Pattern | Score | Review? |
+|---|---------|----------|---------|-------|---------|
+| R | Find First and Last Position (#34) | BinarySearch | boundary_search | — | clean, retry 12-19 |
+
+**Notes:**
+- Find First/Last: clean Family 2 / Template A, two searches differ only on match line (first→right=mid-1, last→left=mid+1), record into result. Solid
+- Backlog ~23
